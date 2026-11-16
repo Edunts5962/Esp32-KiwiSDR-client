@@ -1,0 +1,7002 @@
+// aero_liste.h - frequences des aerodromes d'Europe (bande aviation)
+// Genere par outils/aero/faire_aero.py depuis OurAirports (domaine public). Ne pas modifier a la main.
+#pragma once
+// (const : reste en memoire flash sur l ESP32)
+static const char AERO_EUROPE[] = R"AERO(A	44.4361	18.6865	LQCG	Ciljuge Sport Airfield
+F	123500	UC
+F	123600	Ciljuge Info
+A	42.2166	25.0681	LBZM	Air Belozem Airstrip
+F	118180	Auto-info
+A	65.6566	-18.0720	BIAR	Akureyri International Airport
+F	118200	Tour
+F	118700	Radar
+F	119700	Centre
+A	65.6413	-23.5462	BIBD	Bildudalur Airport
+F	119100	AFIS
+F	119700	Centre
+A	65.2833	-14.4014	BIEG	Egilsstaðir Airport
+F	119400	AFIS
+F	119700	Centre
+A	64.2956	-15.2272	BIHN	Hornafjörður Airport
+F	118100	AFIS
+F	119700	Centre
+A	65.9523	-17.4260	BIHU	Húsavík Airport
+F	118100	AFIS
+F	119700	Centre
+A	66.0581	-23.1353	BIIS	Ísafjörður Airport
+F	118800	AFIS
+F	119700	Centre
+A	63.9850	-22.6056	BIKF	Keflavik International Airport
+F	118300	Tour
+F	119300	Approche
+F	119300	Départ
+F	121900	Sol
+F	125000	PMSV METRO
+F	128300	ATIS
+F	129000	Opérations
+F	131900	Air-sol
+A	64.1818	-21.7061	BIMS	Tungubakkar Airport
+F	118000	Reykjavik To
+F	118200	AFIS
+A	64.1287	-21.9376	BIRK	Reykjavík Domestic Airport
+F	118000	Tour
+F	119000	APP/DEP
+F	121700	Sol
+F	126550	Radio
+F	128100	ATIS
+A	65.1344	-19.6631	BI42	Sandá Airport
+F	118100	Trafic
+A	66.1378	-18.9082	BISI	Siglufjörður Airport
+F	118100	Radio
+F	119700	Centre
+A	64.0608	-21.5747	BISS	Sandskeið Airport
+F	119900	Traffic
+A	66.2185	-15.3347	BITN	Þórshöfn Airport
+F	118100	AFIS
+F	119700	Centre
+A	63.4243	-20.2789	BIVM	Vestmannaeyjar Airport
+F	118500	Tour
+F	119000	Départ
+F	119700	Centre
+A	42.5728	21.0358	BKPR	Priština Adem Jashari Internat
+F	118000	Sol
+F	118775	Approche
+F	120125	Tour
+F	136800	RAMP OPR
+A	49.5683	16.9992	CZ-0050	Pěnčín
+F	125825	Info
+A	49.4093	15.1437	CZ-0058	Částkovice Airfield
+F	120325	Info
+A	49.7476	15.0642	CZ-0059	Chabeřice Private ULM Airstrip
+F	128825	Info
+A	50.5496	15.5359	CZ-0060	Studenec ULM
+F	125825	Info
+A	50.6208	13.8098	CZ-0061	Teplice Airfield
+F	122400	Info
+A	48.9150	14.7264	CZ-0064	Kramolín UL
+F	122400	Info
+A	49.5522	15.1556	CZ-0065	Jiřičky UL
+F	125825	Info
+A	48.7186	14.4506	CZ-0066	Kaplice UL
+F	125825	Info
+A	48.6986	14.1975	CZ-0067	Frymburk ULM
+F	125825	Info
+A	50.7278	14.9252	CZ-0069	Druzcov u Lípy Ultralight Airf
+F	125825	Info
+A	50.0395	14.8227	CZ-0071	Vrátkov Airfield
+F	125825	Info
+A	50.0089	14.0377	CZ-0072	Buranos Aires Ultralight Strip
+F	125825	Info
+A	49.4355	16.5930	CZ-0073	Bořitov ULM
+F	125825	Info
+A	48.9317	16.3397	CZ-0074	Miroslav Aircon ULM
+F	120675	Info
+A	48.8850	14.4864	CZ-0095	Doudleby Airstrip
+F	125825	Info
+A	49.5228	16.2322	CZ-0099	Bystřice nad Pernštejnem Airfi
+F	125830	Info
+A	50.4339	15.5306	CZ-0100	Choteč Airfield
+F	125825	Info
+A	49.7292	17.1181	CZ-0101	Dětřichov Oáza ULM
+F	125825	Info
+A	49.4664	17.6653	CZ-0102	Záhoří
+F	125825	Info
+A	49.7722	13.1622	CZ-0104	Plešnice Airfield
+F	125825	Info
+A	49.9819	15.3928	CZ-0105	Rohozec Airfield
+F	136650	Tour
+A	49.7861	17.4861	CZ-0156	Moravský Beroun
+F	118550	Info
+A	49.3394	14.1139	CZ-0194	Písek UL Airstrip
+F	119415	Info
+A	52.1165	12.7096	DE-0006	Locktow Airfield
+F	125800	AFIS
+F	132340	Info
+A	49.0257	11.0184	DE-0042	Weißenburg-Wülzburg Glider Fie
+F	126035	Info
+A	52.5247	10.4626	EDVQ	Wilsche Glider Field
+F	119825	AFIS
+F	121410	Info
+A	48.6149	8.7555	EDSV	Wächtersberg-Hub Glider Airfie
+F	119415	Info
+F	128950	AFIS
+A	49.9712	9.7905	DE-0060	Karlstadt-Saupurzel Glider Fie
+F	122630	Info
+A	50.0188	11.9333	DE-0065	Tröstau Glider Field
+F	118535	Auto-info
+F	125800	Info vol
+A	47.5548	10.2729	DE-0094	Agathazell Airfield
+F	123980	Auto-info
+A	52.8119	9.1638	EDHY	Hoya Airfield
+F	120710	Info
+F	125100	AFIS
+A	52.6697	10.3705	DE-0111	Berliner Heide Airfield
+F	132810	Auto-info
+A	53.5383	8.5388	EDWT	Blexen Airfield
+F	120605	Info
+F	128525	AFIS
+A	48.3857	9.0763	EDSC	Farrenberg Gliderfield
+F	130185	Info
+A	52.6693	10.0880	DE-0118	Scheuen Airfield
+F	134535	Auto-info
+A	53.4180	7.9039	DE-0121	Bohlenbergerfeld Airfield
+F	129555	Waterkant St
+A	52.3238	10.1815	EDVP	Peine-Glindbruchkippe Airfield
+F	119825	AFIS
+F	122830	Info
+A	49.6926	8.5819	DE-0137	Bensheimer Stadtwiesen Airfiel
+F	123370	Info
+A	50.6732	7.3656	DE-0150	Eudenbach Glider Field
+F	118425	Info
+A	50.5363	9.6612	DE-0152	Johannisau Glider Field
+F	125385	Radio
+A	51.2649	6.8539	DE-0178	Düsseldorf-Wolfsaap Glider Fie
+F	118210	Radio
+A	51.8221	6.2745	DE-0179	Emmerich Airfield
+F	128740	Radio
+A	51.0767	6.5475	DE-0180	Gustorfer Höhe Airfield
+F	135090	RADIO
+A	51.9140	10.6833	DE-0190	Stapelburg Airfield
+F	123425	Auto-info
+A	52.8023	7.1603	DE-0195	Dankern Airfield
+F	120975	Info
+A	50.6125	10.4728	DE-0198	Dolmar Airfield
+F	120975	Dolmar Info
+A	51.4389	6.4456	DE-0200	Kerken Ultralight Airfield
+F	126010	Radio
+A	50.7475	6.5669	DE-0201	Vettweiß-Soller ULM
+F	122100	Tour
+A	48.4854	8.7780	EDTE	Eutingen Airfield
+F	128950	AFIS
+F	133385	Auto-info
+A	51.2164	7.3821	DE-0207	Radevormwald-Leye Glider Field
+F	118265	Info
+A	51.1010	6.3936	DE-0210	Wanlo Glider Field
+F	132565	Radio
+A	48.2847	9.6733	DE-0229	Schlechtenfeld Glider Strip
+F	123350	Info
+A	47.8329	9.3013	DE-0234	Heiligenberg Glider Field
+F	123500	Info
+A	48.1075	8.7628	DE-0238	Klippeneck Airfield
+F	135090	Radio
+A	50.7191	6.8499	DE-0240	Weilerswist UL
+F	120075	Info
+A	50.8954	11.6027	DE-0243	Lobeda Heliport
+F	119610	Auto-info
+A	48.4584	9.2977	DE-0247	Übersberg Airfield
+F	123150	Auto-info
+A	50.1759	6.8578	DE-0273	Daun-Senheld Glider Field
+F	120400	Info
+A	47.7600	11.3044	DE-0276	Antdorf Ultralight Airfield
+F	123425	Info
+A	51.7387	9.1998	DE-0285	Brakel Airfield
+F	123425	Info
+A	49.6065	7.7956	EDRQ	Imsweiler UL
+F	123525	AFIS
+F	130780	Info
+A	50.8732	6.5525	DE-0291	Morschenich Ultralight Airfiel
+F	123425	AFIS
+A	48.1444	9.4667	DE-0293	Riedlingen Airfield
+F	129975	Info
+A	47.8243	7.6395	EDSM	Müllheim Airfield
+F	129975	Info
+A	48.2848	9.4657	DE-0304	Hayingen Glider Field
+F	129755	Auto-info
+A	48.5293	9.3980	DE-0309	Hülben Airfield
+F	119750	Auto-info
+A	47.7002	10.0207	DE-0311	Isny Glider Field
+F	118080	Auto-info
+A	48.0445	9.0314	DE-0313	Leibertingen Airfield
+F	121210	Auto-info
+A	49.3518	10.0757	DE-0314	Leuzendorf Glider Field
+F	123350	Info
+A	48.4093	9.4425	DE-0321	Münsingen-Eisberg Airfield
+F	121215	Auto-info
+A	48.5027	8.4786	DE-0322	Musbach Airfield
+F	124865	Auto-info
+A	48.5566	9.8219	DE-0326	Oppingen-Au Gliderfield
+F	123155	Radio
+A	48.8742	8.2129	DE-0328	Rastatt-Baldenau Gliderfield
+F	132640	Radio
+A	49.2472	8.8938	EDTK	Sinsheim Airfield
+F	119885	Info
+F	128950	AFIS
+A	51.9962	12.9730	DE-0336	Altes Lager Airfield
+F	123425	Info
+A	50.7785	10.8169	DE-0337	Crawinkel Airfield
+F	126500	Info
+A	49.2678	11.5726	DE-0338	Günching UL
+F	123500	Info
+A	50.6758	12.6789	DE-0339	Hartenstein-Thierfeld Ultralig
+F	120975	Info
+A	49.2908	9.1731	DE-0345	Gundelsheim ULM
+F	123425	Info
+A	53.6709	13.3999	DE-0348	Roggenhagen Ultralight Airfiel
+F	123425	Info
+A	48.1797	11.9272	DE-0381	Straßham Ultralight Airfield
+F	133585	Info
+A	49.1417	8.9875	DE-0408	Schwaigern/Stetten UL
+F	123425	Stetten Info
+A	50.0282	9.7722	DE-0412	Gössenheim Ultralight Airfield
+F	120975	Gössenheim I
+A	49.6620	5.8860	EBAR	Arlon-Sterpenich Ultralight Ai
+F	123425	Info
+A	50.7061	5.0677	EBAV	Avernas-le-Bauduin Ultralight 
+F	129975	Info
+A	51.1907	4.4632	EBAW	Antwerp International Airport 
+F	118255	Approche
+F	121905	Sol
+F	124205	ATIS
+F	135205	Tour
+A	50.7586	4.7683	EBBE	Beauvechain Air Base
+F	122100	Sol
+F	122100	Tour
+F	122500	Approche
+F	122825	Approche
+F	123300	GCA
+A	51.1683	5.4700	EBBL	Kleine Brogel Air Base
+F	122100	Sol
+F	134105	Tour
+F	134480	Approche
+A	50.9014	4.4844	EBBR	Brussels Airport
+F	118055	Sol
+F	118255	Approche
+F	118605	Tour
+F	120780	Tour
+F	121755	ATIS
+F	121880	Sol
+F	121950	Clairance
+F	126630	Départ
+F	130550	Auto-info
+F	132475	ATIS
+A	51.3426	4.5035	EBBT	Brasschaat Airfield
+F	122905	Info vol
+A	50.5681	4.4352	EBBY	Baisy-Thy Ultralight Airfield
+F	132000	Info
+A	50.5423	4.3825	EBBZ	Buzet Aerodrome
+F	118765	Info vol
+A	50.1528	4.3872	EBCF	Cerfontaine Airfield
+F	123200	Info
+A	50.4620	4.4596	EBCI	Brussels South Charleroi Airpo
+F	121300	Tour
+F	121800	Sol
+F	133125	Approche
+F	134625	ATIS
+A	50.5758	3.8310	EBCV	Chièvres Air Base
+F	126625	Arrivée
+F	126625	Départ
+F	136500	Tour
+A	51.0040	5.0647	EBDT	Schaffen Airfield
+F	118930	Info
+A	50.1836	4.3697	EBEH	Eau d'Heure Seaplane Base
+F	130125	Info
+A	51.0903	2.6528	EBFN	Koksijde Air Base
+F	122100	Sol
+F	122100	Tour
+F	122500	Approche
+F	123100	SAR
+F	129325	Info
+A	50.2433	4.6458	EBFS	Florennes Air Base
+F	122100	Sol
+F	122100	Tour
+F	122500	Approche
+F	123300	GCA
+A	50.9485	4.3918	EBGB	Grimbergen Airfield
+F	119500	Info
+A	51.3061	4.3872	EBHN	Hoevenen Airfield
+F	135000	Auto-info
+A	51.1810	5.2211	EBKH	Balen-Keiheuvel Airfield
+F	119200	Info
+A	50.8189	3.2096	EBKT	Kortrijk-Wevelgem Internationa
+F	120255	AFIS
+F	134055	Backup Kortr
+A	50.6386	5.4439	EBLG	Liège Airport
+F	118130	Sol
+F	119280	APP
+F	121800	Clairance
+F	126255	ATIS
+F	129250	Tour
+A	50.3750	4.9265	EBML	Maillen Ultralight Airfield
+F	123550	Info
+A	50.4897	4.7697	EBNM	Namur-Suarlée Airfield
+F	118515	Info
+A	51.1998	2.8747	EBOS	Ostend-Bruges International Ai
+F	118180	Tour
+F	120600	Approche
+F	121980	Sol
+F	126130	ATIS
+A	50.4580	3.8210	EBSG	Saint-Ghislain Airfield
+F	122170	AFIS
+A	50.0359	5.4043	EBSH	Saint Hubert Airfield
+F	122175	Info
+A	50.4820	5.9134	EBSP	Spa-La Sauvenière Airfield
+F	124640	Radio
+A	50.7908	5.1996	EBST	Sint-Truiden / Brustem Airfiel
+F	119980	Info
+A	50.7817	4.9578	EBTN	Goetsenhoven Airfield
+F	125375	Radio
+A	50.5511	5.8540	EBTX	Theux (Verviers) Airfield
+F	119000	Info
+A	50.5316	3.4962	EBTY	Maubray Airfield
+F	118425	AFIS
+A	51.1442	3.4756	EBUL	Ursel Air Base
+F	135130	AFIS
+A	51.3948	4.9602	EBWE	Weelde Air Base
+F	120225	AFIS
+A	50.9704	5.3753	EBZH	Kiewit Airfield Hasselt
+F	118330	Info
+A	51.2691	4.7624	EBZR	Oostmalle Airfield
+F	123805	Info
+A	51.2555	3.1399	EBZU	Zuienkerke Sport Aviation Airf
+F	123425	Info
+A	51.0154	5.5265	EBZW	Genk Zwartberg Airfield
+F	120400	Auto-info
+A	51.1936	14.5197	EDAB	Bautzen Airfield
+F	120605	Bautzen Info
+F	123290	ATIS
+F	125800	AFIS
+A	50.9819	12.5064	EDAC	Leipzig–Altenburg Airport
+F	121105	Tour
+F	121805	Sol
+F	123855	ATIS
+F	125800	AFIS
+F	125955	Tour
+F	128405	VOLMET
+A	51.8318	12.1840	EDAD	Dessau Airfield
+F	118180	Info
+F	119825	AFIS
+A	52.1972	14.5857	EDAE	Eisenhüttenstadt Airfield
+F	132650	AFIS
+F	134535	Info
+A	50.6442	13.1264	EDAG	Großrückerswalde Airfield
+F	118585	Info
+F	125800	AFIS
+A	53.8787	14.1523	EDAH	Heringsdorf Airport
+F	132650	AFIS
+F	132830	Info
+F	132830	Tour
+A	52.8267	12.5419	EDAI	Sonderlandeplatz Segeletz
+F	126010	Info
+F	132650	AFIS
+A	50.8817	12.1358	EDAJ	Gera-Leumnitz Airfield
+F	118080	Info
+F	125800	AFIS
+A	51.3081	13.5556	EDAK	Großenhain Airfield
+F	125800	AFIS
+F	128360	Info
+A	51.3626	11.9411	EDAM	Merseburg Airfield
+F	118990	Info
+F	125800	AFIS
+A	53.3624	11.6138	EDAN	Neustadt-Glewe Airfield
+F	118815	Info
+F	132650	AFIS
+A	51.4935	10.8376	EDAO	Nordhausen Airfield
+F	119825	AFIS
+F	120310	Air-sol
+A	51.6847	14.4231	EDAP	Cottbus-Neuhausen Airfield
+F	122730	Info
+F	125800	AFIS
+A	51.5522	12.0539	EDAQ	Halle-Oppin Airfield
+F	124175	Radar
+F	125800	AFIS
+F	135155	Radio
+A	50.9796	13.9084	EDAR	Pirna-Pratzschwitz Airfield
+F	118630	Info
+F	125800	AFIS
+A	51.6346	13.6751	EDAS	Finsterwalde-Heinrichsruh Airf
+F	125360	Info
+F	125800	AFIS
+A	51.4511	14.1994	EDAT	Nardt Airfield
+F	120390	Info
+F	125800	AFIS
+A	51.2936	13.3561	EDAU	Riesa-Göhlis Airport
+F	118005	Info
+F	125800	AFIS
+A	52.8263	13.7013	EDAV	Eberswalde-Finow Airfield
+F	119055	Info
+F	132650	AFIS
+A	51.5778	12.4944	EDAW	Roitzschjora Airfield
+F	123980	Info
+F	125800	AFIS
+A	53.3064	12.7522	EDAX	Müritz Airpark
+F	118990	Radio
+F	132650	Info vol
+A	52.5806	13.9167	EDAY	Strausberg Airfield
+F	118735	Info vol
+F	132650	AFIS
+A	52.2046	13.1595	EDAZ	Schönhagen Airfield
+F	119490	ATIS
+F	131155	AFIS
+F	132650	Info vol
+A	50.8419	11.0699	EDBA	Arnstadt-Alkersleben Airfield
+F	119825	AFIS
+F	131260	Info
+A	51.8564	11.4203	EDBC	Cochstedt Airport
+F	119825	AFIS
+F	131130	Info
+A	52.4375	12.5900	EDBE	Brandenburg-Mühlenfeld Airfiel
+F	118630	Info
+F	132650	AFIS
+A	52.7935	12.7603	EDBF	Fehrbellin Airfield
+F	132650	AFIS
+F	133940	Auto-info
+A	52.2418	11.8562	EDBG	Burg Airfield
+F	119825	AFIS
+F	135005	Info
+A	54.3383	12.7105	EDBH	Stralsund-Barth Airport
+F	118080	Radio
+F	124175	Radar
+F	132650	AFIS
+A	50.7017	12.4539	EDBI	Zwickau Airfield
+F	125800	AFIS
+F	130660	Info
+A	50.9153	11.7142	EDBJ	Jena-Schöngleina Airfield
+F	118735	Info
+F	125800	AFIS
+A	52.9189	12.4253	EDBK	Kyritz Airfield
+F	122730	Info
+F	132650	AFIS
+A	51.2458	11.6933	EDBL	Laucha Airfield
+F	118960	Auto-info
+F	125800	AFIS
+A	52.0736	11.6264	EDBM	Magdeburg City Airfield
+F	119305	Info
+F	119825	AFIS
+F	124175	Radar
+A	53.6022	13.3060	EDBN	Neubrandenburg Trollenhagen Ai
+F	119180	Info vol
+F	122050	APRON
+F	122050	Info
+F	123300	RADAR
+F	126175	Centre
+F	132650	AFIS
+A	51.8997	13.0528	EDBO	Oehna Airfield
+F	123260	Info
+F	125800	AFIS
+A	53.6153	11.5611	EDBP	Pinnow Airfield
+F	118005	Info
+F	132650	AFIS
+A	51.6721	13.9601	EDBQ	Bronkow Airfield
+F	125800	AFIS
+F	130330	Info
+A	51.3633	14.9500	EDBR	Rothenburg/Görlitz Airfield
+F	123255	Info
+F	125800	AFIS
+A	51.1984	11.1918	EDBS	Sömmerda-Dermsdorf Airfield
+F	119825	AFIS
+F	124005	Info
+A	51.3806	11.4467	EDBT	Allstedt Airfield
+F	119825	AFIS
+F	122315	Info
+A	53.1800	12.1846	EDBU	Pritzwalk-Sommersberg Airfield
+F	122685	Info
+F	132650	AFIS
+A	54.3358	13.0433	EDBV	Stralsund Airfield
+F	118630	Info
+F	132650	AFIS
+A	52.6317	13.7669	EDBW	Werneuchen Airfield
+F	128740	Info
+F	132650	AFIS
+A	51.1589	14.9503	EDBX	Görlitz Airfield
+F	125800	AFIS
+F	133585	AFIS
+A	53.9728	13.3434	EDBY	Schmoldow Airfield
+F	132650	AFIS
+F	136015	Info
+A	51.4919	13.8794	EDBZ	Schwarzheide/Schipkau Airfield
+F	125800	AFIS
+F	132810	Info
+A	53.8328	13.6686	EDCA	Anklam Otto Lilienthal Airfiel
+F	122655	Info
+F	132650	AFIS
+A	51.7458	11.2297	EDCB	Ballenstedt Airfield
+F	119825	AFIS
+F	122705	Info
+A	52.4828	14.0907	EDCE	Müncheberg-Eggersdorf Airfield
+F	123005	Info
+F	132650	AFIS
+A	54.3835	13.3255	EDCG	Rügen Airport
+F	123005	Info
+F	132650	AFIS
+A	51.0434	12.2319	EDCH	Sprossen (Zeitz) Airfield
+F	125800	AFIS
+F	134610	Info
+A	51.2718	14.5057	EDCI	Klix Airfield
+F	118605	Info
+F	125800	AFIS
+A	50.7475	12.8375	EDCJ	Chemnitz/Jahnsdorf Airfield
+F	125800	AFIS
+F	132740	Info
+A	51.7237	11.9488	EDCK	Köthen Airport
+F	119825	AFIS
+F	121205	Info
+A	52.7094	12.0733	EDCL	Klietz-Scharlibbe Airfield
+F	122380	Info
+F	132650	AFIS
+A	51.2969	14.1275	EDCM	Kamenz Airfield
+F	125800	AFIS
+F	126175	Radar
+F	128110	Info
+A	51.2678	10.6347	EDCO	Obermehler-Schlotheim Airfield
+F	119825	AFIS
+F	125510	Info
+A	54.1578	13.7744	EDCP	Peenemünde Airport
+F	122480	Info
+F	132650	AFIS
+A	51.7669	11.4983	EDCQ	Aschersleben Airfield
+F	119825	AFIS
+F	127560	Info
+A	54.0819	11.6492	EDCR	Rerik-Zweedorf Airfield
+F	126505	Info
+F	132650	AFIS
+A	52.3083	13.1006	EDCS	Saarmund Airfield
+F	123655	Info
+F	132650	AFIS
+A	51.3950	12.5369	EDCT	Taucha Airfield
+F	125800	AFIS
+F	132860	Info
+A	53.5053	13.9483	EDCV	Pasewalk Airfield
+F	125860	Info
+F	132650	AFIS
+A	53.9144	11.4994	EDCW	Wismar Airfield
+F	125915	Info
+F	132650	AFIS
+A	54.1617	12.2486	EDCX	Purkshof Airfield
+F	132650	AFIS
+F	135005	Info
+A	51.5756	14.1369	EDCY	Spremberg-Welzow Airfield
+F	125800	AFIS
+F	134855	Info
+A	52.3617	13.5023	EDDB	Berlin Brandenburg Airport
+F	118805	Tour
+F	120030	Tour
+F	123780	ATIS
+F	128405	VOLMET
+F	129505	Sol
+F	132650	AFIS
+F	133630	ATIS
+A	51.1341	13.7678	EDDC	Dresden Airport
+F	118880	ATIS
+F	121755	DRESDEN APRO
+F	121980	Sol
+F	122930	Tour
+F	125625	Approche
+F	125800	AFIS
+A	50.9783	10.9607	EDDE	Erfurt-Weimar Airport
+F	119825	AFIS
+F	121155	Tour
+F	121755	Sol
+F	121900	APRON
+F	132300	Approche
+F	133455	ATIS
+A	50.0267	8.5584	EDDF	Frankfurt Main Airport
+F	118030	ATIS
+F	118450	LANGEN RADAR
+F	118730	ATIS
+F	119150	AFIS
+F	119905	Tour
+F	121655	Frankfurt Ap
+F	121805	Sol
+F	122035	Clairance
+F	123525	AFIS
+F	124200	DIR
+F	124855	Tour
+F	127275	LANGEN RADAR
+F	127605	VOLMET
+F	135780	VOLMET
+F	136500	Tour
+A	52.1338	7.6885	EDDG	Münster Osnabrück Airport
+F	120365	Tour
+F	121880	Sol
+F	127180	ATIS
+F	129805	Tour
+F	129875	AFIS
+A	53.6304	9.9882	EDDH	Hamburg Helmut Schmidt Airport
+F	118200	DIRECTOR
+F	121280	Tour
+F	121705	Hamburg Apro
+F	121805	Sol
+F	124325	ATIS
+F	125100	AFIS
+F	126855	Tour
+F	134250	Radar
+A	50.8659	7.1427	EDDK	Cologne Bonn Airport
+F	118750	Radar
+F	121050	DIR
+F	121730	Sol
+F	121855	Clairance
+F	121950	Divers
+F	124980	Tour
+F	127410	VOLMET
+F	129875	AFIS
+F	132130	ATIS
+F	136250	MIL
+A	51.2895	6.7668	EDDL	Düsseldorf Airport
+F	118305	Tour
+F	121775	Clairance
+F	121780	Duesseldorf 
+F	121905	Sol
+F	123780	ATIS
+F	128550	Centre
+F	128650	Approche
+F	129875	AFIS
+F	135225	Divers
+A	48.3538	11.7861	EDDM	Munich Airport
+F	118705	Tour
+F	118825	DIRECTOR
+F	119405	Tour
+F	120505	Tour
+F	120650	AFIS
+F	120775	Arrivée
+F	121710	Muenchen Apr
+F	121730	Clairance
+F	121780	Muenchen Apr
+F	121830	Sol
+F	121930	Muenchen Apr
+F	121980	Sol
+F	123130	ATIS
+F	123900	Centre
+F	126950	AFIS
+F	131225	Radar
+F	135780	VOLMET
+A	49.4987	11.0781	EDDN	Nuremberg Airport
+F	118305	Tour
+F	119475	Approche
+F	120650	AFIS
+F	121760	Sol
+F	123080	ATIS
+F	125800	AFIS
+F	128405	VOLMET
+F	129525	Radar
+A	51.4207	12.2327	EDDP	Leipzig/Halle Airport
+F	121100	Tour
+F	121800	Sol
+F	123950	ATIS
+F	124175	Approche
+F	125800	Info
+A	49.2145	7.1097	EDDR	Saarbrücken Airport
+F	118355	Tour
+F	118555	Sol
+F	123525	AFIS
+F	125480	ATIS
+F	129675	Radar
+A	48.6899	9.2220	EDDS	Stuttgart Airport
+F	118605	Sol
+F	118805	Tour
+F	119065	Tour
+F	119200	Approche
+F	119200	Radar
+F	119850	Stuttgart Di
+F	121630	Divers
+F	121700	APRON
+F	121915	Clairance
+F	126130	ATIS
+F	128950	AFIS
+F	135780	VOLMET
+A	52.4611	9.6851	EDDV	Hannover Airport
+F	119600	Approche
+F	119825	AFIS
+F	120180	Tour
+F	120405	Tour
+F	121955	Sol
+F	131325	Radar
+F	136575	ATIS
+A	53.0468	8.7893	EDDW	Bremen Airport
+F	120330	Tour
+F	121755	Sol
+F	124800	Approche
+F	125100	AFIS
+F	128525	AFIS
+F	132380	ATIS
+F	134830	Tour
+A	51.1292	10.6222	EDEB	Bad Langensalza Airfield
+F	119825	AFIS
+F	125365	Info
+A	50.9700	10.7278	EDEG	Gotha-Ost Airfield
+F	119825	AFIS
+F	121235	Info
+A	49.3450	8.4878	EDEH	Herrenteich Airfield
+F	128950	AFIS
+F	132055	Info
+A	49.9083	7.9078	EDEL	Langenlonsheim Airfield
+F	123525	AFIS
+F	124030	Info
+A	51.0627	9.4220	EDEM	Mosenberg Airfeld
+F	119150	AFIS
+F	130660	AFIS
+A	50.8441	9.7072	EDEN	Bad Hersfeld Airfield
+F	119005	Info
+F	119150	AFIS
+A	49.6219	8.6244	EDEP	Heppenheim Glider Field
+F	119150	AFIS
+F	122480	Info
+A	51.2131	10.5486	EDEQ	Mühlhausen Airfield
+F	119825	AFIS
+F	122855	Info
+A	50.4988	9.9542	EDER	Wasserkuppe Airfield
+F	119150	AFIS
+F	120130	Info
+A	49.5817	9.4022	EDEW	Walldürn Airfield
+F	119150	AFIS
+F	131010	Info
+A	50.2883	8.5339	EDFA	Anspach-Taunus Airfield
+F	121030	Info
+F	123525	AFIS
+A	50.3380	8.8790	EDFB	Reichelsheim Airfield
+F	119150	AFIS
+F	120430	Info
+A	49.9388	9.0628	EDFC	Aschaffenburg Airfield
+F	119150	AFIS
+F	132430	Info
+A	49.9600	8.6430	EDFE	Frankfurt-Egelsbach Airport
+F	118405	Info
+F	119150	AFIS
+F	121730	Egelsbach Ap
+A	50.1967	9.1671	EDFG	Gelnhausen Airfield
+F	119150	AFIS
+F	123055	Info
+A	49.9464	7.2617	EDFH	Frankfurt-Hahn Airport
+F	119655	Tour
+F	120905	Tour
+F	121980	Sol
+F	123525	AFIS
+F	125600	Approche
+F	136355	ATIS
+A	50.7878	8.3928	EDFI	Hirzenhain Airfield
+F	118330	AFIS
+F	123525	AFIS
+A	50.0985	9.8839	EDFJ	Lager Hammelburg Airfield
+F	118430	Info
+F	119150	AFIS
+A	50.2106	10.0689	EDFK	Bad Kissingen Airfield
+F	119150	AFIS
+F	124755	Info
+A	50.5448	8.5928	EDFL	Gießen-Lützellinden Airfield
+F	122505	Info
+F	123525	AFIS
+A	49.4731	8.5142	EDFM	Mannheim-City Airport
+F	119150	AFIS
+F	128950	AFIS
+F	129780	Info
+F	129780	Tour
+F	132415	ATIS
+A	50.8744	8.8150	EDFN	Marburg-Schönstadt Airfield
+F	119150	AFIS
+F	134915	Info
+A	49.6785	8.9716	EDFO	Michelstadt-Odenwald Airfield
+F	119150	AFIS
+F	124515	Info
+A	50.3622	8.7116	EDFP	Ober-Mörlen Airfield
+F	119150	AFIS
+F	122340	Info
+A	51.0353	8.6810	EDFQ	Allendorf-Eder Airfield
+F	119150	AFIS
+F	120465	ATIS
+F	124725	Centre
+F	135165	Info
+A	49.3889	10.2186	EDFR	Rothenburg ob der Tauber Airfi
+F	119150	AFIS
+F	128360	Info
+A	50.0108	10.2511	EDFS	Schweinfurt South Airfield
+F	119150	AFIS
+F	119980	Info
+A	50.6837	9.4117	EDFT	Lauterbach Airfield
+F	119150	AFIS
+F	122180	Info
+A	49.6950	9.1824	EDFU	Mainbullau Airfield
+F	119150	AFIS
+F	121035	Info
+A	49.6069	8.3683	EDFV	Worms Airfield
+F	123525	AFIS
+F	124605	Info
+A	49.8178	9.8975	EDFW	Würzburg-Schenkenturm Airfield
+F	119150	AFIS
+F	122175	Info
+A	49.3253	8.5286	EDFX	Hockenheim Airfield
+F	121190	Info
+F	128950	AFIS
+A	50.4269	8.0111	EDFY	Limburg-Elz Airfield
+F	123525	AFIS
+F	128755	Info
+A	49.9675	8.1472	EDFZ	Mainz-Finthen Airfield
+F	122930	Info
+F	123525	AFIS
+A	50.5931	7.9450	EDGA	Ailertchen Airfield
+F	123525	AFIS
+F	126410	Info
+A	50.6764	8.1694	EDGB	Breitscheid Airfield
+F	120380	Siegerland I
+F	122530	Info
+F	123525	AFIS
+A	50.9916	10.4797	EDGE	Eisenach-Kindel Airport
+F	119755	Info
+F	119825	AFIS
+A	50.4753	9.4432	EDGF	Fulda-Jossa Airfield
+F	118985	AFIS
+F	119150	AFIS
+A	49.7986	9.8367	EDGH	Hettstadt Airfield
+F	119150	AFIS
+F	122430	Info
+A	49.3217	9.6631	EDGI	Ingelfingen-Bühlhof Airfield
+F	120835	Info
+F	128950	AFIS
+A	51.2522	8.8736	EDGK	Korbach Airfield
+F	119825	AFIS
+F	125815	Info
+A	49.3989	9.1239	EDGM	Mosbach-Lohrbach Airfield
+F	128340	Info
+F	128950	AFIS
+A	49.8417	8.3767	EDGP	Oppenheim Airfield
+F	123525	AFIS
+F	130640	Info
+A	51.0003	8.3091	EDGQ	Schameder Airfield
+F	129875	AFIS
+F	133585	Info
+A	50.5664	8.8692	EDGR	Gießen-Reiskirchen Airfield
+F	119150	AFIS
+F	127860	Info
+A	50.7077	8.0830	EDGS	Siegerland Airport
+F	120380	Info vol
+F	123525	AFIS
+F	124900	Radar
+F	128705	ATIS
+A	50.7953	8.4583	EDGT	Bottenhorn Airfield
+F	123525	AFIS
+F	132810	Info
+A	49.5158	9.6694	EDGU	Unterschüpf Airfield
+F	119150	AFIS
+F	132015	Info
+A	51.3072	9.1753	EDGW	Flugplatz „Graner Berg“
+F	119825	AFIS
+F	127455	Info
+A	49.3031	8.6589	EDGX	Walldorf Airfield
+F	128265	Info
+F	128950	AFIS
+A	49.5668	8.6114	EDGZ	Weinheim/Bergstraße Airfield
+F	119150	AFIS
+F	123605	Info
+A	54.2444	11.0247	EDHB	Grube Airfield
+F	125100	AFIS
+F	132015	Info
+A	53.0172	11.1447	EDHC	Lüchow-Rehbeck Airfield
+F	125365	Info
+F	132650	AFIS
+A	51.4076	10.1453	EDHD	Eichsfeld Airfield
+F	119825	AFIS
+F	124030	Info
+A	53.6455	9.7035	EDHE	Uetersen-Heist Airfield
+F	122705	Info
+F	125100	AFIS
+A	53.9920	9.5764	EDHF	Itzehoe Hungriger Wolf Airfiel
+F	125100	AFIS
+F	127110	Info
+A	53.2483	10.4587	EDHG	Lüneburg Airfield
+F	122180	AFIS
+F	125100	AFIS
+A	53.5353	9.8356	EDHI	Hamburg-Finkenwerder Airport
+F	121280	Tour
+F	121655	Finkenwerder
+F	123250	Tour
+F	124225	BREMEN RADAR
+F	125100	AFIS
+F	135965	ATIS
+A	54.3796	10.1453	EDHK	Kiel-Holtenau Airport
+F	119960	Info vol
+F	121900	APRON
+F	125100	AFIS
+F	125600	Sol
+F	127410	VOLMET
+F	136225	Radar
+A	53.8054	10.7192	EDHL	Lübeck Blankensee Airport
+F	119930	ATIS
+F	121780	Sol
+F	124225	Radar
+F	125100	AFIS
+F	128705	Info
+F	128705	Tour
+A	53.9150	10.0356	EDHM	Hartenholm Airfield
+F	118130	Info
+F	125100	AFIS
+A	54.0794	9.9414	EDHN	Neumünster Airport
+F	125100	AFIS
+F	136410	Info
+A	53.7003	9.7421	EDHO	Ahrenlohe Airfield
+F	122600	Info
+A	53.5611	9.4992	EDHS	Stade Airfield
+F	125100	AFIS
+F	132740	Info
+A	53.2075	9.5733	EDHU	Lauenbrück Airfield
+F	124485	Info
+F	125100	AFIS
+A	53.9694	10.2217	EDHW	Wahlstedt Airfield
+F	125100	AFIS
+F	128910	Info
+A	47.9881	10.2382	EDJA	Memmingen Allgau Airport
+F	118855	ATIS
+F	121680	Sol
+F	126855	Tour
+F	126950	AFIS
+A	47.8528	12.5504	EDJG	Grabenstätt Airfield
+F	126950	AFIS
+F	135985	Info
+A	50.8231	6.1864	EDKA	Aachen-Merzbrück Airport
+F	122880	Info
+F	125525	AFIS
+F	129875	AFIS
+A	50.7689	7.1633	EDKB	Bonn-Hangelar Airfield
+F	123525	AFIS
+F	135155	Info
+A	51.3125	7.7041	EDKD	Altena-Hegenscheid Airfield
+F	121190	Info
+F	129875	AFIS
+A	51.0521	7.7068	EDKF	Bergneustadt-Auf dem Dümpel Ai
+F	125840	Info
+F	129875	AFIS
+A	50.9286	7.8992	EDKH	Hünsborn Airfield
+F	123685	Info
+F	129875	AFIS
+A	50.8172	7.8306	EDKI	Betzdorf-Kirchen Airfield
+F	122230	Info
+F	123525	AFIS
+A	51.0153	7.0056	EDKL	Leverkusen Airfield
+F	122430	Info
+F	129875	AFIS
+A	51.3028	8.2392	EDKM	Meschede-Schüren Airfield
+F	126015	Info
+F	129875	AFIS
+A	51.1242	7.3736	EDKN	Wipperfürth-Neye Airfield
+F	129875	AFIS
+F	133580	Auto-info
+A	51.4028	8.6430	EDKO	Brilon-Hochsauerland Airfield
+F	129380	Info
+F	129875	AFIS
+A	51.1919	7.7910	EDKP	Plettenberg-Hüinghausen Airfie
+F	127110	Info
+F	129875	AFIS
+A	51.1615	8.2607	EDKR	Schmallenberg-Rennefeld Airfie
+F	127090	Info
+F	129875	AFIS
+A	51.1458	7.9367	EDKU	Attendorn-Finnentrop Airfield
+F	121405	Info
+F	129875	AFIS
+A	50.4061	6.5303	EDKV	Dahlemer Binz Airfield
+F	123525	AFIS
+F	130085	Info
+A	51.2972	7.8183	EDKW	Werdohl-Küntrop Airfield
+F	118005	Info
+F	129875	AFIS
+A	51.0994	7.5969	EDKZ	Meinerzhagen Airfield
+F	129875	AFIS
+F	130605	Info
+A	51.4839	7.8983	EDLA	Arnsberg-Menden Airfield
+F	121210	Info
+F	129875	AFIS
+F	133805	ATIS
+A	51.7800	7.2881	EDLB	Borkenberge Airfield
+F	129875	AFIS
+F	135005	Info
+A	51.5292	6.5361	EDLC	Kamp-Lintfort Airfield
+F	125315	Radio
+F	129875	AFIS
+A	51.6160	6.8613	EDLD	Dinslaken-Schwarze Heide Airfi
+F	122705	Info
+F	129875	AFIS
+A	51.4023	6.9373	EDLE	Essen-Mülheim Airport
+F	119755	Info
+F	129875	AFIS
+A	51.3339	6.3594	EDLF	Grefrath-Niershorst Airfield
+F	126705	Info
+F	129875	AFIS
+A	51.6908	6.1042	EDLG	Goch-Asperden Airfield
+F	118445	Info
+F	129875	AFIS
+A	51.6897	7.8161	EDLH	Hamm-Lippewiesen Airfield
+F	129875	AFIS
+F	134055	Info
+A	51.9647	8.5444	EDLI	Bielefeld Airport
+F	118355	Info
+F	129875	AFIS
+A	51.9408	8.9047	EDLJ	Detmold Airfield
+F	119825	AFIS
+F	135060	Info
+A	51.3850	6.5878	EDLK	Krefeld-Egelsberg Airfield
+F	125435	Info
+F	129875	AFIS
+A	51.6472	7.1633	EDLM	Marl-Loemühle Airfield
+F	129875	AFIS
+F	134610	Info
+A	51.2303	6.5044	EDLN	Mönchengladbach Airport
+F	109800	ATIS
+F	120455	Tour
+F	121930	Sol
+F	128555	Langen Radar
+F	129875	AFIS
+A	51.9322	8.6617	EDLO	Oerlinghausen Airfield
+F	128360	Auto-info
+F	129875	AFIS
+F	136410	Tour
+A	51.6125	8.6175	EDLP	Paderborn Lippstadt Airport
+F	121930	Sol
+F	125225	Radar
+F	125730	ATIS
+F	129875	AFIS
+F	130425	Opérations
+F	133380	Tour
+A	51.6883	8.7753	EDLR	Paderborn-Haxterberg Airfield
+F	125035	Info
+F	129875	AFIS
+A	51.9958	6.8406	EDLS	Stadtlohn-Vreden Airfield
+F	119205	Info
+F	129875	AFIS
+A	51.9447	7.7736	EDLT	Münster-Telgte Airfield
+F	122855	Info
+F	129875	AFIS
+A	51.6014	6.1412	EDLV	Weeze (Niederrhein) Airport
+F	124455	ATIS
+F	128500	Radar
+F	129405	Tour
+F	129875	Info
+F	131455	Ryanair
+A	51.5183	7.6122	EDLW	Dortmund Airport
+F	121830	Sol
+F	125130	ATIS
+F	125225	Approche
+F	129875	AFIS
+F	134180	Tour
+A	51.6628	6.5958	EDLX	Wesel-Römerwardt Airfield
+F	122030	Info
+F	129875	AFIS
+A	51.8533	6.8147	EDLY	Borken-Hoxfeld Airfield
+F	122930	Info
+F	129875	AFIS
+A	51.5781	8.2147	EDLZ	Soest-Bad Sassendorf Airfield
+F	129825	AFIS
+F	133465	Info
+A	48.4253	10.9317	EDMA	Augsburg Airport
+F	119665	ATIS
+F	120650	AFIS
+F	124980	Augsburg Tow
+F	124980	Tour
+F	128250	Radar
+A	48.1124	9.7640	EDMB	Biberach an der Riß Airfield
+F	120535	Info
+F	126950	AFIS
+A	48.4197	9.7983	EDMC	Blaubeuren Airfield
+F	128925	AFIS
+F	130661	Info
+A	48.2287	11.4221	EDMD	Dachau-Gröbenried Airfield
+F	126950	AFIS
+F	133010	Info
+A	48.3961	12.7236	EDME	Eggenfelden Airfield
+F	120305	Info
+F	120650	AFIS
+F	125080	ATIS
+A	48.5181	13.3458	EDMF	Fürstenzell Airfield
+F	120650	AFIS
+F	128740	AFIS
+A	48.4867	10.2833	EDMG	Günzburg-Donauried Airfield
+F	118830	Info
+F	132650	AFIS
+A	49.1122	10.7822	EDMH	Gunzenhausen-Reutberg Airfield
+F	118960	Info
+F	120650	AFIS
+A	48.2350	10.1377	EDMI	Illertissen Airfield
+F	128865	Info
+F	128950	AFIS
+A	48.1744	11.1254	EDMJ	Jesenwang Airfield
+F	120055	Radio
+F	126950	AFIS
+A	47.6919	10.3381	EDMK	Kempten-Durach Airfield
+F	124005	Info
+F	126950	AFIS
+A	48.5120	12.0349	EDML	Landshut Airfield
+F	120650	AFIS
+F	129805	Info
+A	48.1069	10.5250	EDMN	Mindelheim-Mattsies Airfield
+F	122975	Info
+F	126950	AFIS
+A	48.0814	11.2831	EDMO	Oberpfaffenhofen Airport
+F	119555	Tour
+F	120775	Arrivée
+F	126580	ATIS
+F	126950	AFIS
+F	127950	Radar
+F	135780	VOLMET
+A	48.4261	12.3453	EDMP	Vilsbiburg Airfield
+F	118060	Info
+F	120650	AFIS
+A	48.7031	10.8523	EDMQ	Donauwörth-Genderkingen Airfie
+F	120650	AFIS
+F	122055	AFIS
+F	124330	ATIS
+F	134130	Radio
+A	48.9008	12.5167	EDMS	Straubing Airport
+F	120650	Info
+F	124650	AFIS
+F	127155	Info vol
+F	132550	MUNCHEN RADA
+F	135530	ATIS
+A	48.0100	10.0986	EDMT	Tannheim Airfield
+F	122830	Info
+F	126950	AFIS
+A	48.5693	10.3585	EDMU	Gundelfingen Airfield
+F	122930	Info
+F	128950	AFIS
+A	48.6350	13.1956	EDMV	Vilshofen Airfield
+F	119180	Info
+F	120650	AFIS
+A	48.8303	12.8797	EDMW	Deggendorf Airfield
+F	120650	AFIS
+F	122030	Info
+A	48.2796	12.5005	EDMY	Mühldorf Airfield
+F	119780	Radio
+F	126950	AFIS
+A	48.2636	12.4117	EDNA	Ampfing-Waldkraiburg Airfield
+F	118735	Info
+F	126950	AFIS
+A	49.1247	12.9856	EDNB	Arnbruck Airfield
+F	118555	Info
+F	120650	AFIS
+A	49.0214	11.4847	EDNC	Beilngries Airfield
+F	118355	Info
+F	120650	AFIS
+A	49.0651	10.4035	EDND	Dinkelsbühl-Sinbronn Airfield
+F	128950	AFIS
+F	134535	Info
+A	48.3422	9.9161	EDNE	Erbach Airfield
+F	128950	AFIS
+F	131135	Info
+A	48.8225	13.3675	EDNF	Elsenthal Grafe Airfield
+F	118935	Info
+F	120650	AFIS
+A	48.6343	10.2165	EDNG	Giengen/Brenz Airfield
+F	122355	Info
+F	128950	Tour
+A	48.0161	10.6150	EDNH	Bad Wörishofen (Nord) Airfield
+F	122605	Info
+F	126950	AFIS
+A	49.1310	11.4432	EDNI	Berching Airfield
+F	120650	AFIS
+A	48.7819	11.2153	EDNJ	Neuburg-Egweil Airfield
+F	120650	AFIS
+F	132005	Info
+A	48.2383	12.9767	EDNK	Kirchdorf/Inn Airfield
+F	118630	Info
+F	126950	AFIS
+A	47.8589	10.0142	EDNL	Leutkirch-Unterzeil Airfield
+F	122880	Info
+F	126950	AFIS
+A	48.8706	10.5050	EDNO	Nördlingen Airfield
+F	120650	AFIS
+F	128950	AFIS
+F	133080	Info
+A	48.4203	12.8647	EDNP	Pfarrkirchen Airfield
+F	119980	Info
+F	120305	Info vol
+F	120650	AFIS
+A	48.8481	10.3339	EDNQ	Bopfingen Airfield
+F	123190	Info
+F	128950	AFIS
+A	49.1419	12.0819	EDNR	Regensburg-Oberhub Airfield
+F	120430	Info
+F	120650	AFIS
+A	48.1792	10.7028	EDNS	Schwabmünchen Airfield
+F	124515	Info
+F	126950	AFIS
+A	48.9961	10.8842	EDNT	Treuchtlingen-Bubenheim Airfie
+F	120650	AFIS
+F	122605	Info
+A	48.2900	10.4419	EDNU	Thannhausen Airfield
+F	118180	Thannhausen 
+F	126950	AFIS
+A	47.9461	12.2047	EDNV	Vogtareuth Airfield
+F	121030	Info
+F	126950	AFIS
+A	48.2894	10.1403	EDNW	Weißenhorn Airfield
+F	119430	Info
+F	128950	AFIS
+A	48.2392	11.5593	EDNX	Schleissheim Airfield
+F	123130	ATIS
+F	126950	AFIS
+F	131130	Info
+F	131130	Info vol
+A	47.6713	9.5115	EDNY	Bodensee Airport Friedrichshaf
+F	119925	Approche
+F	120080	Tour
+F	124700	AFIS
+F	129605	ATIS
+F	134305	Tour
+A	50.1369	11.7944	EDNZ	Zell-Haidberg Airfield
+F	125800	AFIS
+F	132830	AFIS
+A	50.4973	12.3780	EDOA	Auerbach Airfield
+F	125800	AFIS
+F	128740	Info
+A	50.9044	11.2603	EDOB	Bad Berka Airfield
+F	120835	Info
+F	125800	AFIS
+A	52.5296	11.3494	EDOC	Gardelegen Airfield
+F	132650	AFIS
+F	133190	Info
+A	51.9008	13.1944	EDOD	Reinsdorf Airfield
+F	125800	AFIS
+F	130655	Info
+A	51.2139	12.3636	EDOE	Böhlen Airfield
+F	118930	Info
+F	125800	AFIS
+A	51.3725	11.1414	EDOF	Bad Frankenhausen Airfield
+F	119825	AFIS
+F	121190	Info
+A	50.9483	13.2617	EDOH	Langhennersdorf Airfield
+F	125800	AFIS
+A	52.6617	12.7458	EDOI	Bienenfarm Airfield
+F	132650	ATIS
+F	134990	Info
+A	52.1427	12.6714	EDOJ	Lüsse Airfield
+F	125800	AFIS
+F	128755	Info
+A	50.7328	11.2361	EDOK	Rudolstadt-Groschwitz Airfield
+F	118330	Info
+F	125800	AFIS
+A	52.0381	11.2056	EDOL	Oschersleben Glider Field
+F	119825	AFIS
+F	129405	Info
+A	51.9475	11.7697	EDOM	Klein Mühlingen Airfield
+F	119825	AFIS
+F	136410	Info
+A	52.6131	14.2428	EDON	Neuhardenberg Marxwalde Airfie
+F	119130	Info
+F	132650	AFIS
+A	51.2968	13.0787	EDOQ	Oschatz Airfield
+F	120430	Info
+F	125800	AFIS
+A	52.7408	12.3900	EDOR	Stölln-Rhinow Airfield
+F	130080	Info
+F	132650	AFIS
+A	50.6697	11.0511	EDOS	Pennewitz Airfield
+F	125800	AFIS
+F	130640	Info
+A	50.6440	12.1746	EDOT	Greiz-Obergrochlitz Airfield
+F	125800	AFIS
+F	132015	Info
+A	50.9651	11.3998	EDOU	Weimar-Umpferstedt Airfield
+F	125800	AFIS
+F	134535	Info
+A	52.6289	11.8186	EDOV	Stendal-Borstel Airfield
+F	122405	Info
+F	132650	AFIS
+A	53.5683	12.6528	EDOW	Waren-Vielist Airfield
+F	130330	Info
+F	132650	AFIS
+A	51.5951	12.2379	EDOX	Renneritz Airfield
+F	125800	AFIS
+F	128860	Info
+A	51.9971	11.7898	EDOZ	Schönebeck-Zackmünde Airfield
+F	119825	AFIS
+F	125850	Info
+A	48.7778	10.2647	EDPA	Aalen Heidenheim Elchingen Air
+F	122405	Info
+F	128950	AFIS
+A	48.5628	9.7289	EDPB	Bad Ditzenbach Airfield
+F	128950	AFIS
+F	135985	Info
+A	47.9269	12.2872	EDPC	Bad Endorf/Jolling Airfield
+F	118915	Info
+F	126950	AFIS
+A	48.6567	12.4988	EDPD	Dingolfing Airfield
+F	120650	AFIS
+F	125615	Info
+A	48.8769	11.1822	EDPE	Eichstätt Airfield
+F	120650	AFIS
+F	123005	Info
+A	49.3397	12.1881	EDPF	Schwandorf Airfield
+F	120650	AFIS
+F	121205	Info
+A	48.9539	12.4214	EDPG	Griesau Airfield
+F	120650	AFIS
+F	125740	Info
+F	127155	Info vol
+A	49.2680	11.0126	EDPH	Schwabach-Heidenberg Airfield
+F	120650	AFIS
+F	135430	Info
+A	48.4566	11.9416	EDPI	Moosburg auf der Kippe Airfiel
+F	120650	AFIS
+F	125815	Info
+A	48.4969	9.6403	EDPJ	Laichingen Jakob Laur Airfield
+F	127705	Info
+F	128950	AFIS
+A	48.0478	12.5006	EDPK	Schönberg Airfield
+F	126950	AFIS
+F	132990	Info
+A	48.6782	9.8459	EDPM	Donzdorf Airfield
+F	118205	Info
+F	128950	AFIS
+A	49.2856	11.4431	EDPO	Neumarkt-Oberpfalz Airfield
+F	120650	AFIS
+F	122330	Info
+A	49.4294	12.0981	EDPQ	Schmidgaden Airfield
+F	120650	AFIS
+F	134540	Info
+A	48.6828	13.6947	EDPS	Flugplatz Sonnen
+F	118965	Info
+F	120650	AFIS
+A	48.6203	10.0583	EDPT	Gerstetten Airfield
+F	120815	Info
+F	128950	AFIS
+A	48.7467	10.0050	EDPU	Bartholomä-Amalienhof Airfield
+F	128950	AFIS
+A	49.0642	11.2092	EDPW	Thalmässing-Waizenhofen Airfie
+F	120650	AFIS
+F	128860	Info
+A	48.9615	10.2345	EDPY	Ellwangen Airfield
+F	121235	Info
+F	128950	AFIS
+A	49.9204	10.9142	EDQA	Bamberg-Breitenau Airfield
+F	123440	Bamberg INFO
+F	124130	ATIS
+F	125800	AFIS
+A	49.5100	10.3664	EDQB	Bad Windsheim Airfield
+F	118260	Info
+F	119150	AFIS
+F	129850	Tour
+A	50.2625	10.9956	EDQC	Coburg-Brandensteinsebene Airf
+F	120100	ATIS
+F	125800	AFIS
+F	128680	Info
+F	129525	NUERNBERG RA
+A	49.9850	11.6400	EDQD	Bayreuth Airport
+F	118975	Radar
+F	119560	ATIS
+F	125800	AFIS
+F	127530	Info
+A	49.7942	11.1336	EDQE	Burg Feuerstein Airport
+F	125800	AFIS
+F	130780	Air-sol
+A	49.3611	10.6694	EDQF	Ansbach-Petersdorf Airfield
+F	120650	AFIS
+F	123790	Info
+A	49.6481	9.9664	EDQG	Giebelstadt Airport
+F	119150	AFIS
+F	125505	Info
+A	49.5827	10.8783	EDQH	Herzogenaurach Airfield
+F	120650	AFIS
+F	134555	Info
+A	49.6052	11.2836	EDQI	Lauf-Lillinghof Airfield
+F	120650	AFIS
+F	128585	Info
+A	50.1349	11.4591	EDQK	Kulmbach Airfield
+F	118530	Info
+F	125800	AFIS
+A	50.1486	11.0481	EDQL	Lichtenfels Airfield
+F	118190	Info
+F	125800	AFIS
+F	128680	AFIS
+A	50.2885	11.8529	EDQM	Hof-Plauen Airport
+F	118975	Radar
+F	124355	Tour
+F	125800	AFIS
+A	49.5875	10.5775	EDQN	Neustadt/Aisch Airfield
+F	118930	Info
+F	119150	AFIS
+A	50.2258	11.7317	EDQO	Ottengrüner Heide Airfield
+F	125800	AFIS
+F	133585	Info
+A	49.8633	11.7878	EDQP	Rosenthal-Plössen Airfield
+F	125800	AFIS
+F	127450	Info
+A	50.0400	10.8225	EDQR	Ebern-Sendelbach Airfield
+F	118005	Info
+F	125800	AFIS
+A	50.6320	10.7260	EDQS	Suhl-Goldlauter Airfield
+F	119150	AFIS
+F	127465	Info
+A	50.0182	10.5292	EDQT	Haßfurt-Schweinfurt Airfield
+F	119150	AFIS
+F	119805	Info
+A	49.6789	12.1164	EDQW	Weiden in der Oberpfalz Airfie
+F	120255	Info
+F	125800	AFIS
+A	49.6423	11.1626	EDQX	Hetzleser Berg Airfield
+F	128950	AFIS
+F	134115	Info
+A	50.2306	10.9958	EDQY	Coburg-Steinrücken Airfield
+F	125800	AFIS
+F	128680	AFIS
+F	129805	Info
+A	49.7624	11.5746	EDQZ	Pegnitz-Zipser Berg Airfield
+F	125800	AFIS
+F	127560	Info
+A	50.5578	7.1371	EDRA	Bad Neuenahr-Ahrweiler Airfiel
+F	122355	Info
+F	123525	AFIS
+A	49.9453	6.5650	EDRB	Bitburg Airport
+F	118700	Info
+F	122200	Tour
+F	123525	AFIS
+A	49.4530	7.0390	EDRC	Marpingen Glider Airfield
+F	120185	Info
+F	123525	AFIS
+A	49.8431	6.9161	EDRD	Neumagen-Dhron Airfield
+F	123525	AFIS
+F	129285	Info
+A	49.4728	8.1957	EDRF	Bad Dürkheim Airfield
+F	122405	Info
+F	123525	AFIS
+A	49.7322	7.3361	EDRG	Idar-Oberstein/Göttschied Airf
+F	123525	AFIS
+F	128360	Info
+A	49.6106	7.1867	EDRH	Hoppstädten-Weiersbach Airfiel
+F	123525	AFIS
+F	130655	Info
+A	49.1417	8.3947	EDRI	Linkenheim Airfield
+F	124010	Radio
+F	128950	AFIS
+A	49.3125	6.6744	EDRJ	Saarlouis-Düren Airfield
+F	121210	Info
+F	123525	AFIS
+A	50.3256	7.5286	EDRK	Koblenz-Winningen Airfield
+F	122655	Radio
+F	123525	Info vol
+F	125600	Langen Radar
+A	49.3308	8.2097	EDRL	Flugplatz Lachen-Speyerdorf
+F	123525	AFIS
+F	128525	Info
+A	49.9678	7.1119	EDRM	Traben-Trarbach/Mont Royal Air
+F	123525	AFIS
+F	129035	Info
+A	49.9699	7.4784	EDRN	Nannhausen Airfield
+F	123525	AFIS
+F	131285	Info
+A	49.0319	7.9905	EDRO	Schweighofen Airfield
+F	123005	Info
+F	123525	AFIS
+A	49.2644	7.4883	EDRP	Pirmasens-Pottschütthöhe Airfi
+F	122355	Info
+F	123525	AFIS
+F	123830	Info vol
+A	49.7908	7.6661	EDRS	Bad Sobernheim-Domberg Airfiel
+F	118930	Info
+F	123525	AFIS
+A	49.8639	6.7875	EDRT	Trier-Föhren Airfield
+F	118390	Info
+F	123525	AFIS
+A	50.4519	6.7841	EDRV	Wershofen/Eifel Airfield
+F	121390	Info
+F	123525	AFIS
+A	50.5661	7.6533	EDRW	Dierdorf-Wienau Airfield
+F	123525	AFIS
+F	128930	Info
+A	49.3047	8.4514	EDRY	Speyer Airfield
+F	118080	Radio
+F	128950	AFIS
+A	49.2094	7.4006	EDRZ	Zweibrücken Airport
+F	123525	AFIS
+F	123830	Info vol
+F	129675	Radar
+A	48.2497	9.0625	EDSA	Albstadt-Degerfeld Airfield
+F	125835	Info
+F	128950	AFIS
+A	48.7794	8.0805	EDSB	Karlsruhe Baden-Baden Airport
+F	119450	Approche
+F	119580	AFIS
+F	121280	ATIS
+F	121830	Sol
+F	124100	REIMS INFO
+F	128950	Info
+F	134105	Tour
+A	48.6586	9.6242	EDSE	Göppingen-Bezgenriet Airfield
+F	128950	AFIS
+A	48.5361	9.4369	EDSG	Grabenstetten Airfield
+F	118190	Info
+F	128950	AFIS
+A	48.9197	9.4553	EDSH	Backnang-Heiningen Airfield
+F	123710	Info
+F	128950	AFIS
+A	47.7988	8.7186	EDSI	Binningen Glider Field
+F	124535	Info
+F	124700	Info vol
+A	48.5611	7.8433	EDSK	Kehl-Sundheim Airfield
+F	122755	Auto-info
+F	128950	AFIS
+A	47.8437	8.5643	EDSL	Blumberg Airfield
+F	124700	Info vol
+F	135005	Info
+A	47.9767	8.9039	EDSN	Neuhausen ob Eck Airfield
+F	119605	Info
+F	124700	AFIS
+A	48.6212	9.6557	EDSO	Gruibingen-Nortel Airfield
+F	128740	Info
+F	128950	AFIS
+A	48.5473	8.9459	EDSP	Poltringen Airfield
+F	123055	Auto-info
+A	47.8026	8.9794	EDSR	Radolfzell-Stahlringen Airfiel
+F	124700	AFIS
+F	127530	Info
+A	48.6318	9.4292	EDST	Hahnweide Airfield
+F	125615	Info
+F	128950	AFIS
+A	48.2699	7.8419	EDSW	Altdorf-Wallburg Airfield
+F	127155	Info
+F	128950	AFIS
+A	48.1866	8.7228	EDSZ	Rottweil-Zepfenhan Airfield
+F	128955	AFIS
+F	129505	Info
+A	48.7919	8.1858	EDTB	Baden-Oos Airfield
+F	125915	Info
+F	128950	AFIS
+F	134105	Tour
+A	49.1348	8.5641	EDTC	Bruchsal Airfield
+F	123990	Info
+F	128950	AFIS
+A	47.9733	8.5222	EDTD	Donaueschingen-Villingen Airfi
+F	120700	AFIS
+F	126690	Info vol
+A	48.0228	7.8325	EDTF	Freiburg im Breisgau Airfield
+F	118255	Info
+F	128950	AFIS
+A	47.9032	7.6174	EDTG	Bremgarten Airfield
+F	124030	Info
+F	128950	AFIS
+A	48.8030	9.9277	EDTH	Heubach Airfield
+F	123025	AFIS
+A	48.3693	7.8277	EDTL	Lahr Airport
+F	119450	Approche
+F	125180	Tour
+F	128950	AFIS
+A	48.0539	9.3728	EDTM	Mengen-Hohentengen Airfield
+F	124700	AFIS
+F	135180	Info
+A	48.6128	9.4772	EDTN	Nabern-Teck Airfield
+F	118330	Auto-info
+F	128950	AFIS
+A	48.4481	7.9236	EDTO	Offenburg-Baden Airfield
+F	128950	AFIS
+F	132040	Info
+A	47.9089	9.2506	EDTP	Pfullendorf Airfield
+F	122435	Info
+F	124700	AFIS
+A	48.8642	9.2247	EDTQ	Pattonville Airfield
+F	124610	Info
+F	128950	AFIS
+A	47.5603	7.7483	EDTR	Herten-Rheinfelden Airfield
+F	124700	AFIS
+F	134535	Info
+A	48.0658	8.5714	EDTS	Schwenningen am Neckar Airfiel
+F	124700	AFIS
+F	126690	Info vol
+F	127535	Info
+A	48.0294	9.5072	EDTU	Bad Saulgau Airfield
+F	123605	Info
+F	124700	AFIS
+F	135180	Info vol
+A	48.2792	8.4283	EDTW	Winzeln-Schramberg Airfield
+F	118390	Info
+F	128950	AFIS
+A	49.1183	9.7839	EDTY	Adolf Würth Airport
+F	125050	Radar
+F	128950	Info
+F	129230	AFIS
+F	133880	ATIS
+A	47.6814	9.1393	EDTZ	Konstanz Airfield
+F	124355	Info
+F	124700	AFIS
+A	52.6506	12.4878	EDUA	Flugplatz Stechow-Ferchesar
+F	132650	AFIS
+F	133585	Info
+A	51.5478	13.2281	EDUF	Falkenberg-Lönnewitz Airfield
+F	125800	AFIS
+F	132360	Info
+A	51.5429	11.5952	EDUO	Oberrißdorf Airfield
+F	119825	AFIS
+F	122630	Info
+A	53.9177	13.2203	EDUW	Tutow-Betriebs Airfield
+F	132650	AFIS
+F	132790	Info
+A	51.5578	14.1050	EDUY	Welzow-Sedlitzer See Seaplane 
+F	122330	Info
+F	125800	AFIS
+A	52.0008	12.1486	EDUZ	Zerbst Airfield
+F	124485	Info
+F	132650	AFIS
+A	51.8542	10.0256	EDVA	Bad Gandersheim Airfield
+F	119825	AFIS
+F	123005	Info
+A	52.6882	10.1128	EDVC	Celle-Arloh Airfield
+F	119825	AFIS
+F	123655	Info
+F	125100	AFIS
+A	52.3192	10.5561	EDVE	Braunschweig-Wolfsburg Airport
+F	119825	AFIS
+F	120050	Tour
+F	134455	ATIS
+A	51.9172	9.1117	EDVF	Blomberg-Borkhausen Airfield
+F	119825	AFIS
+F	121010	Info
+A	51.3764	8.9811	EDVG	Mengeringhausen Airfield
+F	119735	Info
+F	119825	AFIS
+A	52.7619	9.6106	EDVH	Hodenhagen Airfield
+F	119005	Info
+F	125100	AFIS
+A	51.8067	9.3783	EDVI	Höxter-Holzminden Airfield
+F	119825	AFIS
+F	130280	Info
+A	52.0307	10.3625	EDVJ	Salzgitter-Schäferstuhl Airfie
+F	119825	AFIS
+F	132990	Info
+A	51.4184	9.3916	EDVK	Kassel Airport
+F	118105	Tour
+F	119825	AFIS
+F	121905	Sol
+F	123925	Radar
+F	129205	ATIS
+A	51.6109	9.3984	EDVL	Hölleberg Airfield
+F	119825	AFIS
+F	130080	Info
+A	52.1798	9.9458	EDVM	Hildesheim Airfield
+F	118310	Info
+F	119825	AFIS
+A	51.7064	10.0397	EDVN	Northeim Airfield
+F	118705	Info
+F	119825	AFIS
+A	52.1753	9.0533	EDVR	Rinteln Airfield
+F	119825	AFIS
+F	129425	Info
+A	51.9520	9.6620	EDVT	Ithwiesen Airfield
+F	119825	AFIS
+F	130655	Info
+A	52.9837	10.4654	EDVU	Uelzen Airfield
+F	130905	Info
+F	132650	AFIS
+A	51.9667	9.2917	EDVW	Bad Pyrmont Airfield
+F	119825	AFIS
+F	121180	Info
+A	52.2214	8.8598	EDVY	Porta Westfalica Airfield
+F	119825	AFIS
+F	130640	Info
+A	52.4876	8.1852	EDWC	Damme Airfield
+F	129875	AFIS
+F	133305	Info
+A	53.3911	7.2275	EDWE	Emden Airport
+F	118605	Info
+F	123600	Approche
+F	124650	Radar
+F	128525	AFIS
+A	53.2719	7.4417	EDWF	Flugplatz Leer-Papenburg
+F	128525	AFIS
+F	130760	Info
+A	53.7825	7.9196	EDWG	Wangerooge Airport
+F	122405	Info
+F	128525	AFIS
+A	53.0689	8.3136	EDWH	Oldenburg-Hatten Airfield
+F	118180	Info
+F	128525	AFIS
+A	53.5022	8.0522	EDWI	JadeWeser Airport
+F	128525	AFIS
+F	129255	Info vol
+A	53.6814	7.0564	EDWJ	Juist Airport
+F	120505	Info
+F	128525	AFIS
+A	53.3328	9.0283	EDWK	Karlshöfen Airfield
+F	118930	Info
+F	125100	AFIS
+A	53.7424	7.4963	EDWL	Langeoog Airport
+F	122030	Info
+F	128525	AFIS
+A	53.0539	9.2086	EDWM	Weser-Wümme Airfield
+F	125100	AFIS
+F	133705	Info
+A	52.4575	7.1822	EDWN	Nordhorn-Lingen Airfield
+F	122655	Info
+F	129875	AFIS
+A	52.2864	7.9697	EDWO	Atterheide Airfield
+F	118680	Info
+F	119825	AFIS
+F	129875	AFIS
+A	53.3214	8.0733	EDWP	Wiefelstede-Conneforde Airfiel
+F	121190	Info
+F	128525	AFIS
+A	53.0361	8.5056	EDWQ	Ganderkesee Atlas Airfield
+F	118630	Info
+F	128525	AFIS
+A	53.5964	6.7092	EDWR	Borkum Airport
+F	121210	Info
+F	128525	AFIS
+A	53.6331	7.1903	EDWS	Norden-Norddeich Airport
+F	123030	Info
+F	128525	AFIS
+A	52.9083	8.0406	EDWU	Varrelbusch Airfield
+F	128525	AFIS
+F	132565	Info
+A	52.9653	9.2828	EDWV	Verden-Scharnhorst Airfield
+F	125100	AFIS
+F	130660	Info
+A	53.2886	7.9306	EDWX	Westerstede-Felde Airfield
+F	123685	Info
+F	128525	AFIS
+A	53.7069	7.2300	EDWY	Norderney Airport
+F	122605	Info
+F	128525	AFIS
+A	53.7249	7.3733	EDWZ	Baltrum Airport
+F	128525	AFIS
+F	132015	Info
+A	52.3772	7.9133	EDXA	Flugplatz Achmer
+F	123055	Info
+F	129875	AFIS
+A	54.1533	8.9017	EDXB	Heide-Büsum Airport
+F	125100	AFIS
+F	125860	Info
+A	54.4255	9.5419	EDXC	Schleswig-Kropp Airfield
+F	122100	Tour
+F	125100	AFIS
+A	52.3514	8.3283	EDXD	Bohmte-Bad Essen Airfield
+F	118985	Info
+F	129875	AFIS
+A	52.2764	7.4928	EDXE	Rheine-Eschendorf Airfield
+F	126685	Info
+F	129875	AFIS
+A	54.7733	9.3789	EDXF	Flensburg-Schäferhaus Airport
+F	122855	Info
+F	125100	AFIS
+A	52.2008	8.3806	EDXG	Melle-Grönegau Airfield
+F	125835	Info
+F	129875	AFIS
+A	54.1853	7.9158	EDXH	Helgoland-Düne Airport
+F	122455	Info
+F	128525	AFIS
+A	52.7097	9.1625	EDXI	Nienburg-Holzbalge Airfield
+F	119825	AFIS
+F	133165	Info
+A	54.5100	9.1383	EDXJ	Husum-Schwesing Airport
+F	125100	AFIS
+F	125835	Info
+A	54.7909	8.9634	EDXK	Leck Airfield
+F	125100	AFIS
+F	132565	Info
+A	53.1644	7.7939	EDXL	Barßel Airfield
+F	128525	AFIS
+F	129135	Info
+A	53.9783	9.1452	EDXM	Sankt Michaelisdonn Airfield
+F	125100	AFIS
+F	132990	Info
+A	53.7672	8.6436	EDXN	Nordholz-Spieka Airfield
+F	121030	Info
+F	125100	AFIS
+F	128525	AFIS
+F	131525	Tour
+A	54.3089	8.6869	EDXO	Sankt Peter-Ording Airport
+F	125100	AFIS
+F	129780	Info
+A	53.7067	7.8203	EDXP	Harle Airfield
+F	122405	Info
+F	128525	AFIS
+A	53.1283	9.3486	EDXQ	Rotenburg (Wümme) Airfield
+F	125100	AFIS
+F	136015	Info
+A	54.2200	9.5994	EDXR	Rendsburg-Schachtholm Airfield
+F	123655	Info
+F	125100	AFIS
+A	53.3356	9.2594	EDXS	Seedorf Airfield
+F	119665	Info
+F	125100	AFIS
+A	54.0667	10.7422	EDXT	Sierksdorf/Hof Altona Airfield
+F	125100	AFIS
+F	125385	Info
+A	53.2867	8.9472	EDXU	Hüttenbusch Airfield
+F	120850	Info
+F	125100	AFIS
+A	54.9132	8.3405	EDXW	Westerland Sylt Airport
+F	118400	ATIS
+F	119750	Info
+F	119750	Tour
+F	125100	AFIS
+F	136225	Radar
+A	54.6844	8.5283	EDXY	Wyk auf Föhr Airport
+F	118255	Info
+F	125100	AFIS
+A	53.5681	8.7894	EDXZ	Kührstedt-Bederkesa Airfield
+F	128525	AFIS
+F	135005	Info
+A	59.2596	24.2048	EEEI	Ämari Air Base
+F	120900	Info
+A	59.3579	24.3795	EEHA	Humala Airfield
+F	127905	Tallinn Rada
+A	58.9908	22.8307	EEKA	Kärdla Airport
+F	133405	AFIS
+A	58.2299	22.5095	EEKE	Kuressaare Airport
+F	118050	Tour
+A	58.2907	26.7677	EELM	Lange Airfield (Lennundusmuuse
+F	133905	Tartu Flight
+A	58.4190	24.4728	EEPU	Pärnu Airport
+F	132000	AFIS
+A	58.9903	24.7164	EERA	Rapla Airfield
+F	131030	Rapla Traffi
+A	57.9400	26.9790	EERI	Ridali Airfield
+F	118455	Info vol
+A	59.4132	24.8326	EETN	Lennart Meri Tallinn Airport
+F	124880	ATIS
+F	127905	Approche
+F	135905	Tour
+A	58.3074	26.6865	EETU	Tartu Airport
+F	123130	ATIS
+F	133905	Tartu Flight
+A	67.6036	23.9717	EFAA	Aavahelukka Airfield
+F	123500	Radio
+F	126100	Tampere rada
+A	64.8953	25.7522	EFAH	Ahmosuo Airfield
+F	123400	Radio
+F	124200	Centre
+A	62.5547	23.5733	EFAL	Alavus Airfield
+F	123500	Radio
+F	127100	Centre
+A	68.3626	23.4243	EFET	Enontekio Airport
+F	122450	AFIS
+F	134825	ATIS
+A	61.1161	22.2014	EFEU	Eura Airfield
+F	123550	Radio
+A	60.8037	23.6508	EFFO	Forssa Airfield
+F	121300	Centre
+F	123150	Radio
+A	60.0869	22.5219	EFGE	Genböle Airfield UL
+F	123600	Radio
+F	132675	Centre
+A	61.8560	24.7867	EFHA	Halli Airport
+F	115200	ATIS
+F	124550	Approche
+F	128900	Tour
+A	60.3184	24.9633	EFHK	Helsinki Vantaa Airport
+F	114200	ATIS
+F	118125	Clairance
+F	118600	Tour
+F	118850	Tour
+F	119100	Approche
+F	121650	RMP
+F	121800	Sol
+F	125100	PMSV METRO
+F	129850	Approche
+F	135075	ATIS
+A	64.9696	24.7042	EFHL	Hailuoto Airfield
+F	123400	Radio
+F	124200	Centre
+A	61.6897	23.0737	EFHM	Hämeenkyrö Airfield
+F	123150	Radio
+A	59.8482	23.0851	EFHN	Hanko Airfield
+F	123600	Radio
+A	64.1131	25.5042	EFHP	Haapavesi Airfield
+F	123550	Radio
+F	124200	Centre
+A	60.6544	24.8811	EFHV	Hyvinkää Airfield
+F	122500	Info
+A	63.6319	27.1222	EFII	Iisalmi Airfield
+F	123550	Radio
+F	132325	Centre
+A	60.4625	23.6525	EFIK	Kiikala Airfield
+F	123600	Radio
+A	61.2492	28.9037	EFIM	Immola Airfield
+F	123600	Radio
+A	62.1661	30.0736	EFIT	Kitee Airport
+F	123450	Radio
+A	68.6073	27.4053	EFIV	Ivalo Airport
+F	118000	Tour
+F	123200	ATIS
+A	61.7786	22.7161	EFJM	Jämijärvi Airfield
+F	123650	Radio
+F	127100	Tampere rada
+A	62.6588	29.6194	EFJO	Joensuu Airport
+F	115700	ATIS
+F	120900	Tour
+A	62.3995	25.6783	EFJY	Jyväskylä Airport
+F	118000	Tour
+F	119700	Approche
+F	134150	ATIS
+A	63.1271	23.0514	EFKA	Kauhava Airfield
+F	112400	ATIS
+F	122800	Tour
+F	128150	Arrivée
+F	130100	Approche
+A	65.7787	24.5821	EFKE	Kemi-Tornio Airport
+F	119400	Tour
+F	123150	ATIS
+A	60.2469	20.8047	EFKG	Kumlinge Airfield
+F	121300	Centre
+F	123400	Radio
+A	64.1125	29.4386	EFKH	Kuhmo Airfield
+F	123500	Radio
+F	124200	Centre
+A	64.2855	27.6924	EFKI	Kajaani Airport
+F	114900	ATIS
+F	118100	AFIS
+A	62.4632	22.3908	EFKJ	Kauhajoki Airfield
+F	118450	Radio
+A	63.7212	23.1431	EFKK	Kokkola-Pietarsaari Airport
+F	120100	Tour
+F	125025	ATIS
+A	66.7129	27.1568	EFKM	Kemijärvi Airfield
+F	123500	Radio
+A	64.2286	23.8264	EFKO	Kalajoki Airfield
+F	123400	Radio
+A	63.9892	25.7436	EFKR	Kärsämäki Airfield
+F	123550	Radio
+F	124200	Centre
+A	65.9876	29.2394	EFKS	Kuusamo Airport
+F	114400	ATIS
+F	118650	AFIS
+A	67.7010	24.8468	EFKT	Kittilä International Airport
+F	118950	AFIS
+F	133850	ATIS
+A	63.0071	27.7978	EFKU	Kuopio Airport
+F	120150	Tour
+F	128775	ATIS
+F	130600	Approche
+A	63.1253	25.1242	EFKV	Kivijärvi Airfield
+F	123500	Radio
+F	132325	Centre
+A	60.5714	26.8961	EFKY	Kymi Airfield
+F	123550	Radio
+F	135525	Centre
+A	61.1442	25.6935	EFLA	Lahti Vesivehmaa Airfield
+F	122425	ATIS
+F	123400	Radio
+F	132325	Centre
+A	63.3994	27.4789	EFLL	Lapinlahti Airfield
+F	123500	Radio
+F	135525	Centre
+A	63.5119	29.6292	EFLN	Lieksa Nurmes Airfield
+F	123400	Radio
+A	61.0446	28.1447	EFLP	Lappeenranta Airport
+F	112500	ATIS
+F	119700	Tour
+A	60.1222	19.8982	EFMA	Mariehamn Airport
+F	119600	Tour
+F	130425	ATIS
+A	62.9467	23.5189	EFME	Menkijärvi Airfield
+F	123500	Auto-info
+A	61.6866	27.2018	EFMI	Mikkeli Airport
+F	118250	ATIS
+F	123000	AFIS
+A	65.3011	25.4162	EFML	Ii Airfield
+F	120650	Info
+A	60.5725	25.5089	EFMN	Mäntsälä Airfield UL
+F	123500	Radio
+F	132325	Centre
+A	60.5200	24.8317	EFNS	Savikko Airfield
+F	123150	Radio
+F	127100	Centre
+A	60.3339	24.2964	EFNU	Nummela Airfield
+F	122825	Radio
+F	135825	ATIS
+A	60.8764	22.7447	EFOP	Oripää Airfield
+F	123200	Radio
+F	127100	Centre
+A	64.9301	25.3546	EFOU	Oulu Airport
+F	124400	Tour
+F	135450	ATIS
+A	68.1502	25.8294	EFPA	Pokka Airfield
+F	123150	Radio
+F	126100	Centre
+A	61.2456	22.1934	EFPI	Piikajarvi Airfield
+F	123550	Radio
+A	62.2647	27.0028	EFPK	Pieksämäki Airfield
+F	123200	Radio
+F	135525	Centre
+A	61.7289	29.3936	EFPN	Punkaharju Airfield
+F	123450	Radio
+F	135525	Centre
+A	61.4617	21.8000	EFPO	Pori Airport
+F	119250	Tour
+F	128650	Approche
+F	136075	ATIS
+A	60.4792	26.5939	EFPR	Helsinki East-Redstone Aerodro
+F	118475	Info
+A	65.4022	26.9469	EFPU	Pudasjärvi Airfield
+F	123200	Radio
+F	124200	Centre
+A	63.7319	25.9263	EFPY	Pyhäsalmi Airfield
+F	121600	Radio
+A	63.4242	28.1242	EFRA	Rautavaara Airfield
+F	123650	Radio
+F	135525	Tampere rada
+A	64.6881	24.6958	EFRH	Raahe Pattijoki Airfield
+F	123500	Radio
+A	62.0655	28.3565	EFRN	Rantasalmi Airfield
+F	123200	Radio
+A	66.5633	25.8298	EFRO	Rovaniemi Airport
+F	117700	ATIS
+F	118525	Sol
+F	118700	Tour
+F	125100	PMSV METRO
+F	125800	Approche
+A	65.9731	26.3653	EFRU	Ranua Airfield
+F	123500	Radio
+F	124200	Centre
+A	63.7056	26.6164	EFRV	Kiuruvesi Airfield
+F	123500	Radio
+F	132325	Centre
+A	60.7447	24.1078	EFRY	Räyskälä Airfield
+F	121300	Centre
+F	122625	ATIS
+F	122650	Radio
+A	61.9431	28.9451	EFSA	Savonlinna Airport
+F	117900	ATIS
+F	118800	AFIS
+A	61.0624	26.7989	EFSE	Selanpaa Airfield
+F	123200	Radio
+A	62.6921	22.8323	EFSI	Seinäjoki Airport
+F	119700	Tour
+F	123600	AFIS
+F	128150	Radar
+F	130100	Approche
+A	67.3950	26.6191	EFSO	Sodankyla Airport
+F	123400	AFIS
+A	64.8219	28.7103	EFSU	Suomussalmi Airfield
+F	123500	Radio
+F	124200	Centre
+A	60.0792	24.1722	EFTO	Torbacka Airfield
+F	123600	Radio
+F	132675	Centre
+A	61.4141	23.6044	EFTP	Tampere-Pirkkala Airport
+F	118700	Tour
+F	126200	Approche
+F	133550	ATIS
+A	60.5141	22.2628	EFTU	Turku Airport
+F	118300	Tour
+F	130050	ATIS
+A	60.8964	26.9384	EFUT	Utti Air Base
+F	114600	ATIS
+F	119700	Tour
+A	63.0502	21.7625	EFVA	Vaasa Airport
+F	114500	ATIS
+F	119300	Tour
+A	63.1225	25.8161	EFVI	Viitasaari Airfield
+F	123500	Radio
+F	132325	Centre
+A	64.5019	26.7600	EFVL	Vaala Airfield
+F	123500	Radio
+F	124200	Centre
+A	61.0397	22.5917	EFVP	Vampula Airfield
+F	123550	Radio
+F	127100	Centre
+A	62.1711	27.8686	EFVR	Varkaus Airport
+F	120400	Divers
+F	128325	ATIS
+A	63.3978	24.0306	EFVT	Sulkaharju Airfield
+F	123500	Radio
+F	127100	Centre
+A	60.6636	26.7458	EFWB	Wredeby Airfield
+F	123550	Radio
+F	135525	Centre
+A	64.0547	24.7253	EFYL	Ylivieska Airfield
+F	122500	Auto-info
+A	52.4930	-1.1251	EG74	Bruntingthorpe Aerodrome
+F	122825	Air-sol
+A	54.6575	-6.2158	EGAA	Belfast International Airport
+F	109900	Ils 25
+F	110900	Ils 17
+F	118300	Tour
+F	120900	Radar
+F	121750	Sol
+F	128200	ATIS
+F	128500	Approche
+A	54.3983	-7.6512	EGAB	Enniskillen/St Angelo Airport
+F	123205	Air-sol
+A	54.6181	-5.8725	EGAC	George Best Belfast City Airpo
+F	122825	Tour
+F	130850	Approche
+F	136625	ATIS
+A	54.5811	-5.6919	EGAD	Newtownards Airport
+F	128305	Air-sol
+A	55.0428	-7.1611	EGAE	City of Derry Airport
+F	119380	ATIS
+F	123625	Approche
+F	134155	Tour
+A	52.4539	-1.7480	EGBB	Birmingham Airport
+F	118050	Approche
+F	118300	Tour
+F	121600	Fire
+F	121800	Sol
+F	123975	Approche
+F	136020	ATIS
+A	52.8597	-1.6175	EGBD	Derby Airfield
+F	118350	Air-sol
+A	52.2307	-0.4638	EGBF	Bedford Aerodrome
+F	119025	Air-sol
+F	129800	Air-sol
+A	52.6066	-1.0302	EGBG	Leicester Airport
+F	122125	Air-sol
+A	51.8942	-2.1672	EGBJ	Gloucestershire Airport
+F	120975	Radar
+F	121600	FIRE
+F	122900	Tour
+F	127475	ATIS
+F	128550	Approche
+A	52.3053	-0.7931	EGBK	Sywell Aerodrome
+F	122700	AFIS
+F	122700	Air-sol
+A	52.8143	-1.7679	EGBM	Tatenhill Airfield
+F	124075	Air-sol
+A	52.9200	-1.0792	EGBN	Nottingham City Airport
+F	134875	Air-sol
+A	52.5175	-2.2594	EGBO	Wolverhampton Halfpenny Green 
+F	123000	Approche
+F	123000	Tour
+F	124875	ATIS
+A	51.6685	-2.0566	EGBP	Cotswold Airport
+F	118430	Cotswolds In
+F	118900	AFIS
+F	131610	Starrspeed T
+F	131940	Zero Avia Op
+A	52.2417	-2.8811	EGBS	Shobdon Airfield
+F	118155	AFIS
+F	118155	Radio
+A	52.0408	-1.0956	EGBT	Turweston Aerodrome
+F	122175	Turweston Ra
+F	122180	Air-sol
+A	52.0702	-1.0127	EGBV	Silverstone Heliport
+F	121075	Air-sol
+A	52.1894	-1.6141	EGBW	Wellesbourne Mountford Airfiel
+F	124030	AFIS
+A	53.4717	-2.3897	EGCB	Manchester Barton Aerodrome
+F	120250	AFIS
+A	53.3494	-2.2795	EGCC	Manchester Airport
+F	118625	Tour
+F	119400	Tour
+F	121700	Clairance
+F	121850	Sol
+F	128175	ATIS
+F	135000	Approche
+A	53.5594	-0.8590	EGCF	Sandtoft Airfield
+F	130425	Air-sol
+A	53.7885	-1.2169	EGCJ	Sherburn-in-Elmet Airfield
+F	126500	Sherburn in 
+F	126600	Air-sol
+A	53.1018	-4.3376	EGCK	Caernarfon Airport
+F	122225	Air-sol
+A	52.7392	-0.0297	EGCL	Fenland Airfield
+F	122930	Air-sol
+A	53.3812	-0.6848	EGCS	Sturgate Airfield
+F	130300	Air-sol
+A	52.9324	-2.6474	EGCT	Tilstock Airfield
+F	122075	Air-sol
+A	52.8348	-2.7703	EGCV	Sleap Airfield
+F	122450	Air-sol
+A	52.6286	-3.1533	EGCW	Welshpool Airport
+F	128000	Air-sol
+A	51.0872	-4.1503	EGDC	Royal Marines Base Chivenor
+F	130200	Air-sol
+A	51.2866	-1.7822	EGDJ	Upavon Aerodrome
+F	122750	Opérations
+F	129975	gliders
+A	51.1522	-1.7474	EGDM	MoD Boscombe Down
+F	126700	ZONE
+F	130000	Approche
+F	130000	DIR
+F	130750	Sol
+F	130750	Tour
+A	51.2472	-1.7543	EGDN	Netheravon Airfield
+F	128300	AFIS
+F	128300	Air-sol
+A	50.0012	-5.2308	EGDO	Predannack Airfield
+F	122100	Tour
+F	134050	Approche
+A	50.0861	-5.2557	EGDR	RNAS Culdrose
+F	122100	Sol
+F	122100	Tour
+F	134050	Approche
+A	51.4052	-3.4333	EGSY	MOD St Athan
+F	118125	Tour
+F	126625	Approche
+F	132475	Divers
+A	51.0094	-2.6388	EGDY	RNAS Yeovilton
+F	122100	Tour
+F	127350	Approche
+A	55.4372	-5.6864	EGEC	Campbeltown Airport
+F	125905	AFIS
+A	59.5347	-1.6285	EGEF	Fair Isle Airport
+F	118025	Air-sol
+A	56.6019	-6.6178	EGEL	Coll Airport
+F	125000	Air-sol
+A	59.3675	-2.4344	EGEN	North Ronaldsay Airport
+F	118300	North Ronald
+A	56.4635	-5.3997	EGEO	Oban Airport
+F	118055	AFIS
+A	60.1922	-1.2436	EGET	Lerwick / Tingwall Airport
+F	122600	Air-sol
+A	59.3505	-2.9501	EGEW	Westray Airport
+F	118300	Westray RAD/
+A	56.0575	-6.2431	EGEY	Colonsay Airstrip
+F	123800	Air-sol
+A	52.1153	-4.5569	EGFA	Aberporth Airport
+F	122150	AFIS
+A	51.4675	-3.1375	EGFC	Cardiff Heliport
+F	120650	Air-sol
+A	52.8117	-4.1236	EGFD	Llanbedr Airfield
+F	118930	Tour
+A	51.8331	-4.9611	EGFE	Haverfordwest Airport
+F	122200	Air-sol
+A	51.3967	-3.3433	EGFF	Cardiff International Airport
+F	119155	Approche
+F	121600	Cardiff Fire
+F	125855	Approche
+F	132480	ATIS
+F	133105	Tour
+F	133600	Cardiff Rada
+A	51.6014	-4.0710	EGFH	Swansea Airport
+F	119700	Air-sol
+A	51.7139	-4.3122	EGFP	Pembrey West Wales Airport
+F	124400	Air-sol
+F	124400	Pembrey RAD/
+F	124400	Tour
+A	51.3823	-2.7165	EGGD	Bristol Airport
+F	121925	Sol
+F	126025	ATIS
+F	133850	Tour
+F	136075	Radar
+A	53.3349	-2.8496	EGGP	Liverpool John Lennon Airport
+F	119850	Approche
+F	121950	Sol
+F	124330	ATIS
+F	126350	Tour
+A	51.8747	-0.3683	EGGW	London Luton Airport
+F	120575	ATIS
+F	121750	Sol
+F	129550	Approche
+F	132550	Tour
+A	50.9672	-2.1536	EGHA	Compton Abbas Aerodrome
+F	122700	Air-sol
+A	50.1028	-5.6706	EGHC	Land's End Airport
+F	130700	Air-sol
+F	130700	Lands End St
+F	130700	Tour
+A	49.9134	-6.2919	EGHE	St. Mary's Airport
+F	123150	Scilly Isles
+F	123150	Tour
+A	50.8142	-1.2033	EGHF	Solent Airport
+F	118930	Lee Informat
+A	50.9400	-2.6586	EGHG	Yeovil/Westland Aerodrome
+F	125400	Air-sol
+F	125400	Tour
+F	130800	Yeovil Westl
+A	50.7805	-1.8396	EGHH	Bournemouth Airport
+F	119475	Approche
+F	121700	Sol
+F	121950	ATIS
+F	125600	Tour
+A	50.9503	-1.3568	EGHI	Southampton Airport
+F	118205	Tour
+F	120230	Approche
+F	122730	Approche
+F	130650	Opérations
+F	130880	ATIS
+A	50.6781	-1.1094	EGHJ	Bembridge Airport
+F	123250	Air-sol
+A	51.1874	-1.0317	EGHL	Lasham Airfield
+F	125250	Approche
+F	129900	Divers
+A	50.6531	-1.1822	EGHN	Isle of Wight/Sandown Airport
+F	123500	Air-sol
+A	51.2106	-1.6000	EGHO	Thruxton Aerodrome
+F	130450	Air-sol
+A	51.1947	-1.2331	EGHP	Popham Airfield
+F	129805	Air-sol
+A	50.4406	-4.9954	EGHQ	Cornwall Airport Newquay
+F	121950	Sol
+F	125550	DIRECTOR
+F	127400	ATIS
+F	127925	ZONE ?
+F	131800	Opérations
+F	133400	Approche
+F	134375	Tour
+A	50.8598	-0.7601	EGHR	Goodwood Aerodrome
+F	122455	AFIS
+A	50.9850	-2.3572	EGHS	Henstridge Airfield
+F	130250	Air-sol
+A	49.9456	-6.3314	EGHT	Tresco Heliport
+F	130250	Air-sol
+A	50.9287	-3.9884	EGHU	Eaglescott Airfield
+F	123000	Air-sol
+A	50.2784	-5.1423	EGHY	Truro Aerodrome
+F	129800	Air-sol
+A	49.7061	-2.2147	EGJA	Alderney Airport
+F	125350	Tour
+F	128650	Approche
+F	130500	Sol
+A	49.4350	-2.6020	EGJB	Guernsey Airport
+F	109400	ATIS
+F	119950	Tour
+F	121800	Sol
+F	128650	Approche
+A	49.2079	-2.1955	EGJJ	Jersey Airport
+F	118555	APP/DEP
+F	119455	Tour
+F	120305	APP/DEP
+F	120450	Tour
+F	121905	Sol
+F	125205	TWR/APP/DEP
+F	134680	ATIS
+A	50.8356	-0.2972	EGKA	Brighton City Airport
+F	123155	Air-sol
+F	123155	Approche
+F	125405	Tour
+F	130975	ATIS
+A	51.3308	0.0325	EGKB	London Biggin Hill Airport
+F	121630	Sol
+F	129405	Approche
+F	132700	Radar
+F	134805	Tour
+F	135680	ATIS
+A	51.1569	0.6417	EGKH	Headcorn Aerodrome
+F	122000	Air-sol
+A	51.1487	-0.1857	EGKK	London Gatwick Airport
+F	118950	Director
+F	121805	Sol
+F	121955	Clairance
+F	124230	Tour
+F	126825	Approche
+F	136525	ATIS
+A	50.8811	0.1543	EGKL	Deanland Lewes Airfield
+F	129730	Air-sol
+A	51.2136	-0.1386	EGKR	Redhill Aerodrome
+F	119605	Tour
+F	125305	ATIS
+A	50.4997	-4.6658	EGLA	Bodmin Airfield
+F	122700	Air-sol
+A	51.5053	0.0553	EGLC	London City Airport
+F	118075	Tour
+F	121825	Sol
+F	132700	Approche
+F	136350	ATIS
+A	51.5883	-0.5131	EGLD	Denham Aerodrome
+F	130730	AFIS
+F	130730	Air-sol
+A	51.2758	-0.7763	EGLF	Farnborough Airport
+F	121600	Divers
+F	122500	Tour
+F	123225	Farnborough 
+F	125250	Farnborough 
+F	128400	ATIS
+F	130050	DIRECTOR
+F	130375	Opérations
+F	132800	Farnborough 
+F	134350	Approche
+A	51.6761	-1.0808	EGLJ	Chalgrove Airfield
+F	125400	Radio
+A	51.3239	-0.8475	EGLK	Blackbushe Airport
+F	122300	AFIS INFO
+A	51.4707	-0.4599	EGLL	London Heathrow Airport
+F	113750	ATIS
+F	115100	ATIS
+F	118500	Tour
+F	118700	Tour
+F	119725	Heathrow Dir
+F	120400	Heathrow Dir
+F	121700	Sol
+F	121850	Sol
+F	121900	Sol
+F	121935	ATIS
+F	121975	Clairance
+F	124475	Tour
+F	127525	Heathrow Dir
+F	128075	ATIS
+F	134975	Heathrow Dir
+A	51.5008	-0.7744	EGLM	White Waltham Airfield
+F	122600	AFIS
+F	122600	Air-sol
+A	51.3835	-1.1721	EGLP	Brimpton Airfield
+F	135125	Brimpton Radio
+A	51.0989	-1.7842	EGLS	Old Sarum Airfield
+F	123205	Air-sol
+A	51.4699	-0.1795	EGLW	London Heliport
+F	122900	London Helip
+F	122900	Tour
+A	52.0775	0.0617	EGMA	Fowlmere Airfield
+F	120925	Air-sol
+F	135700	Air-sol
+A	51.5706	0.6936	EGMC	London Southend Airport
+F	121800	ATIS
+F	127725	Tour
+F	130775	Approche
+F	130775	Radar
+A	50.9562	0.9391	EGMD	Lydd London Ashford Airport
+F	120700	Approche
+F	128525	Tour
+F	129225	ATIS
+A	52.1660	-0.1492	EGMJ	Little Gransden Airfield
+F	130850	Air-sol
+A	54.9375	-2.8092	EGNC	Carlisle Lake District Airport
+F	118425	ATIS
+F	123600	Air-sol
+F	123600	Approche
+F	123600	Tour
+A	53.2806	-0.9514	EGNE	Retford Gamston Airport
+F	130475	Air-sol
+A	53.3172	-1.1956	EGNF	Netherthorpe Airfield
+F	123275	Air-sol
+A	54.2112	-1.2924	EGNG	Bagby Thirsk Airfield
+F	123250	Air-sol
+A	53.7717	-3.0286	EGNH	Blackpool Airport
+F	118400	Tour
+F	119950	Approche
+F	121750	ATIS
+A	53.1716	0.3294	EGNI	Skegness (Ingoldmells) Aerodro
+F	132425	Air-sol
+A	53.5762	-0.3495	EGNJ	Humberside Airport
+F	119130	Approche
+F	124130	ATIS
+F	124905	Tour
+F	129255	App/Rad
+A	54.1286	-3.2675	EGNL	Barrow Walney Island Airport
+F	123200	AFIS
+A	53.8659	-1.6606	EGNM	Leeds Bradford Airport
+F	110900	Ils Rw 32/14
+F	118025	ATIS
+F	120305	Tour
+F	121805	Clairance
+F	123380	Approche
+F	134580	Approche
+A	53.7451	-2.8831	EGNO	Warton Aerodrome
+F	121725	ATIS
+F	129525	Approche
+F	129525	Radar
+F	130800	Tour
+A	53.1781	-2.9778	EGNR	Hawarden Airport
+F	120055	Approche
+F	124955	Tour
+F	125430	ATIS
+F	130015	App/Rad
+A	54.0831	-4.6239	EGNS	Isle of Man Airport
+F	119005	Tour
+F	120850	Ronaldsway R
+F	123875	ATIS
+F	125300	Ronaldsway R
+F	135905	Approche
+F	135905	Ronaldsway R
+A	55.0380	-1.6896	EGNT	Newcastle International Airpor
+F	111500	Runway 07/25
+F	118375	ATIS
+F	119700	Tour
+F	121725	Sol
+F	124375	Approche
+A	53.9806	-0.8647	EGNU	Full Sutton Airfield
+F	132325	Air-sol
+A	54.5092	-1.4294	EGNV	Teesside International Airport
+F	118850	Durham Radar
+F	119800	Tour
+F	132375	ATIS
+A	53.3167	-0.3497	EGNW	Wickenby Aerodrome
+F	122450	Air-sol
+A	52.8311	-1.3281	EGNX	East Midlands Airport
+F	121600	Fire Service
+F	121900	Sol
+F	122675	ATIS
+F	124000	Tour
+F	134175	Approche
+A	53.8984	-0.3614	EGNY	Beverley/Linley Hill Airfield
+F	123050	Air-sol
+A	52.8728	-2.5327	EGOE	Tern Hill Airfield
+F	122100	Tour
+A	53.2586	-4.3735	EGOQ	RAF Mona
+F	118950	Radio
+F	119750	Tour
+F	122225	Approche
+F	125225	Radar
+A	52.7982	-2.6680	EGOS	RAF Shawbury
+F	120775	Divers
+F	122100	Tour
+F	123300	DIRECTOR
+F	133155	APP
+A	53.2481	-4.5353	EGOV	Anglesey Airport
+F	120725	ATIS
+F	122100	Sol
+F	122100	Tour
+F	125225	Radar
+F	134350	Approche
+A	53.5816	-3.0555	EGOW	RAF Woodvale
+F	119750	Tour
+F	121000	Air-sol
+F	121000	Approche
+A	58.9579	-2.9051	EGPA	Kirkwall Airport
+F	118305	Approche
+F	118305	Tour
+A	59.8789	-1.2956	EGPB	Sumburgh Airport
+F	118250	Tour
+F	125850	ATIS
+F	131300	Approche
+A	58.4589	-3.0931	EGPC	Wick John O'Groats Airport
+F	113600	ATIS
+F	119705	AFIS
+F	119705	Approche
+F	119705	Tour
+A	57.2019	-2.1978	EGPD	Aberdeen International Airport
+F	118100	Tour
+F	119055	Approche
+F	121705	Sol
+F	121855	ATIS
+F	128305	Aberdeen Dir
+F	134100	Radar
+F	135175	Info
+A	57.5425	-4.0475	EGPE	Inverness Airport
+F	109200	ATIS
+F	118405	Tour
+F	122605	Approche
+F	122605	Radar
+F	122605	Tour
+A	55.8719	-4.4331	EGPF	Glasgow Airport
+F	118805	Tour
+F	119105	Approche
+F	120350	Centre
+F	121705	Sol
+F	129580	ATIS
+A	55.9747	-3.9756	EGPG	Cumbernauld Airport
+F	120600	AFIS
+A	55.9501	-3.3723	EGPH	Edinburgh Airport
+F	118700	Tour
+F	121200	Approche
+F	121750	Sol
+F	131350	ATIS
+A	55.6827	-6.2575	EGPI	Islay Airport
+F	123155	AFIS
+A	56.1833	-3.2203	EGPJ	Fife Airport
+F	130455	Air-sol
+A	55.5015	-4.5772	EGPK	Glasgow Prestwick Airport
+F	118150	Tour
+F	120550	Approche
+F	121125	ATIS
+F	129450	Prestwick Ra
+A	57.4811	-7.3628	EGPL	Benbecula Airport
+F	113950	ATIS
+F	119205	Approche
+F	119205	Tour
+A	56.4525	-3.0258	EGPN	Dundee Airport
+F	119330	ATIS
+F	122905	Approche
+F	122905	Tour
+A	58.2156	-6.3311	EGPO	Stornoway Airport
+F	115100	ATIS
+F	119480	AFIS
+F	119480	Approche
+F	119480	Tour
+A	57.0228	-7.4431	EGPR	Barra Airport
+F	118075	AFIS
+A	57.5168	-1.8646	EGPS	Longside Airfield
+F	118280	Air-sol
+F	130575	Info
+A	56.4392	-3.3722	EGPT	Perth/Scone Airport
+F	121080	Air-sol
+A	56.4992	-6.8692	EGPU	Tiree Airport
+F	122705	Info
+A	60.7472	-0.8538	EGPW	Unst Airfield
+F	130350	AFIS
+F	130350	Air-sol
+A	56.3740	-2.8689	EGQL	Leuchars Station Airfield
+F	122100	Sol
+F	122100	Tour
+F	123300	Approche
+F	126500	Départ
+A	57.7052	-3.3392	EGQS	RAF Lossiemouth
+F	118200	Sol
+F	118200	Tour
+F	118900	Radar
+F	119350	Départ
+F	123300	Approche
+F	123300	DIRECTOR
+A	52.2050	0.1750	EGSC	Cambridge City Airport
+F	122200	Tour
+F	123600	Approche
+F	124975	Radar
+F	134600	ATIS
+A	52.6356	1.7230	EGSD	Great Yarmouth - North Denes H
+F	123400	Air-sol
+F	123400	Gt.Yarmouth 
+F	123400	Tour
+A	52.4681	-0.2511	EGSF	Peterborough Business Airport
+F	129725	Air-sol
+A	51.6525	0.1558	EGSG	Stapleford Aerodrome
+F	122800	Air-sol
+A	52.6758	1.2828	EGSH	Norwich Airport
+F	119355	Approche
+F	119355	Radar
+F	124255	Tour
+F	128330	Norwich Dire
+F	128630	ATIS
+F	131855	Norwich Hand
+A	52.5110	1.4169	EGSJ	Seething Airfield
+F	118435	Air-sol
+A	51.8950	0.4492	EGSL	Andrewsfield Aerodrome
+F	130555	AFIS
+F	130555	Air-sol
+A	52.4353	1.6183	EGSM	Beccles Airfield
+F	120375	Air-sol
+A	52.1730	1.1106	EGSO	Crowfield Airfield
+F	122775	Air-sol
+F	125800	Approche
+A	52.5571	-0.3870	EGSP	Peterborough/Sibson Airfield
+F	120325	Air-sol
+F	122300	Air-sol
+A	51.7850	1.1300	EGSQ	Clacton Airfield
+F	118150	Air-sol
+A	51.9144	0.6825	EGSR	Earls Colne Airfield
+F	122425	Air-sol
+A	51.8850	0.2350	EGSS	London Stansted Airport
+F	120625	Approche
+F	121725	Sol
+F	121950	Clairance
+F	123800	Tour
+F	127175	ATIS
+F	136200	DIRECTOR
+F	136200	Radar
+A	52.0755	0.9777	EGST	Elmsett Airfield
+F	130900	Air-sol
+A	52.0908	0.1319	EGSU	Duxford Aerodrome
+F	121605	Duxford Fire
+F	122075	Duxford Info
+F	122080	A/G / Duxfor
+A	52.4975	1.0519	EGSV	Old Buckenham Airfield
+F	124405	Air-sol
+A	51.7217	0.1542	EGSX	North Weald Airfield
+F	123525	Air-sol
+A	51.6118	-0.8083	EGTB	Wycombe Air Park
+F	121770	Sol
+F	126550	Tour
+A	52.0722	-0.6167	EGTC	Cranfield Airport
+F	121875	ATIS
+F	122850	Approche
+F	122850	Tour
+F	134925	Tour
+A	51.1172	-0.5358	EGTD	Dunsfold Aerodrome
+F	119100	Auto-info
+A	50.7343	-3.4140	EGTE	Exeter International Airport
+F	119325	ATIS
+F	119800	Tour
+F	123570	EXETER Radar
+F	128975	Approche
+A	51.3481	-0.5589	EGTF	Fairoaks Airport
+F	123430	AFIS
+F	123430	Air-sol
+A	52.0846	-0.3201	EGTH	Old Warden Airfield
+F	130705	Air to Groun
+A	51.8369	-1.3200	EGTK	London Oxford Airport
+F	121950	Sol
+F	124270	Brize Radar 
+F	125325	Approche
+F	127750	Approche
+F	133425	Tour
+F	136225	ATIS
+A	51.3519	0.5033	EGTO	Rochester Airport
+F	122255	AFIS
+A	50.3306	-5.1793	EGTP	Perranporth Airfield
+F	119750	Air-sol
+A	51.6558	-0.3258	EGTR	Elstree Airfield
+F	122400	AFIS
+F	122400	Air-sol
+A	50.8610	-3.2339	EGTU	Dunkeswell Airfield
+F	123480	Air-sol
+A	51.6322	-2.0147	EGTW	Oaksey Park Airfield
+F	132230	Air-sol
+A	51.6144	-1.0960	EGUB	RAF Benson
+F	120900	Zone / Cac
+F	121800	Grn
+F	127150	Tour
+F	136450	App Vhf
+A	51.6906	-1.3166	EGUD	RAF Abingdon
+F	121100	Tower
+A	52.4095	0.5612	EGUL	RAF Lakenheath
+F	122100	Tour
+F	128900	Radar
+F	136500	Approche
+A	52.3619	0.4864	EGUN	RAF Mildenhall
+F	121675	Sol
+F	122550	Tour
+F	131975	Opérations
+F	131975	PTD
+F	136500	Approche
+A	52.1275	0.9562	EGUW	Wattisham Airfield
+F	122100	Tour
+F	123300	Approche
+F	123300	DIRECTOR
+F	125800	Air-sol
+A	51.6836	-1.7892	EGVA	RAF Fairford
+F	119000	Approche
+F	119150	Tour
+F	124275	CAC
+F	133750	BRIZE DIRECT
+A	51.7500	-1.5836	EGVN	RAF Brize Norton
+F	119000	Brize CTR. Z
+F	121725	Sol
+F	123550	Stby
+F	123725	Primary
+F	124275	Lower Airspa
+F	124275	Non-Zone Rad
+F	126500	ATIS
+F	127250	Approche
+F	127250	Départ
+F	133750	Radar
+F	135750	Opérations
+A	51.2341	-0.9428	EGVO	RAF Odiham
+F	122100	Info
+F	122100	Tour
+F	123300	Radar
+F	125250	Divers
+F	131300	Approche
+A	51.1439	-1.5689	EGVP	Middle Wallop Airfield
+F	118275	Middle Wallo
+F	118275	Tour
+F	118600	Tour
+A	52.6405	-2.3053	EGWC	RAF Cosford
+F	128650	Sol
+F	128650	Tour
+F	135875	Approche
+A	52.0182	-0.3039	EGWE	RAF Henlow
+F	121100	Air-sol
+A	51.7907	-0.7380	EGWN	RAF Halton
+F	123350	Airshows / E
+F	130425	Halton A/G (
+F	130430	Air-sol
+A	51.5530	-0.4182	EGWU	RAF Northolt
+F	120325	Départ
+F	120675	Tour
+F	121575	Grn
+F	125125	ATIS
+F	125875	Radar
+F	126450	Approche
+F	129125	Départ
+F	130350	Dir
+F	132650	Opérations
+A	53.0930	-0.1660	EGXC	RAF Coningsby
+F	120800	Approche
+F	122100	Sol
+F	124675	Tour
+A	54.2972	-1.5389	EGXE	RAF Leeming
+F	120500	Tour
+F	123300	Approche
+F	127750	Approche
+F	127750	Divers
+A	53.8347	-1.1947	EGCM	Leeds East Airport
+F	126500	Info
+A	52.3426	0.7729	EGXH	RAF Honington
+F	122100	Tour
+F	123300	Approche
+F	128900	Radar
+A	52.6126	-0.4765	EGXT	RAF Wittering
+F	125525	Grn
+F	125525	Tour
+F	130200	Approche
+A	53.1662	-0.5238	EGXW	RAF Waddington
+F	123300	Départ
+F	127350	Divers
+A	53.0228	-0.9111	EGXY	RAF Syerston
+F	125425	Air-sol
+A	54.2041	-1.3803	EGXZ	RAF Topcliffe
+F	122100	Tour
+F	125000	Approche
+A	53.0273	-0.4931	EGYD	RAF Cranwell
+F	119375	Approche
+F	119375	Départ
+F	125050	Tour
+F	135675	ATIS
+A	52.9606	-0.5594	EGYE	RAF Barkston Heath
+F	119375	Départ
+F	120425	Tour
+F	124200	ATIS
+A	52.6484	0.5507	EGYM	RAF Marham
+F	122100	Tour
+F	124150	Approche
+F	124150	DIRECTOR
+A	53.4509	5.6824	EHAD	Ameland Heliport
+F	118355	Radio
+A	53.4536	5.6784	EHAL	Ameland Airport Ballum
+F	118355	Radio
+F	132350	Info vol
+A	52.3086	4.7639	EHAM	Amsterdam Airport Schiphol
+F	118105	Tour
+F	118280	Tour
+F	118405	Arrivée
+F	118805	Amsterdam Ra
+F	119055	Approche
+F	119055	Départ
+F	119230	Tour
+F	120555	Amsterdam Ra
+F	121205	Approche
+F	121205	Départ
+F	121560	Sol
+F	121590	Sol
+F	121655	Clairance
+F	121705	Sol
+F	121805	Sol
+F	121905	Sol
+F	121980	Clairance
+F	122200	ATIS
+F	124300	Info vol
+F	126680	Arrivée
+F	127870	Amsterdam Ra
+F	132980	ATIS
+F	135110	Tour
+A	51.2553	5.6014	EHBD	Kempen Airport Budel
+F	122155	AFIS
+F	132350	Info vol
+A	50.9111	5.7694	EHBK	Maastricht Aachen Airport
+F	119480	Tour
+F	120205	Approche
+F	121830	Sol
+F	124580	ATIS
+F	132350	Info vol
+A	52.0606	5.8731	EHDL	Deelen Air Base
+F	118705	Tour
+F	120305	Approche
+F	121705	Clairance
+F	133555	ATIS
+A	53.1179	6.1273	EHDR	Drachten Airfield
+F	119655	Info
+F	132350	Info vol
+A	51.4501	5.3745	EHEH	Eindhoven Airport
+F	121930	Sol
+F	123180	Approche
+F	124530	Arrivée
+F	125930	Dutch Milita
+F	126030	ATIS
+F	131005	Tour
+F	132350	Info vol
+A	53.1191	6.5777	EHGG	Groningen Airport Eelde
+F	118705	Tour
+F	120305	Approche
+F	121705	Eelde GND/CL
+F	133555	ATIS
+A	51.5674	4.9318	EHGR	Gilze Rijen Air Base
+F	121680	Sol
+F	123580	Approche
+F	123580	Arrivée
+F	125330	Tour
+F	125930	Dutch Milita
+F	132350	Info vol
+A	53.4608	6.8143	EHHE	Eemshaven Heliport
+F	121715	Radio
+A	52.7308	6.5161	EHHO	Hoogeveen Airfield
+F	127355	Info
+F	132350	Info vol
+A	52.1919	5.1469	EHHV	Hilversum Airfield
+F	124300	Info vol
+F	131030	Info
+F	132350	Info vol
+A	52.9234	4.7806	EHKD	De Kooy Airfield / Den Helder 
+F	120130	Tour
+F	121730	Sol
+F	124230	Approche
+F	132350	Info vol
+F	133010	ATIS
+A	52.4532	5.5146	EHLE	Lelystad Airport
+F	119055	Schiphol App
+F	120730	ATIS
+F	121205	Schiphol App
+F	123680	Sol
+F	131155	Arrivée
+F	132350	Info vol
+F	134530	Arrivée
+F	135180	Tour
+A	53.2286	5.7606	EHLW	Leeuwarden Air Base
+F	120705	Tour
+F	128355	Dutch Milita
+F	132030	Approche
+F	132030	Arrivée
+A	51.5122	3.7311	EHMZ	Midden-Zeeland Airfield
+F	119255	Info
+F	124300	Info vol
+F	132350	Info vol
+A	53.2088	7.0331	EHOW	Oostwold Airfield
+F	118330	Radio
+F	118705	Tour
+F	120305	Approche
+A	51.9569	4.4372	EHRD	Rotterdam The Hague Airport
+F	118205	Tour
+F	118405	Arrivée
+F	121205	Départ
+F	122180	Rotterdam Cl
+F	122990	Approche
+F	124300	Info vol
+F	128565	ATIS
+A	51.5549	4.5530	EHSE	Breda International Airport
+F	120655	Info
+F	132350	Info vol
+A	52.9986	7.0228	EHST	Stadskanaal Airfield
+F	120305	Info vol
+F	128960	Air-sol
+A	52.2428	6.0500	EHTE	Teuge Airport
+F	121005	Info
+F	132350	Info vol
+A	52.0572	5.9244	EHTL	Terlet Glidersite
+F	123380	Info
+F	129930	Tour
+F	130130	Info
+F	132350	Info vol
+A	52.2758	6.8892	EHTW	Twente Airport
+F	119955	Radio
+F	132355	Info
+A	53.1150	4.8306	EHTX	Texel International Airport
+F	119305	Info
+F	132350	Info vol
+A	51.6572	5.7078	EHVK	Volkel Air Base
+F	122100	Approche
+F	122100	Arrivée
+F	122100	Tour
+F	123180	Approche
+F	125930	Dutch Milita
+F	132350	Info vol
+A	51.4491	4.3420	EHWO	Woensdrecht Air Base
+F	120430	Tour
+F	121680	Sol
+F	123580	Approche
+F	123580	Arrivée
+F	132350	Info vol
+A	53.5914	-7.6429	EIAB	Abbeyshrule Aerodrome
+F	122600	Radio
+A	53.1615	-7.2674	EIBF	Benfield Aerodrome
+F	124405	Info
+A	51.6772	-9.4871	EIBN	Bantry Aerodrome
+F	122400	Radio
+A	53.0706	-7.8975	EIBR	Birr Aerodrome
+F	122950	Radio
+A	54.2228	-10.0308	EIBT	Belmullet Aerodrome
+F	123600	Radio
+A	53.2303	-9.4678	EICA	Connemara Regional Airport
+F	123000	Radio
+A	51.8413	-8.4911	EICK	Cork International Airport
+F	119300	Tour
+F	119900	Approche
+F	120925	ATIS
+F	121850	Sol
+A	53.2497	-7.1227	EICL	Clonbullogue Aerodrome
+F	128555	Radio
+A	55.0442	-8.3410	EIDL	Donegal Airport
+F	129800	Sol
+F	129800	Tour
+F	129925	ATIS
+A	53.4287	-6.2621	EIDW	Dublin Airport
+F	118500	Info
+F	118600	Tour
+F	121100	Approche
+F	121800	Sol
+F	121875	Clairance
+F	124525	ATIS
+A	52.8125	-8.2822	EIER	Erinagh Airfield
+F	118175	Radio
+A	52.8922	-7.2628	EIIH	Midland Heliport
+F	131900	Radio
+A	53.1067	-9.6536	EIIM	Inishmore Aerodrome
+F	123000	Radio
+A	53.0647	-9.5109	EIIR	Inisheer Aerodrome
+F	123000	Radio
+A	53.0636	-6.8553	EIKH	Kildare Aerodrome
+F	123425	Radio
+A	52.6508	-7.2961	EIKK	Kilkenny Airport
+F	122900	Radio
+F	130400	Radio
+A	53.9104	-8.8170	EIKN	Ireland West Airport Knock
+F	121900	Sol
+F	130700	Tour
+A	52.1809	-9.5238	EIKY	Kerry Airport
+F	121600	Sol
+F	123325	Tour
+A	54.9513	-7.6728	EILT	Letterkenny Airfield
+F	129550	Air-sol
+A	53.3017	-6.4513	EIME	Casement Air Base
+F	122000	Approche
+F	122800	ATIS
+F	123100	Sol
+F	123500	Tour
+A	53.6378	-6.8786	EIMH	Athboy Airfield
+F	118550	Radio
+A	53.0711	-6.0453	EINC	Newcastle Aerodrome
+F	122550	Auto-info
+A	52.7020	-8.9248	EINN	Shannon Airport
+F	118700	Tour
+F	120200	Approche
+F	121800	Sol
+F	130950	ATIS
+A	54.2802	-8.5992	EISG	Sligo Airport
+F	122100	AFIS
+F	122100	Sol
+F	122100	Tour
+A	53.5747	-6.7386	EITM	Trim Aerodrome
+F	123300	Radio
+A	52.1872	-7.0870	EIWF	Waterford Airport
+F	121150	ATIS
+F	121600	Sol
+F	129850	Info
+F	129850	Tour
+A	53.3516	-6.4904	EIWT	Weston Airport
+F	118880	ATIS
+F	119430	Weston groun
+F	122405	Weston tower
+A	56.3033	10.6183	EKAH	Aarhus Airport
+F	118525	Tour
+F	119275	Approche
+F	130225	Divers
+A	55.7403	9.1570	EKBI	Billund Airport
+F	118775	ATIS
+F	119000	Tour
+F	122075	Divers
+F	127575	Approche
+F	130850	Divers
+F	131500	Opérations
+A	55.6179	12.6560	EKCH	Copenhagen Kastrup Airport
+F	118100	Tour
+F	118450	Approche
+F	118575	Tour
+F	118700	Tour
+F	119350	Tour
+F	119800	Approche
+F	119900	Clairance
+F	120200	Approche
+F	120250	Départ
+F	121625	Sol
+F	121725	Sol
+F	121825	Tour
+F	121900	Sol
+F	122750	ATIS
+F	122850	ATIS
+F	124975	Départ
+A	55.5259	8.5534	EKEB	Esbjerg Airport
+F	120150	AFIS
+F	130575	Divers
+A	55.7568	10.2487	EKEL	Endelave Airfield
+F	129800	Radio
+A	55.9414	12.3822	EKGH	Grønholt Hillerød Airfield
+F	122500	Radio
+A	56.4425	10.9306	EKGR	Grenaa Airfield
+F	123500	Radio
+A	56.1847	9.0444	EKHG	Herning Airfield
+F	121000	Radio
+A	55.9082	9.4464	EKHM	Hammer Glider Field
+F	122475	Info
+A	55.3018	9.5245	EKHV	Haderslev Airfield
+F	122225	Radio
+A	56.2971	9.1043	EKKA	Midtjyllands Airport / Air Bas
+F	119575	Tour
+F	120425	Approche
+F	123400	Divers
+A	57.2772	11.0001	EKLS	Læsø Airport
+F	123500	Radio
+F	124975	AFIS
+A	54.6994	11.4382	EKMB	Lolland Falster Maribo Airport
+F	127080	Info
+F	130580	Radio
+A	55.4753	10.3272	EKOD	Odense Hans Christian Andersen
+F	119525	AFIS
+A	54.8703	9.2790	EKPB	Kruså-Padborg Airfield
+F	122075	Radio
+F	127475	AFIS
+A	55.5856	12.1314	EKRK	Copenhagen Roskilde Airport
+F	118900	Tour
+F	119650	Tour
+F	123800	ATIS
+F	125525	Approche
+F	130225	Divers
+A	55.0633	14.7596	EKRN	Bornholm Airport
+F	118325	App/Twr
+F	131550	Divers
+A	54.9644	9.7917	EKSB	Sønderborg Airport
+F	126400	AFIS
+A	57.5035	10.2294	EKSN	Sindal Airport
+F	118750	AFIS
+F	123975	Approche
+A	55.2210	9.2670	EKSP	Skrydstrup Air Base
+F	127475	Approche
+F	128325	Tour
+A	55.8891	10.6138	EKSS	Samsø Airfield
+F	123500	Radio
+A	56.5502	9.1730	EKSV	Skive Airport
+F	120000	Radio
+F	120425	Approche
+A	57.0688	8.7052	EKTS	Thisted Airport
+F	118125	Radio
+A	55.4363	9.3309	EKVD	Kolding Vamdrup Airfield
+F	120500	AFIS
+F	127475	Approche
+A	62.0633	-7.2758	EKVG	Vágar Airport
+F	124850	AFIS
+A	56.8466	9.4606	EKVH	Vesthimmerland Airfield
+F	123500	Radio
+F	123975	Approche
+A	55.9901	8.3539	EKVJ	Stauning Vestjylland Airport
+F	121400	AFIS
+A	57.0948	9.8499	EKYT	Aalborg Airport
+F	118300	Tour
+F	120475	ATIS
+F	123975	Approche
+F	131550	Divers
+A	49.6268	6.2121	ELLX	Luxembourg-Findel Internationa
+F	118105	Homer
+F	118105	Tour
+F	120885	Approche
+F	134755	ATIS
+A	49.9811	5.9178	ELNT	Wiltz-Noertrange Airfield
+F	126955	AFIS
+A	49.7682	5.9660	ELUS	Useldange Glider Field
+F	129435	AFIS
+A	62.5604	6.1108	ENAL	Ålesund Airport
+F	119850	Tour
+F	128650	ATIS
+A	69.2952	16.1394	ENAN	Andøya Airport, Andenes
+F	118200	Tour
+F	119100	GCA
+A	69.9761	23.3717	ENAT	Alta Airport
+F	118100	Tour
+F	118175	ATIS
+A	61.3911	5.7569	ENBL	Førde Airport, Bringeland
+F	118450	AFIS
+A	60.6381	6.4998	ENBM	Bømoen Airfield
+F	123500	Info
+F	124700	STAVANGER AT
+A	65.4611	12.2175	ENBN	Brønnøysund Airport, Brønnøy
+F	119600	AFIS
+A	67.2692	14.3653	ENBO	Bodø Airport
+F	118100	Tour
+F	119700	APP/DEP
+F	123900	ATIS
+A	60.2934	5.2181	ENBR	Bergen Airport, Flesland
+F	118850	DIRECTOR
+F	119100	Tour
+F	121000	Approche
+F	121900	Sol
+F	125000	Arrivée
+F	125250	ATIS
+A	70.6003	29.6926	ENBS	Båtsfjord Airport
+F	123400	AFIS
+A	58.2042	8.0854	ENCN	Kristiansand Airport
+F	118100	Tour
+F	118300	Tour
+F	124475	ATIS
+F	135075	ATIS
+A	60.4167	8.5128	ENDI	Geilo Airport Dagali
+F	121300	AFIS
+A	60.8333	9.9167	ENDO	Dokka Thomlevold Airfield
+F	123500	Auto-info
+A	69.0558	18.5404	ENDU	Bardufoss Airport
+F	118100	Tour
+F	118800	Approche
+F	129725	ATIS
+A	60.2147	10.3187	ENEG	Hønefoss Airfield, Eggemoen
+F	122700	Auto-info
+A	68.4913	16.6781	ENEV	Harstad/Narvik Airport
+F	118000	Tour
+F	126025	ATIS
+F	126450	Centre
+A	61.0156	9.2881	ENFG	Fagernes Airport, Leirin
+F	119925	AFIS
+A	61.5836	5.0247	ENFL	Florø Airport
+F	119200	AFIS
+A	59.2028	8.0876	ENFY	Fyresdal Airfield
+F	122150	Auto-info
+A	58.5167	8.7000	ENGK	Arendal Airfield, Gullknapp
+F	123500	Auto-info
+A	60.1939	11.1004	ENGM	Oslo-Gardermoen International 
+F	118300	Tour
+F	119975	Approche
+F	121600	Clairance
+F	121925	Sol
+F	126125	ATIS
+F	131350	DIRECTOR
+F	131975	Divers
+F	134175	PMSV METRO
+A	62.1175	10.1108	ENGN	Folldal Grimsmoe Airfield
+F	123500	Auto-info
+A	60.8181	11.0680	ENHA	Hamar Lufthavn, Stavsberg
+F	130280	Info
+A	59.3453	5.2084	ENHD	Haugesund Airport, Karmøy
+F	118175	ATIS
+F	120500	Tour
+A	70.4867	22.1397	ENHK	Hasvik Airport
+F	119900	AFIS
+A	60.8764	11.6755	ENSM	Elverum Starmoen Airfield
+F	123350	Auto-info
+A	59.7599	9.9195	ENHS	Hokksund Airfield
+F	122175	Auto-info
+A	71.0097	25.9836	ENHV	Honningsvåg Airport, Valan
+F	119800	AFIS
+A	70.9441	-8.6521	ENJA	Jan Mayensfield
+F	118100	AFIS
+A	59.2992	10.3698	ENJB	Jarlsberg Airfield
+F	122300	Auto-info
+A	63.1118	7.8245	ENKB	Kristiansund Airport, Kvernber
+F	118300	Tour
+A	59.9691	11.0405	ENKJ	Lillestrøm Airfield, Kjeller
+F	119100	Auto-info
+A	69.7258	29.8913	ENKR	Kirkenes Airport, Høybuktmoen
+F	118025	ATIS
+F	118100	Tour
+A	58.0995	6.6261	ENLI	Lista Airport
+F	126450	Auto-info
+A	71.0297	27.8267	ENMH	Mehamn Airport
+F	121200	AFIS
+A	62.7447	7.2625	ENML	Molde Airport, Årø
+F	119950	AFIS
+A	65.7840	13.2149	ENMS	Mosjøen Airport, Kjærstad
+F	112250	ATIS
+F	123400	AFIS
+A	70.0688	24.9735	ENNA	Lakselv Airport, Banak
+F	118050	Tour
+F	118900	Approche
+F	136325	ATIS
+A	59.5651	9.2132	ENNO	Notodden Airport
+F	118800	AFIS
+A	63.6989	9.6040	ENOL	Ørland Airport
+F	118250	Approche
+F	118700	Tour
+F	126200	Arrivée
+A	62.6513	9.8516	ENOP	Fagerhaug Airfield
+F	122950	Info
+A	61.5454	10.0616	ENRI	Ringebu Airfield Frya
+F	123500	Auto-info
+A	59.3975	11.3469	ENRK	Rakkestad Astorp Airfield
+F	122950	Auto-info
+A	64.8383	11.1461	ENRM	Rørvik Airport, Ryum
+F	119800	UC
+F	132025	ATIS
+A	62.5784	11.3423	ENRO	Røros Airport
+F	120400	Tour
+A	60.6722	10.5675	ENRV	Reinsvoll Airfield
+F	123500	Auto-info
+A	59.3788	10.7854	ENRY	Moss Airport, Rygge
+F	119500	Tour
+F	120300	Arrivée
+F	122100	Approche
+A	78.2461	15.4656	ENSB	Svalbard Airport, Longyear
+F	118100	AFIS
+A	61.1561	7.1378	ENSG	Sogndal Airport, Haukåsen
+F	119300	AFIS
+F	121500	Info
+A	59.7070	10.8817	ENSI	Ski Airfield
+F	123500	Auto-info
+A	59.1850	9.5669	ENSN	Skien Airport
+F	119200	Auto-info
+F	134050	Approche
+A	59.7919	5.3408	ENSO	Stord Airport, Sørstokken
+F	120200	AFIS
+A	69.7868	20.9594	ENSR	Sørkjosen Airport
+F	119600	AFIS
+A	70.3554	31.0449	ENSS	Vardø Airport, Svartnes
+F	122150	AFIS
+A	65.9568	12.4689	ENST	Sandnessjøen Airport, Stokka
+F	120300	AFIS
+F	121900	Sol
+A	69.6833	18.9189	ENTC	Tromsø Airport
+F	118300	Tour
+F	123750	Approche
+F	126125	ATIS
+A	59.1867	10.2586	ENTO	Sandefjord Airport, Torp
+F	118650	Tour
+F	119075	ATIS
+F	126175	Sol
+F	134050	FARRIS TCA
+A	62.2569	10.6694	ENTY	Tynset Airfield
+F	122300	Auto-info
+A	60.1922	5.4225	ENUL	Os Vaksinen Ulven Airfield
+F	123500	Auto-info
+A	63.4578	10.9240	ENVA	Trondheim Airport, Værnes
+F	118600	Approche
+F	119400	Tour
+F	121600	Sol
+F	127550	ATIS
+A	70.0653	29.8447	ENVD	Vadsø Airport
+F	120200	Info
+A	59.0317	7.5549	ENVE	Valle Airfield Åraksøyne
+F	123500	Auto-info
+A	58.8767	5.6378	ENZV	Stavanger Airport, Sola
+F	118350	Tour
+F	118500	Arrivée
+F	119600	Approche
+F	121750	Sol
+F	126000	ATIS
+A	49.8050	19.0019	EPBA	Bielsko-Biała Aleksandrowice A
+F	122200	Radio
+A	52.2692	20.9072	EPBC	Warsaw Babice Airport
+F	119175	AFIS
+F	126555	Babice Radio
+A	53.0968	17.9777	EPBY	Ignacy Jan Paderewski Bydgoszc
+F	128500	Info
+F	131000	Tour
+A	54.4165	17.7657	EPCE	Cewice Naval Air Base
+F	128500	Info
+A	51.5510	21.8923	EPDE	Deblin Military Air Base
+F	128500	AFIS
+A	54.1408	19.4233	EPEL	Elbląg Airfield
+F	122305	Radio
+A	54.3776	18.4662	EPGD	Gdańsk Lech Wałęsa Airport
+F	118100	Tour
+F	127275	Approche
+F	129625	ATIS
+A	53.5244	18.8492	EPGI	Grudziądz Lisie Kąty Airfield
+F	119885	Radio
+A	50.2687	18.6725	EPGL	Gliwice-Trynek Airfield
+F	118260	Auto-info
+A	52.8062	18.2831	EPIN	Inowrocław Airfield
+F	120810	Auto-info
+A	50.8967	20.7317	EPKA	Kielce-Masłów Airfield
+F	118080	MASŁÓW RADIO
+A	53.9829	20.8772	EPKI	Kikity
+F	119405	Auto-info
+A	50.0777	19.7848	EPKK	Kraków John Paul II Internatio
+F	118100	Tour
+F	121075	Approche
+F	123250	Tour
+F	123800	KRAKOW DIREC
+F	126125	ATIS
+A	50.2382	19.0337	EPKM	Katowice-Muchowiec Airfield
+F	120080	Info
+F	122900	AFIS
+A	50.5306	18.0793	EPKN	Opole-Kamień Śląski Airfield
+F	120300	AFIS
+A	50.0864	20.2003	EPKP	Pobiednik Wielki Airfield
+F	122400	Pobiednik Ra
+A	49.6838	21.7410	EPKR	Krosno Airfield
+F	119555	Krosno Radio
+A	52.3317	16.9664	EPKS	Krzesiny Military Air Base
+F	121025	Tour
+F	128725	ATIS
+A	50.4760	19.0807	EPKT	Katowice Wojciech Korfanty Int
+F	121075	Approche
+F	129250	Tour
+F	131450	HANDLING
+A	51.2402	22.7135	EPLB	Lublin Airport
+F	136420	Tour
+A	51.5517	19.1791	EPLK	Łask Air Base
+F	125350	Łask zbliżan
+F	126385	ATIS
+F	128500	AFIS
+F	133075	Łask wieża
+A	51.7219	19.3981	EPLL	Łódź Władysław Reymont Airport
+F	120005	Clairance
+F	122900	Radio
+F	124230	Tour
+F	135680	ATIS
+A	51.4230	16.1962	EPLU	Lubin Airfield
+F	119535	Radio
+F	127250	POZNAŃ INFOR
+A	54.0266	19.1357	EPMB	Malbork Królewo Air Base
+F	124500	Info
+A	53.3951	16.0828	EPMI	Miroslawiec Military Air Base
+F	128500	AFIS
+A	50.3223	21.4621	EPML	Mielec Airfield
+F	119100	AFIS
+F	123350	Info
+A	52.1955	21.6559	EPMM	Minsk Mazowiecki Military Air 
+F	128500	AFIS
+A	52.4511	20.6518	EPMO	Warsaw Modlin Airport
+F	124500	Info
+A	50.9578	16.7703	EPMR	Mirosławice Private Airfield
+F	122600	Radio
+A	52.9412	15.0298	EPMY	Myślibórz-Giżyn Airfield
+F	118825	Radio
+A	54.5797	18.5172	EPOK	Oksywie Air Base / Gdynia-Kosa
+F	119850	Tour
+F	134000	Approche
+A	51.7008	17.8466	EPOM	Ostrów Wielkopolski Michałków 
+F	122200	Michałków Ra
+A	52.4346	17.0440	EPPK	Poznań-Kobylnica Airfield
+F	122900	Info
+A	52.4216	16.8234	EPPO	Poznań-Ławica Airport
+F	119980	Tour
+F	121805	Clairance
+F	123040	Approche
+F	124140	Sol
+F	124705	ATIS
+F	128925	Approche
+A	54.2480	18.6716	EPPR	Pruszcz Gdański Air Base
+F	122405	Tour
+F	126500	Tour
+A	51.3831	19.6883	EPPT	Piotrków Trybunalski-Bujny Air
+F	119305	Info
+A	52.3801	17.8532	EPPW	Powidz Military Air Base
+F	128500	Info
+A	51.3894	21.2147	EPRA	Warsaw Radom Airport
+F	128500	AFIS
+A	50.1042	22.0470	EPRJ	Rzeszów Sports Airfield
+F	126805	Tour
+A	50.8847	19.2018	EPRU	Częstochowa-Rudniki Airport
+F	122800	AFIS
+A	50.1098	22.0242	EPRZ	Rzeszów-Jasionka Airport
+F	121805	Clairance
+F	124955	ATIS
+F	126805	Tour
+A	53.5847	14.9022	EPSC	Solidarity Szczecin–Goleniów A
+F	121255	Tour
+A	53.3907	14.6328	EPSD	Szczecin-Dąbie Airfield
+F	125275	Info vol
+F	125335	AFIS
+A	53.7906	15.8263	EPSN	Swidwin Military Air Base
+F	128500	AFIS
+A	51.2319	22.6903	EPSL	Świdnik Airfield
+F	136425	Tour
+A	53.4819	20.9377	EPSY	Olsztyn-Mazury Airport
+F	118025	Tour
+A	51.5844	20.0978	EPTM	Tomaszów Mazowiecki Military A
+F	125000	Tomaszów wie
+F	130250	Tomaszów zbl
+A	53.0292	18.5459	EPTO	Toruń Airfield
+F	120660	Info
+A	52.1657	20.9671	EPWA	Warsaw Chopin Airport
+F	118305	Tour
+F	118775	Warszawa INF
+F	120455	ATIS
+F	121605	Clairance
+F	121905	Sol
+F	123430	ATIS
+F	125055	Approche
+F	127600	VOLMET
+F	128575	Warszawa INF
+F	128805	Approche
+F	129380	Approche
+F	135930	Approche
+A	51.1037	16.8821	EPWR	Copernicus Wrocław Airport
+F	120255	Tour
+F	121805	Clairance
+F	123040	Approche
+F	124330	ATIS
+F	128925	Approche
+A	50.7017	23.2044	EPZA	Zamość-Mokre Airfield
+F	122800	Tour
+A	52.1385	15.7986	EPZG	Zielona Góra-Babimost Airport
+F	118750	Tour
+A	51.9789	15.4639	EPZP	Zielona Góra-Przylep Airfield
+F	122800	AFIS
+A	36.8589	-6.1392	LETJ	Trebujena Airfield
+F	118550	Tour
+F	123325	Radio
+F	128500	Approche
+A	40.5197	0.3903	ES-0002	Vinaròs Airfield
+F	130125	Auto-info
+A	42.1045	-7.7118	ES-0010	Aeródromo de Antela
+F	129850	Auto-info
+A	43.1025	-8.7617	ES-0012	Castriz/Cambe Airfield
+F	130125	Radio
+A	42.0070	3.1519	ES-0020	Aeròdrom de Pals
+F	130125	Autoinfo
+A	37.2608	-1.8524	ES-0024	Ultralight Aeroclub Müller
+F	130125	Info
+A	38.0775	-8.2358	LPFC	Aerodromo de Figueira dos Cava
+F	123750	Info
+A	40.9111	-4.3709	LEIR	Air Marugán
+F	123500	Tour
+A	41.8002	2.1121	ES-0098	Prat de la Plana Airfield
+F	130125	Banda Aèria
+A	40.5001	-3.9921	ES-0111	Aeródromo Villanueva del Pardi
+F	131125	Vhf
+A	42.2255	2.6159	ES-0123	Aerodrom Tapioles
+F	130125	Auto Informacion
+A	41.2443	1.5633	ES-0132	Alats Club Bellvei
+F	130125	Auto-info
+A	40.4366	-4.0250	ES-0148	Villanueva de la Cañada Airfie
+F	131125	Vhf
+A	39.6755	-0.5489	ES-0158	Olocau Airfield
+F	130125	Auto-info
+A	40.6602	-3.5949	ES-0162	Aeródromo Loring
+F	129975	Info
+A	39.7498	-0.1813	ES-0167	La Llosa Airfield
+F	130100	Auto-info
+A	42.9823	-9.0050	LEMZ	Aeródromo Mazaricos
+F	135125	Radio
+A	40.3966	-4.0237	ES-0178	Aeródromo de Brunete
+F	130125	Vhf
+A	40.0247	-4.0712	LERN	Aeródromo de Camarenilla
+F	129975	Vfr
+A	38.0377	-3.7658	ES-0263	El Barranco - Sierra Morena
+F	123500	Auto-info
+A	58.3977	15.5224	ESCF	Malmen Air Base
+F	121850	Sol
+F	129800	Tour
+F	132950	Approche
+A	59.8973	17.5886	ESCM	Ärna Air Base
+F	119200	Tour
+F	130400	Approche
+F	134200	STOCKHOLM TC
+A	56.2667	15.2650	ESDF	Ronneby Airport
+F	119200	Tour
+F	121700	Sol
+F	128450	CON
+A	56.1344	13.8756	ESFA	Hässleholm Bokeberg Airfield
+F	123600	Radio
+A	58.4981	13.0532	ESFR	Råda Air Base
+F	133500	Info
+F	136025	Approche
+A	58.1772	11.9735	ESGA	Backamo Airfield
+F	123550	Radio
+A	58.1345	13.6021	ESGC	Ålleberg Airfield
+F	123400	Ålleberg Mär
+A	57.6959	12.8450	ESGE	Borås Airfield
+F	123525	Auto-info
+A	56.9686	12.3880	ESGF	Morup Airfield
+F	123350	Radio
+A	57.6628	12.2798	ESGG	Göteborg Landvetter Airport
+F	118375	ATIS
+F	118600	Tour
+F	121900	GND
+F	124680	GOTEBORG APP
+A	58.0324	13.1086	ESGH	Herrljunga Airfield
+F	123650	Auto-info
+A	57.9489	12.5758	ESGI	Rödene Airfield
+F	123650	Radio
+A	57.7576	14.0687	ESGJ	Jönköping Airport
+F	118250	Tour
+A	58.1698	13.5878	ESGK	Falköping Airfield
+F	118000	Centre
+F	123350	AFIS
+A	58.4655	13.1744	ESGL	Lidköping-Hovby Airport
+F	124450	AFIS
+A	57.4453	12.6490	ESGM	Öresten Airfield
+F	123200	Radio
+A	58.0393	12.7858	ESGO	Vårgårda Airfield
+F	123650	Auto-info
+A	57.7747	11.8704	ESGP	Säve Airport
+F	119055	Tour
+F	124675	GOTEBERG CON
+A	58.4564	13.9727	ESGR	Skövde Airport
+F	122325	AFIS
+A	59.0168	11.3413	ESGS	Näsinge Airfield
+F	123550	Radio
+A	58.3181	12.3450	ESGT	Trollhättan-Vänersborg Airport
+F	122725	Tour
+A	58.3665	11.7739	ESGU	Rörkärr Airfield
+F	123550	Radio
+A	57.1251	12.2292	ESGV	Varberg Getterön Airfield
+F	123150	Radio
+A	58.5138	14.5071	ESIA	Karlsborg Air Base
+F	130000	AFIS
+F	130000	Approche
+A	58.4264	12.7144	ESIB	Såtenäs Air Base
+F	128200	Tour
+F	134300	Sol
+F	134550	CON
+A	59.3459	14.4959	ESKK	Karlskoga Airport
+F	122550	AFIS
+A	60.9579	14.5114	ESKM	Mora Airport
+F	129855	AFIS
+A	58.7897	16.9115	ESKN	Stockholm Skavsta Airport
+F	126280	ATIS
+F	127705	Tour
+F	132955	Approche
+A	60.3504	17.4187	ESKT	Tierp Airfield
+F	118205	Sweden Contr
+F	123400	Auto-info
+A	59.8602	13.1129	ESKU	Sunne Airfield
+F	123200	Radio
+A	59.6759	12.6394	ESKV	Arvika Airfield
+F	122350	AFIS
+A	56.8630	16.6561	ESMB	Borglanda Airfield
+F	123550	Radio
+A	57.6706	14.9430	ESMC	Ränneslätt Airfield
+F	123425	Radio
+A	55.8489	13.3299	ESME	Eslöv Airfield
+F	123150	Radio
+A	56.9503	13.9217	ESMG	Feringe Airfield
+F	122505	Feringe sege
+A	56.1848	12.5761	ESMH	Höganäs Airfield
+F	123550	Radio
+A	55.5982	13.6747	ESMI	Sjöbo Sövde Airfield
+F	123650	Radio
+A	55.9217	14.0855	ESMK	Kristianstad Airport
+F	129355	Tour
+A	55.9461	12.8700	ESML	Landskrona Enoch Thulins Airfi
+F	123350	Radio
+A	57.3505	16.4980	ESMO	Oskarshamn Airport
+F	123350	Oskarshamn A
+A	57.2642	13.5994	ESMP	Anderstorp Airfield
+F	123420	Radio
+A	56.6855	16.2876	ESMQ	Kalmar Airport
+F	130800	Tour
+A	55.5356	13.3763	ESMS	Malmö Sturup Airport
+F	118800	Tour
+F	129275	ATIS
+F	135900	Approche
+A	56.6911	12.8202	ESMT	Halmstad Airport
+F	130100	Tour
+A	57.2922	14.1368	ESMV	Hagshult Air Base
+F	132250	Approche
+F	132250	Opérations
+F	136250	Tour
+A	56.9291	14.7280	ESMX	Växjö Kronoberg Airport
+F	118150	Tour
+A	57.1686	13.4402	ESMY	Smålandsstenar Smålanda Airfie
+F	123200	Radio
+A	57.3282	17.0505	ESMZ	Ölanda Airfield
+F	123650	Radio
+A	63.7383	15.4583	ESNA	Hallviken Airfield
+F	123550	Radio
+A	63.1712	16.9852	ESNB	Sollefteå/Långsele Airfield
+F	123350	Auto-info
+A	62.0478	14.4229	ESND	Sveg Airport
+F	122200	AFIS
+A	67.1324	20.8146	ESNG	Gällivare Airport
+F	122100	AFIS
+A	66.4962	20.1472	ESNJ	Jokkmokk Airfield
+F	124850	AFIS
+F	124850	Info
+F	133000	Approche
+A	63.0486	17.7689	ESNK	Kramfors-Sollefteå Höga Kusten
+F	122150	AFIS
+A	64.5483	18.7162	ESNL	Lycksele Airport
+F	122225	AFIS
+A	63.1286	14.8028	ESNM	Optand Airfield
+F	123550	Radio
+A	62.5281	17.4439	ESNN	Sundsvall-Härnösand Airport
+F	127400	ATIS
+F	129550	Tour
+A	63.4083	18.9900	ESNO	Örnsköldsvik Airport
+F	122250	AFIS
+A	65.3983	21.2608	ESNP	Piteå Airfield
+F	123550	Radio
+A	67.8220	20.3368	ESNQ	Kiruna Airport
+F	130150	Tour
+A	61.1900	14.7126	ESNR	Orsa Airfield
+F	123400	Radio
+A	64.6248	21.0769	ESNS	Skellefteå Airport
+F	122050	Tour
+A	63.7918	20.2828	ESNU	Umeå Airport
+F	119800	Tour
+A	64.5791	16.8336	ESNV	Vilhelmina South Lapland Airpo
+F	122550	AFIS
+A	65.5903	19.2819	ESNX	Arvidsjaur Airport
+F	122730	AFIS
+F	122730	Tour
+A	61.2615	17.0991	ESNY	Söderhamn Airport
+F	135350	AFIS
+A	59.2237	15.0380	ESOE	Örebro Airport
+F	120275	Tour
+A	60.0201	13.5789	ESOH	Hagfors Airport
+F	122225	AFIS
+A	59.4447	13.3374	ESOK	Karlstad Airport
+F	119450	Tour
+A	59.5894	16.6336	ESOW	Stockholm Västerås Airport
+F	125950	Approche
+F	130600	Tour
+A	65.5438	22.1220	ESPA	Luleå Airport
+F	122600	Opérations
+F	125450	Approche
+F	128200	Tour
+A	65.8753	20.1499	ESPE	Vidsel Air Base
+F	124150	TCA
+F	130400	Tour
+A	59.3866	15.9241	ESQO	Arboga Airfield
+F	123150	Radio
+F	135000	Radio
+A	59.6485	17.9288	ESSA	Stockholm-Arlanda Airport
+F	118500	Tour
+F	119000	ATIS
+F	121700	Sol
+F	121825	Clairance
+F	122600	MET OFFICE
+F	123750	Approche
+A	59.3544	17.9417	ESSB	Stockholm-Bromma Airport
+F	118100	Tour
+F	119400	AFIS
+F	120150	Approche
+F	121600	Sol
+F	122450	ATIS
+A	60.4220	15.5152	ESSD	Dala Airport
+F	127300	Tour
+A	57.5258	15.8233	ESSF	Hultsfred Airport
+F	123550	Hultsfred ai
+A	60.0883	15.0964	ESSG	Ludvika Airfield
+F	123150	Radio
+A	58.0984	14.4026	ESSI	Visingsö Airfield
+F	123500	Radio
+A	58.4049	15.6845	ESSL	Linköping City Airport
+F	118805	Tour
+A	59.7326	18.6952	ESSN	Norrtälje Airfield
+F	123325	Radio
+A	58.5863	16.2506	ESSP	Norrköping Airport
+F	120350	Tour
+F	133350	Approche
+A	60.1576	12.9913	ESST	Torsby Airport
+F	122050	AFIS
+A	59.3511	16.7084	ESSU	Eskilstuna Airport
+F	126855	AFIS
+F	126855	Info
+F	136200	Approche
+A	57.6628	18.3462	ESSV	Visby Airport
+F	120305	Tour
+F	126155	Approche
+A	57.7800	16.5236	ESSW	Västervik Airport
+F	131615	Radio
+A	59.1011	17.2111	ESSZ	Vängsö Airfield
+F	123375	Vängsö Radio
+A	56.2961	12.8471	ESTA	Ängelholm-Helsingborg Airport
+F	127100	Tour
+F	132450	Approche
+A	58.6300	11.3145	ESTF	Fjällbacka Anra Airfield
+F	123200	Radio
+F	128625	Centre
+A	56.0828	13.2125	ESTL	Ljungbyhed Airfield
+F	121650	Sol
+F	129555	Approche
+F	130705	Tour
+F	132750	ATIS
+A	55.3912	13.0221	ESTT	Vellinge Airfield
+F	123400	Radio
+A	61.5134	16.3725	ESUB	Arbrå Airfield
+F	123200	Radio
+A	64.9609	17.6966	ESUD	Storuman Airport
+F	133800	AFIS
+F	133800	Approche
+F	133800	Info
+A	67.2446	23.0749	ESUP	Pajala Airport
+F	118250	AFIS
+A	65.8061	15.0828	ESUT	Hemavan Airport
+F	122970	AFIS
+A	65.6454	21.0616	ESUV	Älvsbyn Airfield
+F	123350	Radio
+A	61.3867	15.8332	ESUY	Edsby Airfield
+F	123550	Radio
+A	60.7851	14.8272	ESVS	Siljansnäs Air Park
+F	123550	Auto-info
+A	49.9765	6.6984	ETAD	Spangdahlem Air Base
+F	122200	Tour
+F	125600	Radar
+F	129475	GCA
+F	131975	Opérations
+A	49.4369	7.6003	ETAR	Ramstein Air Base
+F	121775	Sol
+F	124275	ATIS
+F	129675	Radar
+F	131975	Opérations
+F	133200	Tour
+A	52.2785	9.0822	ETHB	Bückeburg Air Base
+F	123300	RADAR
+F	131325	BREMEN RADAR
+A	52.5912	10.0221	ETHC	Celle Army Airfield
+F	130500	RADAR
+F	131325	Centre
+A	52.2912	7.3870	ETHE	Rheine-Bentlage Airfield
+F	122100	Tour
+F	123300	BENTLAGE RAD
+F	124650	Centre
+A	51.1146	9.2860	ETHF	Fritzlar Army Airfield
+F	119150	AFIS
+F	119825	AFIS
+F	122100	Tour
+A	48.2203	9.9100	ETHL	Laupheim Air Base
+F	119100	Radar
+F	129450	Centre
+A	50.3660	7.3153	EDRE	Mendig Airfield
+F	123525	AFIS
+F	135060	Info
+A	49.3916	9.9567	ETHN	Niederstetten Army Air Base
+F	119150	AFIS
+F	119780	Info
+F	122100	Tour
+F	128950	AFIS
+A	49.2175	11.1002	ETSR	Roth Airfield
+F	123680	Info
+A	52.9194	10.1858	ETHS	Faßberg Air Base
+F	122425	RADAR
+F	131325	HANNOVER DIR
+A	49.2165	11.8361	ETIH	Hohenfels Army Airfield
+F	120650	Info
+A	49.7443	10.2073	EDGY	Kitzingen Airfield
+F	118255	Info
+F	119150	AFIS
+A	53.7677	8.6592	ETMN	Sea-Airport Cuxhaven/Nordholz 
+F	122100	Tour
+F	125100	AFIS
+F	128525	AFIS
+F	131265	Tour
+A	52.5856	8.3422	ETND	Diepholz Air Base
+F	122530	Info
+F	129875	AFIS
+F	135130	Tour
+A	50.9608	6.0424	ETNG	Geilenkirchen Air Base
+F	122100	Tour
+F	123300	Radar
+F	128500	Radar
+A	54.3122	9.5382	ETNH	Hohn Air Base
+F	122100	Tour
+F	123300	Radar
+F	136225	Centre
+A	53.9182	12.2783	ETNL	Rostock-Laage Airport
+F	118430	Tour
+F	123300	Radar
+F	126175	Centre
+F	132650	AFIS
+F	134605	ATIS
+A	50.8312	6.6582	ETNN	Nörvenich Air Base
+F	122100	Tour
+F	123300	Radar
+F	128500	Arrivée
+F	129055	Radar
+F	136205	Tour
+A	54.4593	9.5163	ETNS	Schleswig Air Base
+F	122100	Tour
+F	123300	RADAR
+F	125100	AFIS
+F	128775	Centre
+A	53.5478	7.6673	ETNT	Wittmundhafen Air Base
+F	118725	Tour
+F	123300	Radar
+F	124075	Centre
+A	52.4573	9.4272	ETNW	Wunstorf Air Base
+F	122100	Tour
+F	123300	Radar
+F	131325	HANNOVER DIR
+A	50.0498	8.3254	ETOU	Wiesbaden Army Airfield
+F	119150	LANGEN INFO
+F	120150	Départ
+F	120800	Approche
+A	50.1738	7.0633	ETSB	Büchel Air Base
+F	122100	Tour
+F	123300	Radar
+F	125600	LANGEN CON
+A	51.7678	13.1677	ETSH	Holzdorf Air Base
+F	122100	Tour
+F	123300	RADAR
+F	125800	AFIS
+F	126425	Arrivée
+A	48.7157	11.5340	ETSI	Ingolstadt Manching Airport
+F	118865	ATIS
+F	120605	Ingo Radar
+F	120650	AFIS
+F	122100	Tour
+F	123300	Ingo Radar O
+F	125255	Tour
+F	125580	Ingo Radar
+F	135780	VOLMET
+A	48.1855	10.8612	ETSL	Lechfeld Air Base
+F	122100	Tour
+F	123300	Radar
+F	129450	Centre
+A	48.7110	11.2115	ETSN	Neuburg Air Base
+F	122100	Tour
+F	123300	Radar
+F	136525	Centre
+A	57.0986	24.2667	EVAD	Ādaži Airfield
+F	123950	Info
+A	56.5175	21.0969	EVLA	Liepāja International Airport
+F	124800	Info
+F	129400	Approche
+A	56.9208	23.9707	EVRA	Riga International Airport
+F	118100	Tour
+F	118800	Sol
+F	121200	ATIS
+F	129925	Approche
+F	131600	Divers
+A	56.9911	24.0750	EVRS	Spilve Aerodrome
+F	123950	Auto-info
+A	57.3578	21.5442	EVVA	Ventspils International Airpor
+F	126805	AFIS
+A	54.9640	24.0858	EYKA	Kaunas International Airport
+F	118500	Tour
+F	121600	Divers
+F	124200	Approche
+A	55.7120	21.2429	EYKL	Klaipėda Airfield
+F	119600	Auto-info
+A	54.8798	23.8815	EYKS	S. Darius and S. Girėnas Airfi
+F	118500	Tour
+F	124200	Approche
+F	124600	Info
+F	135500	ALEKSOTAS IN
+A	55.9732	21.0939	EYPA	Palanga International Airport
+F	118300	Tour
+F	124300	Approche
+F	127800	ATIS
+F	131500	RMP
+A	55.7294	24.4608	EYPP	Panevėžys Air Base
+F	122550	Tour
+A	54.6522	24.0587	EYPR	Pociūnai Airfield
+F	125000	Info
+F	125000	glider Frequ
+A	55.8939	23.3950	EYSA	Šiauliai International Airport
+F	120400	Tour
+A	56.0706	23.5581	EYSB	Barysiai Airfield
+F	122050	AFIS
+A	55.3363	21.5268	EYSI	Šilute Airfield
+F	122000	Silute
+A	55.9873	22.2930	EYTL	Telšiai Airfield
+F	122355	Radio
+A	54.6341	25.2858	EYVI	Vilnius International Airport
+F	118200	Tour
+F	120700	Approche
+F	125800	ATIS
+A	54.4797	24.9898	EYVP	Paluknys Airfield
+F	119100	Paluknys Rad
+F	123850	Vilnius Info
+F	125805	Vilnius Atis
+A	46.8805	-0.2845	FR-0158	Bournizeaux Airfield
+F	123500	Auto-info
+A	42.7931	0.4625	FR-0299	Pene De Soulit Altisurface
+F	118750	Auto-info
+F	130000	Info
+A	47.5506	3.1965	FR-0492	Treigny Ultralight Airfield
+F	123500	Radio
+A	49.4492	6.1256	FR-0502	Zoufftgen Airfield
+F	123500	Zoufftgen
+A	47.4185	0.3235	FR-0573	Hommes Volants Ultralight Airf
+F	125335	Auto Info Ulm
+A	44.5367	6.4354	FR-1003	Crots Ultralight Airfield
+F	125335	Radio
+A	44.6609	6.2123	FR-1014	Les Eyssagnes Ultralight Airfi
+F	123065	Radio
+A	54.6868	-1.4583	GB-0002	Fishburn Airfield
+F	118280	Air-sol
+A	51.9282	-1.4285	EGTN	Enstone Aerodrome
+F	129875	Air-sol
+A	55.0588	-6.5844	GB-0008	Causeway Airfield
+F	135475	causeway rad
+A	50.7950	-2.0967	GB-0026	Newton Peveril Airfield
+F	135475	Newton Pever
+A	51.3199	-2.4009	GB-0037	White Ox Mead Airstrip
+F	135480	Air-sol
+A	55.2805	-1.7149	GB-0038	Eshott Airfield
+F	122850	Air-sol
+F	124375	Approche
+A	55.4203	-1.5997	EGQM	RAF Boulmer
+F	123100	Air-sol
+A	50.9725	-1.2485	GB-0042	Lower Upham Airfield
+F	123050	Air-sol
+A	51.4967	-1.7127	GB-0044	Lower Upham Farm Aerodrome
+F	135475	Safety Comm
+A	51.3902	-1.7334	GB-0045	Clench Common Airfield
+F	129825	Air-sol
+F	135475	Safety Comm
+A	52.3674	-0.4782	GB-0046	Keyston Airfield
+F	135475	Safety Comm
+A	52.8938	1.3211	GB-0047	Northrepps Aerodrome
+F	129825	Air-sol
+A	57.7533	-3.9428	GB-0048	Easter Airfield
+F	122750	Tain Range
+F	135480	Easter Traff
+A	50.8899	-1.9858	GB-0049	Bowerswaine Farm Airfield
+F	135475	Bowerswaine 
+A	51.1634	-2.2086	GB-0050	Wing Farm Airfield
+F	135475	Wing Farm Tr
+A	51.0609	-1.0107	GB-0051	Colemore Farm Airfield
+F	135475	Colemore Com
+A	50.8668	-3.8631	GB-0052	Eggesford Airfield
+F	123500	Air-sol
+A	52.9746	-0.0718	GB-0058	Boston Aerodrome
+F	135475	Auto-info
+A	50.6978	-3.1557	GB-0062	Branscombe Airfield
+F	135475	Branscombe T
+A	50.7358	-3.1792	GB-0063	Farway Common Airfield
+F	135475	Safety Comm
+A	53.1645	-2.5722	EGCR	Ashcroft Airfield
+F	122525	Air-sol
+A	52.0070	0.2241	GB-0065	Audley End Airfield
+F	135475	Audley End R
+A	55.6552	-5.7550	EGEJ	Gigha Airfield
+F	135475	Gigha traffi
+A	52.0287	-1.2072	GB-0073	Hinton-in-the-Hedges Airfield
+F	119450	Radio
+A	53.9230	-0.9933	GB-0075	Elvington Airfield
+F	119625	Air-sol
+A	51.9123	1.1821	GB-0177	Great Oakley Airfield
+F	123205	Air-sol
+A	55.6800	-4.1134	GB-0180	Strathaven Airfield
+F	120310	Strathaven T
+A	53.1376	0.0021	GB-0182	East Kirkby Airfield
+F	121175	Kirkby Radio
+F	121180	Air-sol
+A	51.4111	-2.2204	GB-0185	Wadswick Farm Airstrip
+F	120075	Wadswick Traffic
+A	52.4525	1.1309	GB-0198	Priory Farm Airstrip
+F	129825	Air-sol
+A	55.0478	-4.0316	GB-0201	Glenswinton Farm Airstrip
+F	135475	Glenswinton 
+A	57.3110	-2.6484	GB-0202	Insch Airstrip
+F	135475	Safetycom
+A	51.1068	-2.9087	GB-0203	Westonzoyland Airfield
+F	129830	Radio
+A	51.7282	-0.3802	GB-0204	Plaistows Airfield
+F	129825	Info
+A	53.0632	-3.3230	GB-0205	Nantclwyd Airstrip
+F	130380	Air-sol
+A	52.0059	-0.9354	GB-0208	Thornborough Grounds Airstrip
+F	135475	Info
+A	53.3141	-0.8662	GB-0240	Grove Farm Airstrip
+F	130430	Air-sol
+A	53.9521	-1.1749	GB-0248	Rufforth East Airfield
+F	123815	Radio
+F	135475	Safetycom
+A	52.5801	-1.4313	GB-0279	Stoke Golding Airfield
+F	129825	Air-sol
+A	51.6562	0.4207	GB-0316	Napps Field Airstrip
+F	135475	Info
+A	53.7968	-0.0917	GB-0341	Garton Field Airstrip
+F	122075	Air-sol
+A	55.7568	-5.0480	GB-0357	Bute Airfield
+F	135475	Bute Traffic
+A	51.9103	-0.7296	GB-0365	Holmbeck Farm Airfield
+F	135475	Safetycom
+A	52.1298	-0.3109	GB-0368	Long Acres Farm
+F	129825	Info
+A	52.9693	-1.7487	GB-0369	Darley Moor Airfield
+F	135475	Darley Moor 
+A	51.8787	-1.2188	GB-0414	RAF Weston-on-the-Green
+F	119000	Special Use 
+F	120090	RAF Weston-o
+F	120092	RAF Weston-o
+A	52.4559	1.1561	GB-0420	Tibenham Airfield
+F	129980	Air-sol
+A	53.9339	-2.8436	GB-0440	Tarn Farm Airfield (Rossall Fi
+F	129825	Info
+A	51.8078	0.0696	GB-0464	Hunsdon Airfield
+F	135480	Hunsdon Traf
+A	52.1682	0.8664	GB-0492	Rattlesden Airfield
+F	130290	Auto-info
+A	56.6503	-3.0288	GB-0577	Kirriemuir Farm Strip
+F	132475	Kirriemuir T
+A	51.7099	-0.7110	GB-0609	Black Horse Ballooning Club
+F	122475	25 KHz ballo
+F	122480	8.33 KHz bal
+A	51.8685	-0.5452	GB-0615	London Gliding Club
+F	119905	Air-sol
+F	129890	Competition 
+F	130105	Glider-to-Gl
+F	130405	Glider-to-Gl
+A	53.2446	-0.8592	GB-0616	Darlton Gliding Club
+F	118685	Vhf
+A	51.2678	-2.1019	GB-0762	Edington Private Airstrip
+F	122755	Salisbury Ra
+A	50.8693	0.1166	GB-0815	Kittyhawk Aerodrome
+F	118265	Radio
+A	50.7484	-0.7694	GB-0978	Greenlease Farm Airstrip
+F	122455	Auto-info
+A	56.6668	-2.8008	GB-1102	Baldardo Field
+F	135480	Baldardo Tra
+A	51.1031	-2.9040	GB-1136	Middlezoy Aerodrome
+F	129830	Radio
+A	53.9471	-1.1872	EGYJ	Rufforth West Airfield
+F	123815	Radio
+A	52.3571	-0.1078	EGUY	RAF Wyton
+F	119975	Tour
+F	122100	Sol
+F	126850	Tour
+F	134050	Approche
+A	57.3355	-5.6731	GB-1273	Plockton Airstrip
+F	131910	Air-sol
+A	53.6217	-1.8303	GB-1274	Crosland Moor Airfield
+F	128375	Air-sol
+A	53.8028	-0.9172	GB-1275	Breighton Airfield
+F	129800	Radio
+A	54.1643	-2.9613	GB-1278	Cark Airfield
+F	129900	Cark Radio
+A	53.4978	0.0620	EGYO	North Coates Airfield
+F	120150	Air-sol
+A	51.5484	-2.3032	GB-1281	Badminton Airfield
+F	123175	Air-sol
+A	52.2283	-1.8439	GB-1361	Ragley Hall Airstrip
+F	121905	Egnx
+F	122480	Airband
+A	57.8690	-4.0230	GB-DOC	Dornoch Airfield
+F	119350	Approche
+A	56.5172	-5.9140	GB-ULL	Glenforsa Airfield
+F	128800	Air-sol
+A	40.8408	21.8236	GR-0001	Panagitsa Ariport
+F	119700	Auto-info
+A	45.7870	16.9639	HR-0004	Nova Rača Airfield
+F	123500	Auto-info
+A	44.5576	15.7744	LDZU	Udbina Airfield
+F	118200	Approche
+F	118200	Tour
+A	46.5515	18.9423	LHKA	Kalocsa-Foktő Airfield
+F	135390	Auto-info
+A	46.3227	20.0532	LHST	Szatymaz Airfield
+F	123200	Tower
+A	46.6930	17.3978	LHBK	Balatonkeresztúr Airfield
+F	118340	Auto-info
+A	47.7209	19.9047	LHAK	Atkár Airfield
+F	129985	Auto-info
+A	47.1429	17.9974	LHHK	Hajmáskér Airfield
+F	133425	Auto-info
+A	64.1114	-21.7060	IS-0005	Heiði - Fisfélag
+F	122700	Auto-info
+A	45.2693	7.9507	IT-0001	Il Falco Airfield
+F	130000	Mazzè Radio
+A	36.8613	14.6270	IT-0004	Eremo della Giubiliana Airfiel
+F	131050	Radio
+A	37.1922	14.6133	IT-0009	Avioclub Ereo Airfield
+F	130000	Apr
+A	36.7226	14.7747	IT-0014	Oasi dei Re Airfield
+F	130000	Radio
+A	37.0085	14.5951	IT-0016	Aviosuperficie Sorvoliamo
+F	130000	Radio
+A	37.5766	12.9445	IT-0017	Aviosuperficie Terranova
+F	130000	Radio
+A	38.1264	14.7079	IT-0018	Campo di Volo Capo d'Orlando
+F	130000	Radio
+A	37.4324	14.6152	IT-0019	Campo di Volo Aidone (cugno)
+F	130000	Radio
+A	37.2633	14.6266	IT-0020	Camemi Airfield
+F	130000	Radio
+A	36.8109	14.5448	IT-0021	Elpifly Airfield
+F	130000	Radio
+A	37.3865	14.1435	IT-0022	Campo di Volo Marano
+F	130000	Radio
+A	37.9725	13.7734	IT-0025	Albatros Airfield
+F	130000	Radio
+A	39.7762	15.8113	LICK	Scalea Airport
+F	128450	Radio
+A	38.6373	15.9477	IT-0032	Il Grifo Airfield
+F	130000	Radio
+A	45.4875	7.8432	IT-0035	Ivrea Montalto Dora Airfield
+F	130000	Auto-info
+A	44.7586	8.1831	IT-0043	Boglietto Airfield
+F	130000	Boglietto Ra
+A	45.4961	8.5253	IT-0045	Cascina Colombare Airfield
+F	130000	Casaleggio R
+A	45.0244	7.9664	LILF	Castelnuovo Don Bosco Airfield
+F	130000	Castelnuovo 
+A	46.1342	8.3063	IT-0049	Chavez-Marini Airfield
+F	130000	Auto-info
+A	45.3117	7.6652	IT-0055	Pegasus 2000 Airfield
+F	130000	Busano Radio
+A	45.1245	7.5214	IT-0058	Prealpi-Musinè Airfield
+F	130000	Pianezza Rad
+A	44.4342	7.6322	IT-0062	Bosio Guido Airfield
+F	130000	Avio Bosio
+A	44.7779	8.1303	IT-0065	Il Laghetto Airfield
+F	130000	Laghetto Rad
+A	44.7420	7.7099	IT-0071	Sant'Elia Airfield
+F	130000	Racconigi Ra
+A	45.1125	7.2872	IT-0073	Valsusa Airfield
+F	130000	Vaie Radio
+A	45.2532	7.8990	IT-0074	Carolina Airfield
+F	130000	Carolina Rad
+A	45.3587	7.7193	IT-0076	Canavese Ultralight Flight Clu
+F	130000	Castellamont
+A	44.4750	11.5417	LIKO	Guglielmo Zamboni Airfield
+F	128450	Info
+A	43.3736	11.1231	IT-0090	Mensanello Airfield
+F	130000	AFIS
+A	38.5156	15.9422	IT-0093	Beppe Rascaglia Flying Field
+F	130000	Info
+A	42.4104	11.8987	IT-0099	Tuscania Airfield
+F	127000	Info
+A	45.6119	12.8147	LIKE	Litorale di Caorle Airfield
+F	118125	Info
+A	40.9377	16.4970	IT-0117	Ceraso Airfield/Aero Club I Te
+F	130000	Aproac
+A	45.0654	8.8352	IT-0118	Mezzana Bigli Airfield
+F	119100	Info
+A	45.2175	9.4672	IT-0136	Vigarolo Airfield
+F	119350	Info
+A	44.8702	9.9382	IT-0146	Cà del Conte Airfield
+F	130000	Info
+A	42.7748	11.1555	IT-0156	Terra del Sole Airfield
+F	128100	Tour
+F	130000	Info
+A	44.9711	10.2943	IT-0157	Ali del Po Private Airfield
+F	130025	Info
+A	45.7620	9.4450	IT-0170	Kong Airfield
+F	130000	Auto-info
+A	42.9122	10.8167	LIQY	Aliscarlino Airfield
+F	130000	Info
+A	46.2338	13.0724	LIKH	Rivoli Avro Airfield
+F	122610	Info
+A	45.5529	9.5057	IT-0190	Baialupo Airfield
+F	128450	Info
+A	44.8829	7.5610	IT-0191	L'Elika Airfield
+F	130000	Castagnole R
+A	45.4840	9.9532	IT-0194	Santa Lucia Airfield
+F	130500	Info
+A	45.5192	10.3807	IT-0195	Corry's Airfield
+F	130000	Info
+A	44.5717	10.7800	IT-0200	Sassuolo Airfield
+F	124000	Info
+A	45.0312	11.8237	IT-0203	Rovigo Airfield
+F	130000	Info
+A	46.1814	12.8225	IT-0204	Sasso d'Oro Agrotourism Airfie
+F	130000	Info
+A	40.3559	18.2324	LINK	Fondone Airfield
+F	128450	Info
+A	45.9848	12.9235	IT-0211	Al Casale Airfield
+F	130000	Info
+A	45.2452	11.4247	IT-0221	Montagnana Airfield
+F	118975	Radio
+A	41.4719	13.0236	IT-0222	Aviosuperficie Divinangelo
+F	130000	Info
+A	40.3770	17.3860	IT-0224	Monticchio Airfield
+F	130000	Info
+A	41.6731	12.8456	IT-0225	Aviosuperficie Artena
+F	130000	Info
+A	45.3492	8.6463	IT-0228	Gianni Cerutti Airfield
+F	123450	Info
+A	40.5906	16.7690	IT-0229	Natile Airfield
+F	130000	Info
+A	43.4505	12.4014	IT-0230	Campo di Volo Pietralunga
+F	130000	Info
+A	44.3965	10.5361	IT-0231	Campo di Volo Cavola
+F	130000	Info
+A	42.7565	13.0163	IT-0232	Santa Rita Airfield
+F	130000	Info
+A	40.1149	15.4953	IT-0236	Policastro Airfield
+F	130000	Info
+A	37.2472	13.6547	IT-0241	Aviosuperficie Agrigento
+F	130000	Info
+A	40.1071	18.2576	LINB	Corte Airfield
+F	130000	Info
+A	42.8095	13.8471	IT-0245	Val Vibrata Flying Field
+F	130000	Info
+A	44.5982	11.6563	IT-0255	Molinella Airfield
+F	126950	Info
+A	44.6719	10.0609	IT-0256	Aviosuperficie di Rubbiano
+F	130000	Info
+A	44.1360	12.1898	IT-0258	Settecrociari Airfield
+F	130000	Info
+A	43.7252	10.9822	IT-0262	Empoli Airstrip
+F	130000	Info
+A	40.2477	18.4363	IT-0265	Torre Sant'Andrea Airfield
+F	130000	Info
+A	42.2187	12.2485	IT-0266	Aviosuperficie Valicella
+F	130000	Info
+A	43.3400	12.8269	IT-0267	Aviosuperficie F. Rossi
+F	130000	Info
+A	41.1051	15.8765	IT-0278	Falcone Airfield
+F	123450	Sol
+F	130000	Tour
+A	43.1029	13.5578	IT-0280	Cesare Rossi Airfield
+F	130000	Montegiorgio
+A	46.0683	13.3669	IT-0372	San Mauro Airfield
+F	121900	Info
+A	45.3630	9.0171	IT-0379	Rosangeles Airfield
+F	123600	Info
+A	39.8947	18.1899	IT-0382	Gemini
+F	130000	Gemini radio
+A	45.0468	7.5365	IT-0426	Rivoli Tetti Neirotti Airfield
+F	130000	Tetti Radio
+A	45.2883	8.8000	IT-0472	Leonardo da Vinci Airfield
+F	130000	Approche
+A	45.5168	10.4648	IT-0476	Carzago Riviera Airfield
+F	130000	Info
+A	43.2097	10.5438	IT-0709	Bolgheri Airfield
+F	130000	Info
+A	40.4726	14.9596	IT-0716	Aviosuperficie Templare Paestu
+F	130000	Aproac
+A	37.5209	14.8460	IT-0717	Eagles Airfield
+F	130000	Apr
+A	37.1908	14.5502	IT-0720	Aviosuperficie Massarotti
+F	130000	Apr
+A	37.9600	12.6154	IT-0721	Aviosuperficie Fly Team Paceco
+F	130000	Apr
+A	44.6458	7.2449	IT-0756	campo di volo Pian Mune'
+F	130000	Radio
+A	46.2213	11.1697	IT-0757	Alino Airfield
+F	130000	Radio
+A	40.7719	19.9019	LAKV	Kuçovë Air Base
+F	118375	Tour
+F	124500	Tour
+A	41.4147	19.7206	LATI	Tirana International Airport M
+F	122500	Tour
+F	127500	Centre
+F	133150	Approche
+A	42.9487	25.3589	LBAM	Alfa-Metal Airfield
+F	119955	Auto-info
+A	42.5699	27.5152	LBBG	Burgas Airport
+F	118000	Tour
+F	120950	ATIS
+F	125100	Approche
+A	43.1514	25.7129	LBGO	Gorna Oryahovitsa Airport
+F	119700	Tour
+A	42.4219	23.7672	LBHT	Ihtiman Airfield
+F	119250	AFIS
+A	42.0678	24.8508	LBPD	Plovdiv International Airport
+F	119600	Tour
+A	42.6964	23.4177	LBSF	Sofia Airport
+F	118100	Tour
+F	123700	Approche
+F	124050	ATIS
+A	43.2321	27.8251	LBWN	Varna Airport
+F	118075	ATIS
+F	119500	Tour
+F	121000	Approche
+A	42.5622	18.2655	LDDU	Dubrovnik Ruđer Bošković Airpo
+F	123600	Approche
+F	129500	Tour
+A	45.5428	18.6319	LDOC	Osijek-Čepin Airfield
+F	118800	Approche
+A	45.4624	18.8113	LDOS	Osijek Airport
+F	118800	Approche
+F	118800	Tour
+A	44.8935	13.9222	LDPL	Pula Airport
+F	118400	Approche
+F	120000	Tour
+A	45.3795	14.5038	LDRG	Grobničko Polje Airfield
+F	123500	Info
+A	45.2164	14.5709	LDRI	Rijeka Airport
+F	119000	Approche
+F	119000	Tour
+A	43.2845	16.6784	LDSB	Brač Airport
+F	118025	Approche
+F	118025	Tour
+F	120875	Radar
+A	43.5389	16.2980	LDSP	Split Saint Jerome Airport
+F	120875	Approche
+F	124675	Tour
+F	128675	Info
+A	45.7429	16.0688	LDZA	Zagreb Franjo Tuđman Internati
+F	118300	Tour
+F	120700	Approche
+F	120700	Radar
+F	121850	Sol
+F	124375	ATIS
+F	124850	Info
+A	44.0970	15.3536	LDZD	Zadar Airport
+F	118600	Approche
+F	123700	Tour
+A	45.8231	16.5000	LDZE	Zvekovac Airfield
+F	123500	Info
+A	38.9485	-1.8635	LEAB	Albacete Airport / Los Llanos 
+F	118725	Approche
+F	121800	Sol
+F	122100	Tour
+A	38.2822	-0.5582	LEAL	Alicante-Elche Miguel Hernánde
+F	113800	ATIS
+F	118150	Tour
+F	118800	Approche
+F	121700	Sol
+A	36.8439	-2.3701	LEAM	Almería Airport
+F	118350	Approche
+F	118350	Tour
+F	121700	Sol
+A	43.5636	-6.0346	LEAS	Asturias Airport
+F	118150	Approche
+F	118150	Tour
+F	121700	Sol
+A	36.8017	-4.1356	LEAX	La Axarquía-Leoni Benabu Airfi
+F	123500	Auto-info
+A	37.8420	-4.8489	LEBA	Córdoba Airport
+F	118300	Auto-info
+A	43.3011	-2.9106	LEBB	Bilbao Airport
+F	118500	Tour
+F	118825	ATIS
+F	120700	Approche
+F	121700	Sol
+A	38.2719	-2.9529	LEBE	Beas de Segura Airfield
+F	123500	Info
+A	42.3576	-3.6208	LEBG	Burgos Airport
+F	122400	Auto-info
+F	125425	AFIS
+A	41.2971	2.0785	LEBL	Josep Tarradellas Barcelona-El
+F	118100	Tour
+F	118650	ATIS
+F	119100	Approche
+F	121650	Sol
+F	121800	Clairance
+A	38.8913	-6.8213	LEBZ	Badajoz Airport
+F	122100	Tour
+A	42.3864	1.8667	LECD	La Cerdanya Airfield
+F	123500	Tour
+A	40.2139	0.0733	LECH	Castellón-Costa Azahar Airport
+F	120100	Approche
+F	120675	Tour
+A	42.5692	-0.7278	LECI	Santa Cilia de Jaca Airfield
+F	123500	Info
+A	39.9984	0.0264	LECN	Castellon de la Plana Aerodrom
+F	123500	Auto-info
+A	43.3021	-8.3773	LECO	A Coruña Airport
+F	118300	Tour
+F	120200	Approche
+F	121700	Sol
+A	40.3707	-3.7851	LECU	Madrid-Cuatro Vientos Airport
+F	118700	Tour
+F	121800	Sol
+A	41.7282	0.5350	LEDA	Lleida-Alguaire Airport
+F	121325	Lleida Tower
+F	127700	Barcelona Ap
+F	131675	BAA Flight S
+A	40.8891	-4.2402	LEFM	Fuentemilanos Airfield
+F	123400	Air-sol
+A	37.1332	-3.6357	LEGA	Armilla Air Base
+F	118700	Tour
+F	121825	Sol
+F	122100	Mil
+A	41.9046	2.7618	LEGE	Girona-Costa Brava Airport
+F	118500	Tour
+F	120900	Approche
+F	121700	Sol
+A	37.1887	-3.7774	LEGR	F.G.L. Airport Granada-Jaén Ai
+F	118850	Tour
+F	120625	ATIS
+F	121925	Sol
+A	40.2941	-3.7238	LEGT	Getafe Air Base
+F	121600	Sol
+F	127100	Approche
+F	127100	Départ
+A	42.0761	-0.3167	LEHC	Huesca-Pirineos Airport
+F	119300	Zaragoza App
+F	128950	Huesca Infor
+A	38.8729	1.3731	LEIB	Ibiza Airport
+F	117800	ATIS
+F	118125	Approche
+F	118500	Tour
+F	119800	Approche
+F	121800	Sol
+A	41.5856	1.6531	LEIG	Igualada/Odena Airfield
+F	123175	Air/Air
+A	36.7446	-6.0601	LEJR	Jerez Airport
+F	118550	Tour
+F	121600	Sol
+F	128500	Approche
+A	37.7750	-0.8124	LELC	San Javier Airport
+F	121600	Sol
+F	130300	Approche
+F	130300	Tour
+A	41.5209	2.1051	LELL	Sabadell Airfield
+F	120805	Tour
+F	121605	Sabadell Gro
+F	123500	AEROCLUB BAR
+A	42.5907	-5.6534	LELN	León Airport
+F	121280	Approche
+F	122105	Tour
+A	42.4610	-2.3222	LERJ	Logroño-Agoncillo Airport
+F	118575	Tour
+F	123225	Tour
+A	39.7169	-3.3206	LELT	Lillo Airfield
+F	123375	Auto-info
+A	40.4934	-3.5722	LEMD	Adolfo Suárez Madrid–Barajas A
+F	118070	Tour
+F	118150	Tour
+F	118250	ATIS
+F	118670	Tour
+F	118975	Tour
+F	121850	Sol
+F	122975	FIRE
+F	127500	Approche
+F	130075	Clairance
+F	130350	Clairance
+F	130850	ATIS Departu
+A	36.6782	-4.5002	LEMG	Málaga-Costa del Sol Airport
+F	118150	Tour
+F	118455	Approche
+F	118775	Tour
+F	120375	ATIS
+F	121705	Sol
+F	121880	Clairance
+F	121950	Sol
+F	123850	Approche
+A	39.8626	4.2187	LEMH	Menorca Airport
+F	112600	ATIS
+F	118200	Tour
+F	119650	Approche
+F	121750	Sol
+A	37.1749	-5.6159	LEMO	Moron Air Base
+F	120000	Approche
+F	122100	Tour
+A	43.4292	-5.8306	LEMR	La Morgal Airfield
+F	118150	Tour
+F	123500	Radio
+A	40.2350	-4.0264	LEMT	Casarrubios Del Monte Airfield
+F	123500	Vhf
+A	38.4406	-0.4753	LEMU	Muchamiel Airfield
+F	123500	Radio
+A	42.0228	0.4822	LENA	Benabarre Airfield
+F	122475	Tour
+A	39.9375	-3.5033	LEOC	Ocaña Airfield
+F	122600	Auto-info
+A	42.3331	-5.4519	LEOS	Aeródromo de los Oteros
+F	123500	Info
+A	39.5517	2.7388	LEPA	Palma de Mallorca Airport
+F	118305	Tour
+F	118950	Approche
+F	119250	ATIS
+F	121705	Sol
+F	123880	Clairance
+F	130250	Opérations
+A	39.2982	-2.3787	LEPI	Casas de los Pinos Airfield
+F	123500	Radio
+A	42.7700	-1.6463	LEPP	Pamplona Airport
+F	118200	Approche
+F	118200	Tour
+F	121700	Sol
+A	39.4747	-1.0344	LERE	Aeródromo Requena El Rebollar
+F	120100	Valencia App
+F	123325	Radio
+A	37.9511	-1.2303	LERI	Alcantarilla Air Base
+F	118100	Tour
+A	40.8653	-3.2478	LERM	Robledillo De Mohernando Airfi
+F	123325	Robledillo
+A	42.5923	-4.2902	LERP	Aeródromo de Herrera de Pisuer
+F	123450	Vhf
+A	41.1475	1.1684	LERS	Reus Airport
+F	118150	Approche
+F	118150	Tour
+F	121700	Sol
+A	36.6452	-6.3495	LERT	Rota Naval Station Airport
+F	119750	Tour
+F	120800	Approche
+F	122100	Tour
+F	122225	Tour
+F	123300	ROTA GCA
+F	126200	Divers
+F	128500	Approche
+F	130700	Sol
+F	134100	GCA
+A	40.9521	-5.5020	LESA	Salamanca Airport
+F	121850	Sol
+F	124400	Approche
+A	39.5989	2.7028	LESB	Son Bonet Airfield
+F	119400	Approche
+F	122705	Auto-info
+F	123500	Auto-info
+F	128275	ATIS
+F	130250	Opérations
+A	39.8619	4.2517	LESL	Sant Lluis Airfield
+F	123500	Radio
+A	43.3565	-1.7906	LESO	San Sebastián Airport
+F	119850	Tour
+A	42.8963	-8.4151	LEST	Santiago-Rosalía de Castro Air
+F	118200	Approche
+F	118750	Tour
+F	121700	Sol
+A	42.3386	1.4092	LESU	Pirineus - la Seu d'Urgel Airp
+F	121500	Emergency
+F	122205	AFIS
+F	131605	AFIS
+A	40.2439	-4.7944	LETI	El Tietar Airfield
+F	129975	Tour
+A	40.4103	-1.2174	LETL	Teruel Airport
+F	122675	Vhf
+A	40.4879	-3.4568	LETO	Madrid–Torrejón Airport / Torr
+F	118300	Sol
+F	118400	Approche
+F	118900	GCA
+F	122100	Tour
+A	39.4892	-0.4810	LEVC	Valencia Airport
+F	118550	Tour
+F	120100	Approche
+F	121075	ATIS
+F	121700	Sol
+A	41.7061	-4.8519	LEVD	Valladolid Airport
+F	122200	Tour
+A	42.8828	-2.7245	LEVT	Vitoria Airport
+F	118450	Tour
+F	121800	Sol
+A	42.2318	-8.6268	LEVX	Vigo Airport
+F	118450	Tour
+F	120200	Approche
+F	121700	Sol
+A	43.4271	-3.8200	LEXJ	Seve Ballesteros-Santander Air
+F	118100	Tour
+F	118375	Approche
+F	121700	Sol
+A	41.6662	-1.0415	LEZG	Zaragoza Airport
+F	118100	Sol
+F	118100	Tour
+F	119300	Approche
+A	37.4180	-5.8931	LEZL	Seville Airport
+F	118175	ATIS
+F	121700	Sol
+F	125800	Approche
+A	50.9621	1.9548	LFAC	Calais Marck Airport
+F	120275	Approche
+F	128925	Tour
+F	135450	ATIS
+A	49.4312	2.8015	LFAD	Compiègne Margny Airfield
+F	122300	Auto-info
+A	50.4231	1.5919	LFAM	Berck-sur-Mer Airfield
+F	123500	Auto-info
+A	49.9700	2.6939	LFAQ	Albert Bray airport
+F	119650	Tour
+A	50.5183	1.6217	LFAT	Le Touquet-Côte d'Opale Airpor
+F	118450	Tour
+F	120275	Approche
+F	123125	ATIS
+F	125300	Sol
+A	50.3278	3.4611	LFAV	Valenciennes-Denain Airfield
+F	122600	AFIS
+F	126475	Approche
+A	44.1742	0.5931	LFBA	Agen La Garenne airport
+F	121100	Approche
+F	121175	Approche
+F	121300	Tour
+F	129600	ATIS
+A	44.5333	-1.1250	LFBC	Cazaux (BA 120) Air Base
+F	118400	Tour
+A	44.8287	-0.7154	LFBD	Bordeaux–Mérignac Airport
+F	118300	Tour
+F	118600	Approche
+F	120575	Info
+F	121200	Arrivée
+F	121900	Sol
+F	131150	ATIS
+A	44.8253	0.5186	LFBE	Bergerac Dordogne-Périgord air
+F	119275	Approche
+F	119800	Tour
+A	43.5456	1.3675	LFBF	Toulouse-Francazal (BA 101) Ai
+F	118400	Tour
+F	118800	Approche
+F	121250	AFIS
+F	122100	Sol
+F	125175	Approche
+A	45.6583	-0.3175	LFBG	Cognac-Châteaubernard (BA 709)
+F	120075	Tour
+F	122550	Approche
+A	46.1792	-1.1953	LFBH	La Rochelle Île de Ré Airport
+F	118000	Tour
+F	124200	Approche
+F	126875	ATIS
+A	46.5877	0.3067	LFBI	Poitiers-Biard Airport
+F	118500	Tour
+F	120775	Info
+F	121775	ATIS
+F	130900	Approche
+A	46.2226	2.3640	LFBK	Montluçon-Guéret Airport
+F	118400	AFIS
+A	45.8628	1.1794	LFBL	Limoges Airport
+F	118700	Tour
+F	119200	Approche
+F	124050	Info
+F	128075	ATIS
+A	46.3135	-0.3945	LFBN	Niort - Marais Poitevin Airpor
+F	119100	AFIS
+F	122550	Approche
+A	43.6291	1.3638	LFBO	Toulouse-Blagnac Airport
+F	118100	Tour
+F	121100	Approche
+F	121250	AFIS
+F	121700	Clairance
+F	121900	Sol
+F	123125	ATIS
+F	125175	Approche
+A	43.3800	-0.4186	LFBP	Pau Pyrénées Airport
+F	121175	Approche
+F	121750	Sol
+F	124150	Tour
+F	128475	ATIS
+A	43.4489	1.2633	LFBR	Aérodrome de Muret - Lherm
+F	121750	Sol
+F	123200	Tour
+F	124580	ATIS
+F	125175	Approche
+A	43.1787	-0.0064	LFBT	Tarbes-Lourdes-Pyrénées Airpor
+F	119050	Tour
+F	120300	Approche
+F	121175	Approche
+F	121800	Sol
+F	125950	ATIS
+A	45.7292	0.2215	LFBU	Angoulême Brie-Champniers airp
+F	118070	LIMOGES APPR
+F	118200	AFIS
+A	45.1981	0.8156	LFBX	Périgueux-Bassillac Airport
+F	118775	AFIS
+F	119275	Approche
+A	43.4684	-1.5232	LFBZ	Biarritz Pays Basque airport
+F	118700	Tour
+F	121950	Sol
+F	125600	Approche
+F	128225	ATIS
+A	44.3514	1.4753	LFCC	Cahors Lalbenque airport
+F	119225	AFIS
+A	44.6733	1.7892	LFCF	Aérodrome de Figeac - Livernon
+F	123500	Auto-info
+A	44.5964	-1.1108	LFCH	Aérodrome d'Arcachon-La Teste-
+F	119075	AFIS
+A	43.9139	2.1131	LFCI	Albi Le Sequestre airport
+F	118950	AFIS
+F	123850	Approche
+A	43.5563	2.2892	LFCK	Castres Mazamet Airport
+F	118500	AFIS
+F	123850	Approche
+A	43.5868	1.4992	LFCL	Toulouse-Lasbordes Airfield
+F	122700	Tour
+F	125175	Approche
+F	128100	ATIS
+A	43.9893	3.1830	LFCM	Millau-Larzac Airfield
+F	120800	AFIS
+A	44.4079	2.4827	LFCR	Rodez–Aveyron Airport
+F	118125	Tour
+F	125375	Approche
+A	46.9619	-0.1528	LFCT	Aérodrome de Thouars
+F	123350	Auto-info
+A	44.3695	2.0257	LFCV	Aérodrome de Villefranche de R
+F	123500	Tour
+A	45.6281	-0.9725	LFCY	Royan-Médis Airport
+F	118600	Approche
+F	118800	AFIS
+A	44.0257	1.3780	LFDB	Aérodrome Morin - Védrines
+F	120605	Auto-info
+F	125175	Approche
+A	45.2744	-0.4522	LFDC	Aérodrome de Montendre-Marcill
+F	123500	Auto-info
+A	43.6836	0.5997	LFDH	Auch Gers Airfield
+F	121175	Approche
+F	123000	AFIS
+F	126625	Pyrénées Inf
+A	43.0906	1.6958	LFDJ	Aérodrome de Pamiers - Les Puj
+F	118175	AFIS
+F	125175	Approche
+A	45.8878	-0.9831	LFDN	Rochefort-Saint-Agnant (BA 721
+F	119300	AFIS
+F	119300	Tour
+A	44.4609	1.0067	LFDX	Fumel Montayral Airfield
+F	123500	Radio
+A	47.3398	0.9459	LFEF	Amboise Dierre Airfield
+F	118775	Auto Info
+A	47.6987	-2.0379	LFER	Redon Bains-sur-Oust Airfield
+F	119930	Auto-info
+A	47.5463	5.2104	LFET	Til Châtel Airfield
+F	120060	Auto-info
+A	46.7176	-2.3925	LFEY	Île d'Yeu Airport
+F	118900	AFIS
+A	49.0668	3.3555	LFFH	Château-Thierry-Belleau Airfie
+F	120375	Auto-info
+A	47.4081	-1.1775	LFFI	Ancenis Airfield
+F	118200	AFIS
+F	130275	Approche
+A	46.8904	-2.0885	LFFO	Beauvoir Fromentine Airfield
+F	123500	Autoinfo
+F	123500	Beauvoir-Fro
+A	48.7096	3.7633	LFFZ	Sézanne-Saint-Remy Airfield
+F	123500	Auto-info
+A	48.1099	7.3590	LFGA	Colmar Houssen airport
+F	119000	Tour
+F	121880	Tour
+F	126135	ATIS
+A	47.7413	7.4322	LFGB	Mulhouse-Habsheim Airfield
+F	125250	Tour
+A	47.0066	4.8941	LFGF	Beaune-Challanges Airfield
+F	123500	Auto-info
+A	47.0390	5.4276	LFGJ	Dole Tavaux Airport
+F	130775	Info
+F	130775	Tour
+A	46.4658	4.1345	LFGN	Paray-le-Monial Airfield
+F	123500	Auto-Info
+A	45.5150	3.2675	LFHA	Issoire-Le Broc Airfield
+F	118150	Auto-info
+A	46.1233	5.8049	LFHN	Bellegarde-Vouvray Airfield
+F	123500	Auto-info
+A	44.5444	4.3722	LFHO	Aubenas-South Ardèche Airport
+F	118920	zone R 55
+F	119850	Auto-info
+A	45.0807	3.7629	LFHP	Le Puy-Loudes Airfield
+F	118000	Info
+A	45.0764	2.9936	LFHQ	Saint-Flour-Coltines Airfield
+F	120050	AFIS
+A	45.3199	3.3616	LFHR	Brioude Beaumont Airfield
+F	123500	Auto-info
+A	46.2009	5.2920	LFHS	Bourg-Ceyzériat Airfield
+F	118450	AFIS
+A	45.5162	3.7451	LFHT	Ambert - Le Poyet Airfield
+F	123500	Auto-info
+A	45.9183	4.6352	LFHV	Villefranche-Tarare Airfield
+F	118250	Auto-info
+A	46.2539	3.5886	LFHX	Lapalisse - Périgny Airfield
+F	123350	Auto-info
+A	46.5346	3.4237	LFHY	Moulins-Montbeugny Airfield
+F	125200	AFIS
+A	44.1778	2.5150	LFIG	Cassagnes-Bégonhès Airfield
+F	125375	Approche
+A	48.9821	6.2513	LFJL	Metz-Nancy-Lorraine Airport
+F	118200	Tour
+F	119125	Approche
+F	121700	Sol
+F	136575	ATIS
+A	47.5603	-0.3122	LFJR	Angers Marcé airport
+F	124705	AFIS
+A	49.3450	3.2827	LFJS	Soissons-Courmelles Airfield
+F	120375	Auto-info
+A	42.5527	9.4837	LFKB	Bastia-Poretta International a
+F	118000	Tour
+F	121825	Sol
+F	123825	Approche
+F	124725	AFIS
+F	125925	ATIS
+A	42.5304	8.7930	LFKC	Calvi Sainte Catherine Airport
+F	120800	Tour
+F	121700	Sol
+F	131175	ATIS
+A	41.5018	9.0971	LFKF	Figari Sud-Corse Airport
+F	118725	ATIS
+F	120300	Tour
+F	121800	Sol
+A	41.9236	8.8029	LFKJ	Ajaccio Napoléon Bonaparte air
+F	118075	Tour
+F	119825	AFIS
+F	121050	Approche
+F	121700	Sol
+F	126925	ATIS
+A	41.6606	8.8897	LFKO	Propriano Airport
+F	118500	AFIS
+A	41.9244	9.4060	LFKS	Solenzara (BA 126) Air Base
+F	118350	Tour
+F	119900	Approche
+A	47.8502	3.4971	LFLA	Auxerre Branches airport
+F	129800	Info
+A	45.6381	5.8802	LFLB	Chambéry Aix les Bains airport
+F	118300	Tour
+F	123700	Approche
+F	124575	ATIS
+A	45.7867	3.1692	LFLC	Clermont-Ferrand Auvergne airp
+F	118625	Tour
+F	119375	Approche
+F	121950	Sol
+F	122225	Approche
+F	122225	Info vol
+F	136400	ATIS
+A	47.0602	2.3696	LFLD	Bourges airport
+F	119600	AFIS
+A	45.2180	5.8483	LFLG	Grenoble Le Versoud Airfield
+F	121000	Tour
+F	121650	Sol
+F	125225	ATIS
+A	46.8258	4.8176	LFLH	Chalon Champforgeuil Airfield
+F	118600	AFIS
+A	46.1920	6.2684	LFLI	Annemasse Airfield
+F	125875	Auto-info
+F	126350	Info
+A	45.7260	5.0901	LFLL	Lyon Saint-Exupéry Airport
+F	120450	Tour
+F	121650	PREFLIGHT
+F	121825	Sol
+F	126175	ATIS
+F	136075	Lyon approac
+A	46.2951	4.7960	LFLM	Mâcon-Charnay Airfield
+F	119000	AFIS
+F	135200	Approche
+A	46.4140	4.0142	LFLN	Saint-Yan Airport
+F	119500	Approche
+F	121800	Sol
+F	122300	Tour
+F	132475	ATIS
+A	46.0538	3.9990	LFLO	Roanne-Renaison Airport
+F	119500	Approche
+F	120900	AFIS
+F	123400	Approche
+A	45.9289	6.0987	LFLP	Annecy Meythet airport
+F	118205	AFIS
+F	118205	Tour
+F	121730	ANNECY SOL
+F	123705	Approche
+A	44.5799	4.7388	LFLQ	Montélimar-Ancône Airfield
+F	123500	Auto-info
+A	45.3629	5.3294	LFLS	Grenoble Alpes Isère Airport
+F	119300	Approche
+F	119300	Tour
+F	121925	Sol
+F	133850	ATIS
+A	44.9216	4.9699	LFLU	Valence-Chabeuil Airport
+F	120100	Tour
+A	46.1697	3.4036	LFLV	Vichy-Charmeil Airport
+F	121400	AFIS
+A	44.8914	2.4219	LFLW	Aurillac airport
+F	118325	AFIS
+A	46.8602	1.7283	LFLX	Châteauroux Déols airport
+F	125875	AFIS
+F	125875	Tour
+F	130900	Arrivée
+A	45.7279	4.9440	LFLY	Lyon Bron Airport
+F	118100	Tour
+F	119450	Approche
+F	121700	Sol
+F	128125	ATIS
+A	45.7062	4.1973	LFLZ	Aérodrome de Feurs - Chambéon
+F	123500	Auto-info
+A	43.5063	5.3664	LFMA	Aix Les Milles airport
+F	118750	Tour
+F	118850	Approche
+F	136225	ATIS
+A	43.3847	6.3871	LFMC	Le Luc-Le Cannet Airfield
+F	121850	Sol
+F	122200	Approche
+F	123000	Tour
+F	128650	ATIS
+A	43.5480	6.9552	LFMD	Cannes Mandelieu Airport
+F	118625	Tour
+F	121800	Sol
+F	127475	ATIS
+A	45.5406	4.2964	LFMH	Saint-Étienne-Bouthéon Airport
+F	118650	Approche
+F	118650	Tour
+F	132800	ATIS
+A	43.5227	4.9238	LFMI	Istres-Le Tubé Air Base
+F	119475	Centre
+F	120350	Approche
+F	121850	Sol
+F	122100	Tour
+A	43.2160	2.3063	LFMK	Carcassonne Salvaza Airport
+F	120025	ATIS
+F	121000	Tour
+F	123850	Approche
+A	43.4381	5.2125	LFML	Marseille Provence Airport
+F	118375	Tour
+F	118850	Info
+F	120200	Approche
+F	121725	PERFLIGHT
+F	121900	Sol
+F	125350	ATIS
+A	43.6584	7.2159	LFMN	Nice-Côte d'Azur Airport
+F	118700	Tour
+F	121775	Sol
+F	124175	NICE APP
+F	129600	ATIS
+A	44.1405	4.8667	LFMO	Orange-Caritat (BA 115) Air Ba
+F	120700	Tour
+A	42.7404	2.8707	LFMP	Perpignan-Rivesaltes (Llabanèr
+F	120750	Approche
+F	121900	Tour
+F	127875	ATIS
+A	43.2525	5.7852	LFMQ	Le Castellet Airport
+F	119000	AFIS
+A	44.0697	4.1421	LFMS	Aérodrome d'Alès Cévennes
+F	122100	Approche
+F	130200	AFIS
+A	43.5762	3.9630	LFMT	Montpellier-Méditerranée Airpo
+F	118200	Tour
+F	118775	Tour
+F	120375	Approche
+F	121950	Sol
+F	124125	ATIS
+A	43.3235	3.3539	LFMU	Béziers Vias airport
+F	120175	Tour
+F	127525	ATIS
+F	130850	Approche
+A	43.9073	4.9018	LFMV	Avignon Caumont airport
+F	120825	ATIS
+F	120875	Approche
+F	122600	Tour
+A	43.3122	1.9211	LFMW	Aérodrome de Castelnaudary-Vil
+F	118900	Auto-info
+A	43.6064	5.1093	LFMY	Salon-de-Provence (BA 701) Air
+F	122100	Tour
+F	135150	Approche
+A	43.1758	2.7342	LFMZ	Lézignan-Corbières Airfield
+F	121200	Info
+A	44.5021	3.5328	LFNB	Mende-Brenoux Airfield
+F	119600	AFIS
+A	43.8008	3.7825	LFNL	Aérodrome de Saint-Martin-de-L
+F	122450	Auto-info
+F	122500	Auto-info
+A	44.2865	5.9291	LFNS	Sistéron-Vaumeilh Airfield
+F	120050	Sisteron sta
+A	47.0533	2.6325	LFOA	Avord (BA 702) Air Base
+F	119700	Approche
+F	122100	Tour
+A	49.4544	2.1128	LFOB	Beauvais-Tillé airport
+F	118375	ATIS
+F	119900	Approche
+F	121400	Tour
+A	48.0579	1.3793	LFOC	Châteaudun Airfield
+F	122700	Approche
+F	123300	GCA
+F	125625	Tour
+A	47.2568	-0.1151	LFOD	Aérodrome de Saumur - Saint-Fl
+F	120600	AFIS
+A	49.0287	1.2199	LFOE	Évreux-Fauville (BA 105) Air B
+F	118125	Approche
+F	119700	Tour
+F	122100	Sol
+A	49.5340	0.0884	LFOH	Le Havre-Octeville Airport
+F	120350	Approche
+F	126175	ATIS
+F	135205	Tour
+A	50.1435	1.8319	LFOI	Abbeville-Buigny Baie de Somme
+F	123500	Auto-info
+A	47.9878	1.7606	LFOJ	Orléans-Bricy (BA 123) Air Bas
+F	122100	Sol
+F	122100	Tour
+F	122700	Approche
+A	48.7733	4.2061	LFOK	Chalons Vatry airport
+F	119400	AFIS
+F	119400	Tour
+A	49.2023	-1.5080	LFOM	Lessay Airfield
+F	128925	Auto-info
+A	49.3849	1.1791	LFOP	Rouen Vallée de Seine Airport
+F	118575	Approche
+F	120200	Tour
+F	120730	ATIS
+A	47.6785	1.2088	LFOQ	Blois Le Breuil Airfield
+F	118450	AFIS
+A	48.4575	1.5198	LFOR	Chartres-Métropole Airfield
+F	119205	Auto-info
+A	47.4322	0.7276	LFOT	Tours Val de Loire Airport
+F	118300	AFIS
+F	118300	Tour
+F	121000	Approche
+F	122100	Sol
+A	47.0821	-0.8771	LFOU	Cholet Le Pontreau airfield
+F	120405	AFIS
+F	124250	Approche
+A	48.0322	-0.7440	LFOV	Laval-Entrammes Airport
+F	119300	AFIS
+A	48.3819	2.0753	LFOX	Étampes-Mondésir Airfield
+F	119050	Tour
+F	121850	Sol
+F	129900	ATIS
+A	47.8978	2.1645	LFOZ	Orléans–Saint-Denis-de-l'Hôtel
+F	122400	AFIS
+A	49.1658	2.3131	LFPA	Persan-Beaumont Airfield
+F	119500	Auto-info
+A	48.9623	2.4365	LFPB	Paris-Le Bourget International
+F	118925	Tour
+F	120000	ATIS
+F	121150	Approche
+F	121900	Sol
+F	121950	PREFLIGHT
+F	124350	Départ
+F	136275	Approche
+A	49.2535	2.5191	LFPC	Creil Air Base
+F	119850	Approche
+F	122100	Sol
+F	123300	Tour
+A	49.1024	0.5659	LFPD	Bernay-Saint-Martin Airfield
+F	119230	Auto-info
+A	48.9275	2.8335	LFPE	Meaux-Esbly Airfield
+F	120150	Tour
+F	126725	ATIS
+A	49.0090	2.5541	LFPG	Charles de Gaulle Internationa
+F	118100	Sol
+F	119250	Tour
+F	120650	Tour
+F	121150	Approche
+F	121600	Sol
+F	124350	Départ
+F	126650	DE GAULLE PR
+F	127125	ATIS
+F	136275	Approche
+A	48.8210	2.6260	LFPL	Lognes Emerainville Airfield
+F	118600	Tour
+F	122125	Sol
+F	125025	ATIS
+A	48.6047	2.6711	LFPM	Melun-Villaroche Airfield
+F	118050	Approche
+F	121100	Tour
+F	128175	ATIS
+A	48.7519	2.1062	LFPN	Toussus-le-Noble Airport
+F	120750	Tour
+F	122130	Sol
+F	127475	ATIS
+A	48.7295	2.3590	LFPO	Paris-Orly Airport
+F	118700	Tour
+F	121050	PREFLIGHT
+F	121700	Sol
+F	123875	Approche
+F	127750	Départ
+F	131350	ATIS
+A	49.1088	2.7361	LFPP	Le Plessis-Belleville Airfield
+F	120400	Auto-info
+A	48.7063	2.9028	LFPQ	Fontenay-Trésigny Aerodrome
+F	120225	Auto-info
+A	49.0961	2.0355	LFPT	Pontoise-Cormeilles Aerodrome
+F	118800	Approche
+F	121200	Tour
+F	124125	ATIS
+A	48.7744	2.2031	LFPV	Vélizy-Villacoublay Air Base
+F	119425	Approche
+F	121875	Sol
+F	122100	Tour
+A	48.8125	2.0675	LFPZ	Saint-Cyr-l'École Airport
+F	118000	Auto-info
+F	118000	Tour
+F	121950	Sol
+F	131025	Atis/V
+A	49.2087	4.1566	LFQA	Reims-Prunay Airfield
+F	119800	Approche
+F	134925	AFIS
+A	48.3221	4.0167	LFQB	Troyes-Barberey Airport
+F	120325	Approche
+F	123725	AFIS
+A	49.2269	5.6722	LFQE	Lieutenant Étienne Mantoux Air
+F	120125	Approche
+A	47.0029	3.1131	LFQG	Nevers-Fourchambault Airport
+F	120600	Info
+A	47.8439	4.5800	LFQH	Châtillon-sur-Seine Airfield
+F	123500	Auto-info
+A	50.3105	4.0331	LFQJ	Maubeuge-Élesmes Airfield
+F	121000	Auto-info
+A	47.2066	6.0832	LFQM	Besançon La Vèze Airfield
+F	122200	Info
+A	50.7275	2.2326	LFQN	Saint-Omer Wizernes Airfield
+F	123500	Info
+A	48.7662	7.2006	LFQP	Phalsbourg-Bourscheid Air Base
+F	128750	Approche
+F	129800	Tour
+A	50.5666	3.1024	LFQQ	Lille Airport
+F	118550	Tour
+F	119325	ATIS
+F	120275	Approche
+F	121850	Sol
+F	134825	AFIS
+A	50.6184	2.6422	LFQT	Merville-Calonne Airport
+F	119075	Tour
+F	120275	Approche
+F	121675	Sol
+F	127900	ATIS
+A	49.7839	4.6471	LFQV	Charleville-Mézières Ardennes-
+F	119000	AFIS
+A	47.6386	6.2044	LFQW	Vesoul-Frotey Airfield
+F	118150	Auto Information
+A	48.4479	-4.4185	LFRB	Brest Bretagne airport
+F	120100	Tour
+F	122400	Approche
+F	129350	ATIS
+F	135825	Approche
+A	49.6501	-1.4703	LFRC	Cherbourg Manche airport
+F	119350	Approche
+F	119625	Tour
+A	48.5877	-2.0800	LFRD	Dinard Pleurtuit Saint-Malo ai
+F	120150	Tour
+F	124575	ATIS
+A	47.2894	-2.3464	LFRE	La Baule-Escoublac Airport
+F	121400	AFIS
+A	49.3652	0.1545	LFRG	Deauville Normandie airport
+F	118300	Tour
+F	119825	Info
+F	120350	Approche
+F	136150	ATIS
+A	47.7606	-3.4400	LFRH	Lorient South Brittany (Bretag
+F	119700	Sol
+F	122700	Tour
+F	123000	Approche
+F	129125	ATIS
+A	46.7019	-1.3786	LFRI	La Roche-sur-Yon Les Ajoncs Ai
+F	119900	AFIS
+F	130275	Approche
+A	48.5303	-4.1516	LFRJ	Landivisiau Air Base
+F	119200	Tour
+F	122400	Approche
+A	49.1768	-0.4549	LFRK	Caen Carpiquet airport
+F	120350	Approche
+F	121790	Tour
+F	123080	ATIS
+F	131400	Opérations
+F	134530	Tour
+A	48.2817	-4.4450	LFRL	Lanvéoc-Poulmic Air Base
+F	120600	Approche
+F	121900	Sol
+F	123200	Tour
+A	47.9486	0.2017	LFRM	Le Mans-Arnage Airport
+F	125900	Tour
+A	48.0695	-1.7348	LFRN	Rennes-Saint-Jacques Airport
+F	120500	Tour
+F	121725	Sol
+F	124900	Approche
+F	134000	Approche
+F	136400	ATIS
+A	48.7544	-3.4717	LFRO	Lannion Airport
+F	118400	Tour
+A	47.9730	-4.1697	LFRQ	Quimper-Cornouaille Airport
+F	118625	Tour
+F	119575	Approche
+A	47.1532	-1.6107	LFRS	Nantes Atlantique Airport
+F	118650	Tour
+F	121655	Sol
+F	124250	Approche
+F	124430	Approche
+F	126930	ATIS
+F	130275	Info
+A	48.5386	-2.8535	LFRT	Saint-Brieuc-Armor Airport
+F	119400	AFIS
+A	48.6032	-3.8158	LFRU	Morlaix-Ploujean Airport
+F	122400	Approche
+F	135825	Approche
+A	47.7233	-2.7186	LFRV	Vannes-Meucon Airport
+F	122600	Tour
+A	47.3114	-2.1526	LFRZ	Saint-Nazaire-Montoir Airport
+F	118950	Tour
+F	130275	Approche
+A	47.6007	7.5211	LFSB	EuroAirport Basel–Mulhouse–Fre
+F	118300	Tour
+F	118575	APP
+F	120500	PREFLIGHT
+F	121250	Info
+F	121600	Sol
+F	127875	ATIS
+A	47.2689	5.0900	LFSD	Dijon Longvic airport
+F	118325	AFIS
+F	118325	Tour
+F	122100	Sol
+A	48.3250	6.0700	LFSG	Épinal Mirecourt Airport
+F	120200	AFIS
+F	127250	Approche
+A	48.7948	7.8161	LFSH	Haguenau Airfield
+F	120630	Auto-info
+A	48.6360	4.8994	LFSI	Saint-Dizier – Robinson Air Ba
+F	122100	Sol
+A	45.0397	1.4856	LFSL	Brive Souillac airport
+F	118080	LIMOGES APPR
+F	121125	AFIS
+F	121125	BRIVE TOWER/
+F	121125	Tour
+A	47.4870	6.7905	LFSM	Montbéliard-Courcelles Airfiel
+F	121250	Approche
+F	132025	AFIS
+A	48.6921	6.2305	LFSN	Nancy-Essey Airport
+F	119600	AFIS
+F	127250	Approche
+A	48.5831	5.9550	LFSO	Nancy-Ochey (BA 133) Air Base
+F	122100	Tour
+F	127250	Approche
+A	46.9040	6.3268	LFSP	Pontarlier Airfield
+F	135700	Tour
+A	48.5383	7.6282	LFST	Strasbourg Airport
+F	119250	Tour
+F	119580	STRASBOURG A
+F	119580	STRASBOURG I
+F	120410	STRASBOURG A
+F	120410	STRASBOURG I
+F	121805	Sol
+F	126930	ATIS
+F	133100	STRASBOURG A
+A	47.9648	5.2937	LFSU	Langres-Rolampont Airfield
+F	123500	Auto-info
+A	47.7877	6.3534	LFSX	Luxeuil-Saint-Sauveur (BA 116)
+F	122100	Tour
+F	129925	Approche
+A	43.2476	6.1267	LFTF	Cuers-Pierrefeu Airfield
+F	118275	Tour
+A	43.0973	6.1460	LFTH	Toulon-Hyères Airport
+F	118825	Approche
+F	121000	Tour
+F	121800	Sol
+F	129650	ATIS
+A	43.7574	4.4164	LFTW	Nîmes-Arles-Camargue Airport
+F	119700	Approche
+F	121800	Sol
+F	123200	Tour
+F	129350	ATIS
+A	43.2054	6.4820	LFTZ	La Môle Airport
+F	118125	AFIS
+A	45.9873	5.3284	LFXA	Ambérieu Air Base (BA 278)
+F	120225	Approche
+F	122100	Tour
+A	50.1405	3.2632	LFYG	Cambrai Niergnies Airfield
+F	118525	Tour
+F	119700	Approche
+F	122925	Auto-info
+A	47.3175	1.6910	LFYR	Romorantin Pruniers Airbase
+F	119075	Auto-info
+A	35.0637	24.7674	LGTY	Tympaki Air Base
+F	122100	Tour
+A	37.9207	21.2926	LGAD	Andravida Air Base
+F	120650	Approche
+F	120650	Tour
+A	40.8559	25.9563	LGAL	Alexandroupoli Democritus Airp
+F	123800	Approche
+F	123800	Tour
+A	37.9364	23.9445	LGAV	Athens Eleftherios Venizelos I
+F	118675	Clairance
+F	121400	ATHINAI DIR
+F	121750	Sol
+F	126575	Approche
+F	127800	ATHINAI VOLM
+F	128950	Départ
+F	132975	Arrivée
+F	136025	Info
+F	136125	ATIS
+F	136275	Tour
+A	40.6511	22.4887	LGAX	Alexandria (Gidas) Airfield
+F	123500	Tour
+A	39.2196	22.7943	LGBL	Nea Anchialos National Airport
+F	120350	Approche
+F	122100	Tour
+A	38.0638	23.5560	LGEL	Elefsis Air Base
+F	119100	Approche
+F	120150	Tour
+A	38.3432	26.1406	LGHI	Chios Island National Airport
+F	122700	Tour
+F	124000	Approche
+A	37.6827	26.3471	LGIK	Ikaria Airport
+F	122300	AFIS
+A	39.6964	20.8225	LGIO	Ioannina King Pyrrhus National
+F	118600	APP
+F	132200	AFIS
+F	132200	Tour
+A	35.3397	25.1803	LGIR	Heraklion International Nikos 
+F	118025	IRAKLION DIR
+F	120850	Tour
+F	121700	Sol
+F	123975	Approche
+F	123975	IRAKLION RAD
+F	127550	ATIS
+A	40.4463	21.2822	LGKA	Kastoria National Airport Aris
+F	118400	AFIS
+A	36.2740	23.0167	LGKC	Kithira Airport
+F	123250	AFIS
+A	37.0683	22.0255	LGKL	Kalamata Airport
+F	120750	Approche
+F	120750	Tour
+A	40.9728	24.3414	LGKM	Kavala Amygdaleon Lydia Airfie
+F	122100	Tour
+A	35.4214	27.1460	LGKP	Karpathos Airport
+F	122100	Info
+A	39.6014	19.9122	LGKR	Corfu Ioannis Kapodistrias Int
+F	118075	Approche
+F	120850	Tour
+F	126350	ATIS
+A	35.4214	26.9100	LGKS	Kasos Airport
+F	123200	AFIS
+A	40.9133	24.6192	LGKV	Kavala Alexander the Great Int
+F	118400	Tour
+F	122100	Approche
+A	40.2861	21.8408	LGKZ	Kozani National Airport Filipp
+F	118200	AFIS
+A	37.1849	26.8003	LGLE	Leros Airport
+F	124950	AFIS
+A	39.9171	25.2363	LGLM	Limnos Airport
+F	122100	Approche
+F	122100	Tour
+A	39.6503	22.4655	LGLR	Larissa Air Base
+F	120550	Approche
+F	120550	Tour
+A	37.9811	23.3654	LGMG	Megara Air Base
+F	130875	Tour
+A	37.4351	25.3481	LGMK	Mykonos Island National Airpor
+F	118750	Approche
+F	118750	Tour
+A	39.0574	26.5986	LGMT	Mytilene International Airport
+F	122100	Approche
+F	122100	Tour
+A	37.0205	25.1132	LGPA	Paros National Airport
+F	125050	AFIS
+A	36.5799	26.3758	LGPL	Astypalaia Airport
+F	124850	AFIS
+A	38.9255	20.7653	LGPZ	Aktion National Airport
+F	120450	Approche
+F	120450	Tour
+A	36.3831	28.1089	LGRD	Maritsa Air Base
+F	118100	Tour
+F	120600	Approche
+A	38.1511	21.4256	LGRX	Patras Araxos Agamemnon Airpor
+F	120650	Approche
+F	122100	Tour
+A	35.5312	24.1507	LGSA	Chania International Airport
+F	118125	Approche
+F	121100	Tour
+F	121700	Sol
+A	39.1771	23.5037	LGSK	Skiathos Island National Airpo
+F	126050	Approche
+F	126050	Tour
+A	37.6900	26.9117	LGSM	Samos Airport
+F	122100	Approche
+F	122100	Tour
+A	37.4228	24.9509	LGSO	Syros Airport
+F	118850	AFIS
+A	36.4000	25.4786	LGSR	Santorini International Airpor
+F	118050	Approche
+F	118050	Tour
+A	35.2161	26.1013	LGST	Sitia Airport
+F	122600	AFIS
+A	38.9676	24.4872	LGSY	Skiros Airport
+F	123200	Approche
+F	123200	Tour
+A	38.3398	23.5650	LGTG	Tanagra Air Base
+F	120250	Approche
+F	120250	Tour
+A	37.5306	22.4036	LGTP	Tripolis Air Base
+F	122100	Tour
+A	40.5193	22.9700	LGTS	Thessaloniki Macedonia Interna
+F	118050	Clairance
+F	118100	Tour
+F	120800	Approche
+F	121700	Sol
+F	127550	ATIS
+A	38.1089	23.7838	LGTT	Tatoi Airport
+F	118500	Tour
+F	119100	Approche
+A	46.6771	21.1612	LHBC	Békéscsaba Airfield
+F	123260	AFIS
+A	47.4302	19.2624	LHBP	Budapest Liszt Ferenc Internat
+F	118100	Tour
+F	119500	Approche
+F	121900	Sol
+F	122450	Apron Guide 
+F	129700	Centre
+F	131550	Apron Guide 
+F	132375	ATIS
+F	134550	Delivery
+A	47.4511	18.9806	LHBS	Budaörs Airfield
+F	124510	Auto-info
+A	47.4895	21.6163	LHDC	Debrecen International Airport
+F	125900	AFIS
+F	133300	Info
+A	47.7568	18.7305	LHEM	Esztergom Ernő Rubik Airfield
+F	128650	Info
+A	47.5828	16.8454	LHFM	Fertőszentmiklós Airfield
+F	124450	AFIS
+A	47.5717	19.3368	LHGD	Gödöllő Airfield
+F	118650	AFIS
+A	47.5171	18.3250	LHKD	Kecskéd Airfield
+F	120610	Auto-info
+A	46.9175	19.7492	LHKE	Kecskemét Air Base
+F	120250	Approche
+F	135750	Tour
+A	46.7331	19.8933	LHKH	Kiskunfélegyháza Airfield
+F	118850	Info
+A	47.1745	19.0775	LHKK	Kiskunlacháza Airfield
+F	124035	Info
+A	46.3864	17.7335	LHKV	Kaposvar Kaposújlak Airfield
+F	125060	Auto-info
+A	47.8119	20.4223	LHMR	Maklár Airfield
+F	129985	Auto-info
+A	47.9839	21.6923	LHNY	Nyíregyháza Airfield
+F	127600	AFIS
+A	45.9889	18.2420	LHPP	Pécs-Pogány International Airp
+F	126900	AFIS
+A	47.6284	17.8047	LHPR	Győr-Pér Airport
+F	125500	Info
+F	129900	AFIS
+A	47.0779	17.9684	LHSA	Szentkirályszabadja Airfield
+F	127000	Tour
+A	46.6864	17.1591	LHSM	Hévíz–Balaton Airport
+F	127600	AFIS
+F	127600	Tour
+A	47.1229	20.2355	LHSN	Szolnok Air Base
+F	129000	Tour
+A	47.2800	16.6264	LHSY	Szombathely Airfield
+F	119610	Tour
+A	46.6125	20.2832	LHSZ	Szentes Aerodrome
+F	123810	Info
+A	47.3453	18.9808	LHTL	Tököl Airport
+F	127560	AFIS
+A	46.2451	20.0922	LHUD	Szeged Airport
+F	122810	AFIS
+A	47.1282	18.3130	LHUH	Úrhida
+F	135700	Info
+A	46.5539	17.1512	LHZK	Zalakaros Airfield
+F	134585	Balaton INFO
+A	42.5733	12.5844	LIAA	Aviosuperficie "Alvaro Leonard
+F	128450	Info
+A	42.9328	12.7124	LIAF	Foligno Airfield
+F	119555	Radio
+A	42.3799	13.3092	LIAP	L'Aquila–Preturo Airport
+F	122500	Radio
+A	43.5922	10.6963	LIAT	Valdera Airfield
+F	119000	Radio
+A	41.5384	15.7172	LIBA	Amendola Air Base
+F	118200	Tour
+F	118850	Approche
+A	38.9972	17.0802	LIBC	Crotone Sant'Anna Pythagoras A
+F	119100	AFIS
+A	41.1389	16.7606	LIBD	Bari Karol Wojtyła Internation
+F	118300	Tour
+F	119500	Approche
+A	41.4336	15.5346	LIBF	Foggia Gino Lisa Airport
+F	118850	Approche
+F	120100	AFIS
+A	40.5175	17.4032	LIBG	Taranto-Grottaglie Marcello Ar
+F	118700	Approche
+F	118700	Tour
+A	40.2392	18.1333	LIBN	Lecce Galatina Air Base / Gala
+F	112800	Tacan
+F	112800	Vortac
+F	118950	Approche
+F	119550	Tour
+A	42.4311	14.1830	LIBP	Abruzzo Airport
+F	118450	Tour
+F	120050	Approche
+A	40.6576	17.9470	LIBR	Brindisi Airport
+F	109500	Ils Rwy 32
+F	118100	Tour
+F	118400	Approche
+A	40.7678	16.9333	LIBV	Gioia del Colle Antonio Ramire
+F	122100	Approche
+F	122100	Tour
+A	38.9062	16.2460	LICA	Lamezia Terme Sant'Eufemia Int
+F	118800	Approche
+F	119700	Tour
+A	36.9958	14.6089	LICB	Comiso Airport
+F	108900	ILS pista 09
+A	37.4668	15.0664	LICC	Catania-Fontanarossa Airport
+F	118700	Tour
+F	119250	Approche
+F	120800	DIRECTOR
+F	129725	Sol
+A	35.4979	12.6181	LICD	Lampedusa Airport
+F	122100	AFIS
+A	36.8165	11.9689	LICG	Pantelleria Airport
+F	118450	Tour
+A	38.1760	13.0910	LICJ	Falcone–Borsellino Airport
+F	119050	Tour
+F	120200	Approche
+F	121625	Sol
+F	123875	ATIS
+A	38.1159	13.3134	LICP	Palermo-Boccadifalco Airport
+F	120200	Approche
+F	122600	Boccadifalco
+A	38.0712	15.6516	LICR	Reggio Calabria Airport
+F	118250	Tour
+F	120275	Approche
+A	37.9114	12.4880	LICT	Vincenzo Florio Airport Trapan
+F	119700	Tour
+F	119950	Approche
+A	37.4017	14.9224	LICZ	Sigonella Navy Air Base
+F	118050	Tour
+F	118200	Opérations
+F	119250	Approche
+F	120800	CATANIA DIRE
+F	121950	Sol
+A	45.8862	11.5159	LIDA	Asiago Romeo Sartori Airfield
+F	122600	Radio
+A	44.6980	10.6649	LIDE	Reggio Emilia Airport
+F	127150	AFIS
+A	43.8240	13.0259	LIDF	Fano Airfield
+F	119650	Radio
+A	44.3975	11.8548	LIDG	Lugo Francesco Baracca Airfiel
+F	119650	Radio
+A	44.3222	10.8317	LIDP	Pavullo Airfield
+F	124980	Auto-info
+A	44.3643	12.2250	LIDR	Ravenna Airport
+F	123505	Radio
+A	46.0233	11.1250	LIDT	Trento-Mattarello Airport
+F	119655	AFIS
+F	124150	Info vol
+A	40.6321	8.2908	LIEA	Alghero-Fertilia Airport
+F	118850	Tour
+F	125025	ATIS
+F	128550	Approche
+A	39.3542	8.9725	LIED	Decimomannu Air Base
+F	118750	Approche
+F	122100	Tour
+A	39.2515	9.0543	LIEE	Cagliari Elmas Airport
+F	118750	Approche
+F	120600	Tour
+F	123100	Divers
+F	125425	Sol
+A	40.8990	9.5185	LIEO	Olbia Costa Smeralda Airport
+F	113900	ATIS
+F	118975	Tour
+F	125950	Approche
+A	39.8953	8.6427	LIER	Oristano-Fenosu Airport
+F	118750	Approche
+F	122600	Radio
+A	39.9188	9.6830	LIET	Tortolì Airport
+F	119650	AFIS
+A	46.5728	11.3076	LIGT	San Genesio Airfield
+F	130000	Radio
+A	44.9256	8.6267	LILA	Alessandria Airfield
+F	126900	Auto-info
+A	45.4953	8.1028	LILE	Biella-Cerrione Airfield
+F	123050	AFIS
+A	44.9520	9.0165	LILH	Voghera-Rivanazzano Airfield
+F	123000	Radio
+A	45.3111	8.4175	LILI	Vercelli Airport
+F	118855	Radio
+F	124925	Milano Infor
+F	128925	Milano Infor
+F	135075	Milano Infor
+A	45.1100	8.4569	LILM	Casale Monferrato Airfield
+F	118355	Auto-info
+A	45.7422	8.8882	LILN	Varese-Venegono Airport
+F	128550	AFIS
+A	46.1544	9.7951	LILO	Caiolo Sondrio Airfield
+F	129500	Auto-info
+A	43.9860	10.1438	LILQ	Massa Cinquale Municipal Airfi
+F	120355	Radio
+A	45.7199	9.5940	LILV	Valbrembo Airfield
+F	122605	Valbrembo Ra
+A	45.8147	9.0697	LILY	Como (Idroscalo - Water Ad) Hi
+F	121005	Radio
+A	45.0844	7.6031	LIMA	Torino-Aeritalia Airport
+F	119800	AFIS
+A	45.5414	9.2022	LIMB	Milano-Bresso Airfield
+F	122005	Radio
+A	45.6306	8.7281	LIMC	Milan Malpensa International A
+F	119000	Tour
+F	120025	ATIS
+F	120900	Clairance
+F	121900	Sol
+F	126750	Départ
+F	132700	Approche
+A	45.6694	9.7089	LIME	Il Caravaggio International Ai
+F	112600	ATIS
+F	120500	Sol
+F	126750	Approche
+F	126875	Tour
+A	45.2008	7.6496	LIMF	Turin Airport
+F	118500	Tour
+F	120475	ATIS
+F	121705	Sol
+F	129275	Approche
+A	44.0506	8.1274	LIMG	Riviera Villanova d'Albenga In
+F	123850	AFIS
+A	44.4120	8.8407	LIMJ	Genoa Cristoforo Colombo Airpo
+F	118600	Tour
+F	119600	Approche
+F	122825	ATIS
+A	45.4451	9.2767	LIML	Milano Linate Airport
+F	118100	Tour
+F	121800	Sol
+F	126750	Départ
+F	132700	Approche
+F	135550	ATIS
+A	45.5296	8.6692	LIMN	Cameri Air Base
+F	121700	Sol
+F	122100	Tour
+F	125620	Approche
+A	44.8264	10.2971	LIMP	Parma Airport
+F	118450	Tour
+F	126550	Approche
+A	44.9144	9.7223	LIMS	Piacenza San Damiano Air Base
+F	122100	Tour
+F	123925	Approche
+A	45.7386	7.3683	LIMW	Aosta Corrado Gex Airport
+F	119950	AFIS
+A	44.5475	7.6230	LIMZ	Cuneo International Airport
+F	119550	AFIS
+A	43.2268	13.7433	LINF	Fermano Airfield
+F	130000	Info
+A	46.4592	11.3261	LIPB	Bolzano Airport
+F	120600	AFIS
+A	44.2242	12.3072	LIPC	Cervia Air Base
+F	118150	Approche
+F	122100	Tour
+A	44.5354	11.2887	LIPE	Bologna Guglielmo Marconi Airp
+F	118150	Approach Eas
+F	120100	Approach Wes
+F	120100	Tower Discre
+F	120800	Tour
+F	121925	Sol
+F	133775	Approach Wes
+F	134875	ATIS
+A	45.6484	12.1944	LIPH	Treviso Airport
+F	109300	Approche
+F	118700	Tour
+F	124150	Info
+A	45.9787	13.0493	LIPI	Udine-Rivolto Air Base
+F	120125	Approche
+F	122100	Tour
+A	44.1948	12.0701	LIPK	Forlì-Luigi Ridolfi Internatio
+F	118150	Approche
+F	118950	Tour
+A	45.4326	10.2686	LIPL	Ghedi Air Base
+F	122100	Tour
+F	124450	Approche
+A	45.4720	10.9279	LIPN	Verona-Boscomantico Airfield
+F	125250	Radio
+A	45.4289	10.3306	LIPO	Brescia Gabriele d'Annunzio Ai
+F	119400	Tour
+F	124450	Approche
+A	45.8279	13.4667	LIPQ	Trieste Airport
+F	119175	Approche
+F	130200	Tour
+A	44.0200	12.6122	LIPR	Federico Fellini International
+F	118150	Approche
+F	119100	Tour
+F	121600	GND/CLNC DEL
+A	45.6844	12.0866	LIPS	Istrana Air Base
+F	120400	Approche
+F	122100	Tour
+A	45.3953	11.8471	LIPU	Padova Gino Allegri Airfield
+F	123250	AFIS
+A	45.4288	12.3887	LIPV	Venice-Lido Giovanni Nicelli A
+F	118525	Lido tower
+A	45.3950	10.8873	LIPX	Verona Villafranca Valerio Cat
+F	118650	Tour
+F	121750	Sol
+F	123250	Info
+F	124450	Approche
+A	43.6163	13.3623	LIPY	Marche Airport
+F	118150	Approche
+F	119800	Tour
+F	122850	ATIS
+A	45.5053	12.3519	LIPZ	Venice Marco Polo Airport
+F	118900	Approche
+F	120200	Tour
+F	121700	Sol
+F	122225	ATIS
+A	43.2856	10.5212	LIQG	Cecina Airfield
+F	130000	Radio
+A	43.2549	11.2551	LIQS	Siena-Ampugnano Airport
+F	122100	Approche
+F	122600	AFIS
+A	41.7988	12.5953	LIRA	Ciampino–G. B. Pastine Interna
+F	119200	Arrivée
+F	119200	ROMA DIRECTO
+F	119400	Clairance
+F	120500	Tour
+F	121750	Sol
+F	122425	ATIS
+A	41.6545	12.4452	LIRE	Pratica di Mare Air Base
+F	121600	Sol
+F	122100	Tour
+A	41.8045	12.2520	LIRF	Rome–Fiumicino Leonardo da Vin
+F	118700	Tour
+F	120175	Arrivée
+F	121725	Clairance
+F	121800	Sol
+F	121850	ATIS
+A	41.9903	12.7408	LIRG	Guidonia Air Base
+F	122100	Tour
+A	40.6204	14.9113	LIRI	Salerno Costa d'Amalfi Airport
+F	119175	AFIS
+A	42.7609	10.2398	LIRJ	Marina di Campo Airport
+F	123700	AFIS
+A	41.5424	12.9090	LIRL	Latina Air Base
+F	119150	Tour
+F	122100	Approche
+A	41.0608	14.0819	LIRM	Grazzanise Air Base
+F	118025	Tour
+A	40.8860	14.2908	LIRN	Naples International Airport
+F	118275	ATOC
+F	118275	Opérations
+F	118500	Tour
+F	120950	NAPOLI DIREC
+F	121900	NAPOLI GND C
+F	124350	Approche
+F	135975	ATIS
+A	43.6839	10.3927	LIRP	Pisa International Airport
+F	119100	Tour
+F	121600	Sol
+F	122100	Approche
+A	43.8086	11.2028	LIRQ	Florence Airport, Peretola
+F	118300	Tour
+F	126075	Approche
+F	129350	ATIS
+A	42.7597	11.0719	LIRS	Grosseto Corrado Baccarini Air
+F	122100	Approche
+F	122100	Tour
+A	41.9521	12.5022	LIRU	Rome Urbe Airport
+F	122700	Sol
+F	123800	Tour
+A	42.4353	12.0614	LIRV	Viterbo Airport
+F	122100	Tour
+A	43.0959	12.5132	LIRZ	Perugia San Francesco d'Assisi
+F	118100	AFIS
+F	118100	Tour
+A	45.3446	7.9191	LIVV	Moncucco-Vische Airfield
+F	118950	Radio
+F	130000	Auto-info
+A	45.8892	13.8869	LJAJ	Ajdovščina Airfield
+F	123505	AFIS
+A	46.3572	14.1739	LJBL	Lesce Airfield
+F	122505	Auto-info
+A	46.3290	13.5502	LJBO	Bovec Airfield
+F	123505	Radio
+A	45.9000	15.5302	LJCE	Cerklje ob Krki Air Base
+F	118555	Tour
+A	46.2456	15.2231	LJCL	Celje Airfield
+F	128800	Tower
+A	45.6828	14.0032	LJDI	Divača Airfield
+F	123505	AFIS
+A	46.2237	14.4576	LJLJ	Ljubljana Jože Pučnik Airport
+F	118000	Tour
+F	121625	Sol
+F	128175	ATIS
+F	131400	Handling & Ga
+F	135275	APP
+A	46.4799	15.6861	LJMB	Maribor Edvard Rusjan Airport
+F	119200	APP
+F	119200	Tour
+A	46.6294	16.1750	LJMS	Murska Sobota Airfield
+F	123500	AFIS
+A	45.8017	15.1045	LJNM	Novo Mesto Airfield
+F	123500	AFIS
+A	45.7522	14.1947	LJPO	Postojna Airfield
+F	123500	AFIS
+A	46.4271	15.9861	LJPT	Ptuj Airfield
+F	122500	AFIS
+A	45.4720	13.6160	LJPZ	Portorož Airport
+F	124875	Approche
+F	124880	PortoRoz App
+A	46.4720	15.1170	LJSG	Slovenj Gradec Airfield
+F	123500	AFIS
+A	46.3975	15.0453	LJSO	Šoštanj Airfield
+F	122100	AFIS
+A	48.7904	16.8925	LKBA	Břeclav Airfield
+F	119655	Info
+A	49.7408	14.6447	LKBE	Benešov Airfield
+F	118005	Radio
+F	134835	preliminary 
+A	49.6706	17.2950	LKBO	Bohuňovice Airfield
+F	118280	Radio
+A	50.5619	16.3428	LKBR	Broumov Airfield
+F	123490	Radio
+A	49.9744	14.1781	LKBU	Bubovice Airfield
+F	134305	Bubovice RAD
+A	50.0661	12.4117	LKCB	Cheb Airfield
+F	122205	Radio
+A	50.7094	14.5667	LKCE	Česká Lípa Airfield
+F	123590	Radio
+A	50.4689	13.4681	LKCH	Chomutov Airfield
+F	123600	AFIS
+F	123605	Radio
+A	49.2367	16.5550	LKCM	Medlánky Airfield
+F	122405	Radio
+A	49.9364	15.7806	LKCR	Chrudim Airfield
+F	122805	Radio
+A	48.9482	14.4283	LKCS	České Budějovice South Bohemia
+F	129250	AFIS
+F	135930	Radio
+A	49.6858	15.6761	LKCT	Chotěboř Airfield
+F	122205	Radio
+A	49.9397	15.3818	LKCV	Čáslav Air Base
+F	129405	Mtwr
+F	130280	Approche
+F	134205	Tour
+A	50.4142	15.8369	LKDK	Dvůr Králové nad Labem Airfiel
+F	119610	Radio
+A	49.8028	13.0381	LKER	Erpužice Airfield
+F	123490	Radio
+A	49.5894	18.3792	LKFR	Frýdlant Airfield
+F	123490	Radio
+A	49.5972	15.5492	LKHB	Havlíčkův Brod Airfield
+F	120900	Info
+F	128905	Radio
+A	50.3576	15.5770	LKHC	Hořice Airfield
+F	120315	Radio
+A	50.6572	15.0778	LKHD	Hodkovice nad Mohelkou Airfiel
+F	120905	Radio
+A	50.2532	15.8452	LKHK	Hradec Králové Airport
+F	122000	AFIS
+F	122005	Radio
+A	49.5461	17.7044	LKHN	Hranice Airfield
+F	123510	Info
+A	49.0400	14.4950	LKHS	Hosín Airfield
+F	130200	Info
+F	130205	Radio
+A	49.8481	13.8935	LKHV	Hořovice Airfield
+F	122600	Info
+F	127125	Prague / Pra
+F	135575	LKHV Tower
+F	135580	Radio
+A	50.3314	15.9539	LKJA	Jaroměř Airfield
+F	119105	Radio
+A	50.4300	15.3331	LKJC	Jičín Airfield
+F	118080	Radio
+A	49.1507	14.9724	LKJH	Jindřichův Hradec Airfield
+F	123605	Radio
+A	49.4194	15.6353	LKJI	Jihlava Airfield
+F	123490	Radio
+F	123500	Auto-info
+A	49.3683	16.1161	LKKA	Křižanov Airfield
+F	133155	Radio
+A	50.1214	14.5436	LKKB	Prague–Kbely Air Base
+F	120880	Tour
+F	123300	PRECISION
+F	124680	Approche
+A	50.1128	14.0897	LKKL	Kladno Airfield
+F	123480	Radio
+A	49.2856	17.4158	LKKM	Kroměříž Airfield
+F	122205	Radio
+A	50.0019	15.1733	LKKO	Kolín Airfield
+F	129155	Radio
+A	50.0744	17.6952	LKKR	Krnov Airfield
+F	122610	Radio
+A	49.4183	13.3219	LKKT	Klatovy Josef Hubáč Airfield
+F	122210	Radio
+A	49.0294	17.4397	LKKU	Kunovice Airport
+F	120105	AFIS
+F	120105	Tour
+A	50.2030	12.9150	LKKV	Karlovy Vary Airport
+F	118955	ATIS
+F	119955	Radar
+F	121225	AFIS
+F	121230	Tour
+A	48.9800	17.1247	LKKY	Kyjov Airfield
+F	130610	Radio
+A	50.7671	15.0231	LKLB	Liberec Airfield
+F	122605	Radio
+A	49.6752	13.2746	LKLN	Plzeň-Líně Airport
+F	129005	Radio
+A	50.1314	14.5256	LKLT	Letňany Airfield
+F	120325	Info
+F	120335	Radio
+A	50.3983	14.8983	LKMB	Mladá Boleslav Airfield
+F	123610	Radio
+A	50.5402	15.0066	LKMH	Mnichovo Hradiště Airport
+F	120405	Radio
+F	130200	Info
+A	50.3017	17.2975	LKMI	Mikulovice Airfield
+F	123510	Radio
+A	49.7983	16.6878	LKMK	Moravská Třebová Airfield
+F	130540	Radio
+A	50.5250	13.6831	LKMO	Most Airfield
+F	118760	Radio
+F	123500	AFIS
+A	49.6963	18.1111	LKMT	Leoš Janáček Airport Ostrava
+F	118055	ATIS
+F	118375	Approche
+F	119375	Approche
+F	120805	Tour
+F	128525	Approche
+A	49.1663	16.1240	LKNA	Náměšť Air Base
+F	118155	Approche
+F	123300	PRECISION
+F	126505	Tour
+A	50.3642	16.1136	LKNM	Nové Město nad Metují Airfield
+F	123405	Radio
+A	49.5877	17.2093	LKOL	Olomouc Airport
+F	118005	Radio
+A	49.7394	16.2589	LKPA	Polička Airfield
+F	122590	Radio
+A	50.3061	13.9342	LKPC	Panensky Tynec Airfield
+F	118575	AFIS
+F	118580	Radio
+A	50.0150	15.7398	LKPD	Pardubice Airport
+F	120155	Tour
+F	123300	PRECISION
+F	128365	Approche
+A	49.5808	15.7628	LKPI	Přibyslav Airfield
+F	123610	Radio
+A	49.4478	17.1339	LKPJ	Prostějov Airfield
+F	126905	Radio
+A	49.7231	13.4522	LKPL	Letkov Airfield
+F	130610	Radio
+A	49.7201	14.1006	LKPM	Příbram Airfield
+F	118755	Radio
+A	49.9392	15.5497	LKPN	Podhořany Airfield
+F	123590	Radio
+A	49.4258	17.4047	LKPO	Přerov Air Base
+F	119750	Tour
+F	123300	PRECISION
+F	127780	Radio
+A	50.1009	14.2599	LKPR	Václav Havel Airport Prague
+F	118310	Info
+F	119010	Radar
+F	120060	Clairance
+F	120530	Approche
+F	121910	Sol
+F	122160	ATIS
+F	127580	Approche
+F	134560	Tour
+A	49.9203	13.3769	LKPS	Plasy Rybnice Airfield
+F	123590	Radio
+A	50.4039	13.7519	LKRA	Rana Loumy Airfield
+F	126855	Radio
+A	50.0942	13.6889	LKRK	Rakovnik Airfield
+F	123510	Radio
+A	50.4102	14.2271	LKRO	Roudnice nad Labem Airfield
+F	122205	Radio
+A	49.7519	13.5897	LKRY	Rokycany Airfield
+F	119660	Radio
+A	49.5665	13.0487	LKSA	Staňkov Airfield
+F	123610	Radio
+A	49.4874	17.0526	LKSB	Stichovice Pluml Airfield
+F	120680	Radio
+A	49.8278	16.0058	LKSK	Skuteč Airfield
+F	123510	Radio
+A	50.2164	14.0878	LKSN	Slaný Airfield
+F	122405	Radio
+A	49.2455	14.7130	LKSO	Soběslav Airfield
+F	122190	Radio
+A	49.0825	14.0758	LKSR	Prachatice Airfield
+F	123505	Radio
+A	49.2517	13.8928	LKST	Strakonice Airfield
+F	118760	Radio
+A	49.9606	17.0178	LKSU	Šumperk Airfield
+F	122605	Radio
+A	50.3247	14.2589	LKSZ	Sazená Airfield
+F	119640	Radio
+A	49.3911	14.7083	LKTA	Tábor Airfield
+F	122610	Radio
+A	49.1513	16.6940	LKTB	Brno-Tuřany Airport
+F	119605	Tour
+F	125430	Sol
+F	127350	Approche
+F	131105	ATIS
+A	49.9854	14.4265	LKTC	Točná Airfield
+F	123410	Radio
+A	49.7972	12.7072	LKTD	Tachov Airfield
+F	123405	Radio
+A	50.0864	12.9528	LKTO	Toužim Airfield
+F	122605	Radio
+A	50.6997	13.9697	LKUL	Usti Nad Labem Airfield
+F	123405	Radio
+A	49.9786	16.4264	LKUO	Ústí Nad Orlicí Airfield
+F	122210	Radio
+A	49.7289	14.8789	LKVL	Vlašim Airfield
+F	119655	Radio
+A	49.9281	16.1850	LKVM	Vysoké Mýto Airfield
+F	130605	Radio
+A	50.2166	14.3958	LKVO	Vodochody Airport
+F	127480	Radar
+F	133080	Tour
+A	50.4678	16.2056	LKVP	Velké Poříčí Airfield
+F	122190	Radio
+A	50.6242	15.6464	LKVR	Vrchlabí Airfield
+F	125330	Radio
+A	49.3003	17.0253	LKVY	Letiště Vyškov
+F	120330	Radio
+A	49.9283	18.0756	LKZA	Zábřeh Dolní Benešov Airfield
+F	123605	Radio
+A	49.8142	15.2017	LKZB	Zbraslavice Airfield
+F	126630	Radio
+A	50.3175	13.5128	LKZD	Žatec-Macerka Airfield
+F	122810	Radio
+A	50.0839	16.4439	LKZM	Žamberk Airfield
+F	122610	Radio
+A	48.8177	16.0658	LKZN	Znojmo Airfield
+F	130590	Radio
+A	35.8459	14.4915	LMML	Malta International Airport
+F	121600	Ground
+F	123625	Leaving
+F	126800	VOLMET
+F	127400	WX
+F	128150	Approche
+F	130975	Distance Radar
+A	48.4186	15.2153	LOAA	Ottenschlag Airfield
+F	122305	Tour
+F	124400	Info
+A	48.4462	15.6350	LOAG	Krems/Langenlois Airfield
+F	122700	AFIS
+A	47.8433	16.2601	LOAN	Wiener Neustadt East Airport
+F	118520	Info
+F	122650	AFIS
+F	130005	Wiener Neust
+A	48.6661	16.8250	LOAR	Altlichtenwarth Gliderfield
+F	125250	Info
+A	48.0992	16.9335	LOAS	Spitzerberg Airfield
+F	118520	Info
+F	122080	Tour
+A	47.9650	16.2600	LOAV	Vöslau-Kottingbrunn Airfield
+F	118525	Info vol
+F	118605	AFIS
+F	134675	Approche
+A	47.1467	16.3171	LOGG	Punitz-Güssing Airfield
+F	123205	Tour
+A	47.7897	15.3003	LOGM	Mariazell Airfield
+F	122105	Tour
+A	47.3796	14.9640	LOGT	Leoben/Timmersdorf Airfield
+F	122305	Auto-info
+A	47.3845	9.6998	LOIH	Hohenems-Dornbirn Airfield
+F	121200	Info
+A	47.5201	12.4497	LOIJ	Sankt Johann Airfield
+F	120350	Auto-info
+A	46.8182	14.8252	LOKW	Wolfsberg Airfield
+F	122500	AFIS
+A	48.1033	14.9511	LOLG	Sankt Georgen-Ybbsfeld Airfiel
+F	122405	Tour
+A	48.1391	14.3358	LOLH	Hofkirchen Airfield
+F	122180	Info
+A	48.3000	14.3336	LOLO	Linz-East Glider Field
+F	122380	Info
+A	48.0506	14.6619	LOLT	Flugplatz Seitenstetten
+F	123605	Tour
+A	48.1825	14.0393	LOLW	Wels Airfield
+F	119705	AFIS
+A	46.9911	15.4396	LOWG	Graz Airport
+F	118200	Tour
+F	119300	Approche
+F	126125	ATIS
+A	47.2602	11.3440	LOWI	Innsbruck Airport
+F	119275	Approche
+F	120100	Tour
+F	121800	Gnd Crew
+F	121900	Gnd Crew
+F	126025	ATIS
+A	46.6425	14.3377	LOWK	Klagenfurt Airport
+F	118100	Tour
+F	123325	Klagenfurt R
+F	126330	ATIS
+A	48.2354	14.1881	LOWL	Linz-Hörsching Airport
+F	118800	Tour
+F	119750	Linz Radar
+F	128120	ATIS
+F	129620	Approche
+A	47.7933	13.0043	LOWS	Salzburg Airport
+F	118100	Tour
+F	121750	Sol
+F	123725	Approche
+F	125725	ATIS
+A	48.1103	16.5697	LOWW	Vienna International Airport
+F	118520	Info
+F	119400	Tour
+F	119800	DIRECTOR
+F	121600	Sol
+F	121730	ATIS
+F	122125	Clairance
+F	122955	ATIS
+F	131625	VIENNA ICE
+F	134675	Approche
+A	47.2915	12.7906	LOWZ	Zell am See Airfield
+F	119705	Zell am See 
+A	47.8369	16.2218	LOXN	Wiener Neustadt West Airport
+F	130150	Tour
+A	47.2028	14.7442	LOXZ	Hinterstoisser Air Base
+F	118700	Tour
+F	129475	Approche
+A	38.8833	-9.0301	LPAR	Alverca Air Base
+F	119225	Tour
+A	36.9714	-25.1706	LPAZ	Santa Maria Airport
+F	118100	Tour
+F	119000	Approche
+F	127900	Radio
+F	132150	Centre
+A	41.8578	-6.7071	LPBG	Bragança Airport
+F	122305	AFIS
+A	38.0789	-7.9324	LPBJ	Beja Airport / Airbase
+F	130100	Approche
+F	130400	Tour
+A	41.5870	-8.4452	LPBR	Braga Municipal Aerodrome
+F	122005	Auto-info
+A	39.8445	-7.4399	LPCB	Aerodromo de Castelo Branco
+F	122555	Info
+A	41.7224	-7.4631	LPCH	Aerodromo de Chaves
+F	122705	AFIS
+A	40.1588	-8.4708	LPCO	Aerodromo Municipal de Coimbra
+F	122905	AFIS
+A	38.7250	-9.3552	LPCS	Cascais Airport
+F	120305	Tour
+F	121830	Sol
+A	38.5335	-7.8896	LPEV	Évora Airfield
+F	122700	AFIS
+A	39.4553	-31.1314	LPFL	Flores Airport
+F	118300	Tour
+A	37.0159	-7.9709	LPFR	Faro - Gago Coutinho Internati
+F	118200	Tour
+F	118575	Sol
+F	119400	Approche
+F	124200	ATIS
+A	39.0922	-28.0298	LPGR	Graciosa Airport
+F	122900	AFIS
+A	38.5199	-28.7159	LPHR	Horta Airport
+F	118000	Tour
+F	119700	Approche
+A	40.9742	-8.6444	LPIN	Espinho Airfield
+F	118600	Ovar Twr
+A	39.7799	-8.8202	LPJF	Aerodromo de Leiria
+F	121255	Radio
+A	38.7618	-27.0908	LPLA	Lajes Airport
+F	120300	ATIS
+F	121900	GND
+F	122100	Tour
+F	130650	Divers
+F	135000	Approche
+A	32.6978	-16.7746	LPMA	Cristiano Ronaldo Internationa
+F	118350	Tour
+F	119200	Approche
+A	41.4680	-7.2263	LPMI	Mirandela Airfield
+F	122205	AFIS
+A	38.9935	-8.1420	LPMO	Morargil Airfield
+F	123350	Auto-info
+A	39.8283	-8.8875	LPMR	Monte Real Air Base
+F	119725	Sol
+F	121700	Approche
+F	122100	Tour
+A	38.7093	-9.0337	LPMT	Montijo Air Base
+F	134100	Tour
+A	41.3963	-6.6835	LPMU	Mogadouro Airfield
+F	120100	Radio
+A	40.9159	-8.6459	LPOV	Ovar Air Base
+F	118600	Approche
+F	122100	Tour
+A	37.7412	-25.6979	LPPD	João Paulo II Airport
+F	118300	Tour
+F	119400	Approche
+A	38.5543	-28.4413	LPPI	Pico Airport
+F	122700	AFIS
+A	37.1493	-8.5840	LPPM	Portimão Airport
+F	122000	AFIS
+A	41.2481	-8.6814	LPPR	Francisco de Sá Carneiro Airpo
+F	118005	Tour
+F	118930	Porto Delive
+F	121105	Approche
+F	124305	ATIS
+A	33.0734	-16.3500	LPPS	Porto Santo Airport
+F	120050	Tour
+F	123300	GCA
+A	38.7813	-9.1359	LPPT	Lisbon Humberto Delgado Airpor
+F	118100	Tour
+F	118950	Clairance
+F	119100	Approche
+F	121750	Sol
+F	123750	Info
+F	124150	ATIS
+F	127900	Radio
+A	38.6655	-28.1758	LPSJ	São Jorge Airport
+F	122300	AFIS
+A	39.2095	-8.6873	LPSR	Santarém Airfield
+F	122605	Info
+A	38.8311	-9.3395	LPST	Sintra Air Base
+F	118600	Approche
+F	119850	Tour
+F	122100	Sol
+A	39.4751	-8.3646	LPTN	Tancos Airbase
+F	122100	Tour
+A	41.2773	-8.5162	LPVL	Vilar de Luz Airfield
+F	122405	Auto-info
+A	41.2743	-7.7205	LPVR	Vila Real Airport
+F	124905	AFIS
+A	40.7255	-7.8890	LPVZ	Aerodromo Goncalves Lobato (Vi
+F	122710	AFIS
+A	44.7971	15.9045	LQBI	Bihać Golubić Airfield
+F	123500	GOLUBIC INFO
+A	44.9414	17.2975	LQBK	Banja Luka International Airpo
+F	118950	Approche
+F	118950	Tour
+A	44.4578	18.8081	LQJL	Tuzla Jegin Lug Sport Airfield
+F	123500	Info
+A	43.2825	17.8461	LQMO	Mostar International Airport
+F	122700	Approche
+F	124200	Tour
+A	43.8246	18.3315	LQSA	Sarajevo International Airport
+F	118250	Tour
+F	119400	GCA
+F	121900	Sol
+F	136450	Approche
+A	44.4599	18.7236	LQTZ	Tuzla International Airport
+F	125800	Approche
+F	130850	Tour
+A	45.1587	27.4309	LRIC	Ianca Airfield
+F	130000	Approche
+F	130000	Départ
+F	130000	Tour
+A	44.3923	27.7267	LRFT	Feteşti Borcea Air Base
+F	130000	Approche
+F	130000	Tour
+A	45.2164	26.9786	LRBO	Boboc Air Base
+F	130000	Approche
+F	130000	Départ
+F	130000	Tour
+A	46.1761	21.2643	LRAR	Arad International Airport
+F	130200	Tour
+A	46.5219	26.9103	LRBC	Bacău George Enescu Internatio
+F	118600	Approche
+F	118600	Tour
+F	133700	PRECISION
+A	47.6584	23.4644	LRBM	Maramureș International Airpor
+F	118100	BAIA MARE TO
+F	118855	Tour
+A	44.5031	26.1029	LRBS	Bucharest Băneasa Aurel Vlaicu
+F	118250	Approche
+F	120800	Tour
+F	125200	PRECISION
+F	129950	Sol
+A	45.7372	24.1653	LRCD	Măgura Airfield
+F	121305	Auto-info
+F	122700	Auto-info
+F	131405	Magura Dispa
+A	44.3622	28.4883	LRCK	Mihail Kogălniceanu Internatio
+F	118750	ATIS
+F	120450	Tour
+F	122900	Approche
+A	46.7860	23.6857	LRCL	Avram Iancu Cluj International
+F	118700	PRECISION
+F	118705	Tour
+F	125525	ATIS
+F	126430	Approche
+F	134400	Twr Altn
+A	44.3590	25.9320	LRCN	Clinceni Airfield
+F	128300	Info
+A	45.4201	22.2525	LRCS	Caransebeş Airport
+F	125850	Approche
+F	125850	Tour
+A	46.5023	23.8859	LRCT	Câmpia Turzii Air Base
+F	129000	Approche
+F	129000	Départ
+F	129000	Tour
+A	44.3181	23.8886	LRCV	Craiova International Airport
+F	124300	Approche
+F	124300	Tour
+A	47.3628	25.2119	LRFL	Floreni Airfield
+F	123450	Radio
+A	47.1796	27.6214	LRIA	Iaşi International Airport
+F	118800	PRECISION
+F	119200	APP/DEP/TWR
+F	119550	TWR/APP/DEP
+F	128610	CTR
+A	47.0253	21.9025	LROD	Oradea International Airport
+F	118455	Approche
+F	118455	Tour
+A	44.5718	26.1033	LROP	Bucharest Henri Coandă Interna
+F	118250	Approche
+F	118500	ATIS
+F	120900	Tour
+F	121700	Sol
+A	44.9237	25.9634	LRPW	Ploiești-Strejnicu Airfield
+F	118400	Strejnic dis
+A	45.7858	24.0867	LRSB	Sibiu International Airport
+F	121300	PRECISON
+F	122700	Approche
+F	122700	Tour
+A	47.7033	22.8857	LRSM	Satu Mare International Airpor
+F	118800	Approche
+F	118800	Tour
+A	47.6875	26.3541	LRSV	Suceava Ștefan cel Mare Intern
+F	118300	Tour
+F	120900	PRECISION
+A	45.0625	28.7143	LRTC	Tulcea Danube Delta Airport
+F	120300	Approche
+F	120300	Tour
+A	46.4677	24.4125	LRTM	Târgu Mureş Transilvania Inter
+F	121900	Approche
+F	125900	Tour
+A	45.8099	21.3379	LRTR	Timișoara Traian Vuia Internat
+F	120100	Approche
+F	120100	Tour
+F	121600	Sol
+A	46.2583	6.9864	LSGB	Bex Airfield
+F	122155	Info
+A	47.0839	6.7928	LSGC	Les Eplatures Airport
+F	118125	Tour
+A	46.7553	7.0757	LSGE	Ecuvillens Airfield
+F	120630	AFIS
+A	46.2381	6.1090	LSGG	Geneva International Airport
+F	118700	Tour
+F	119525	Départ
+F	120300	Approche
+F	121675	Sol
+F	121750	APN
+F	135575	ATIS
+F	136250	Arrivée
+A	46.4865	7.2484	LSGK	Saanen Airfield
+F	119425	AFIS
+A	46.5451	6.6166	LSGL	Lausanne la Blécherette Airpor
+F	118830	Approach
+F	123205	Lausanne
+A	46.9574	6.8646	LSGN	Neuchâtel Airfield
+F	123605	AFIS
+A	46.4064	6.2581	LSGP	La Côte Airfield
+F	123655	Auto-info
+F	126350	Info vol
+A	46.6136	7.6778	LSGR	Reichenbach Air Base
+F	127705	AFIS
+A	46.2192	7.3269	LSGS	Sion Airport
+F	118275	Tour
+F	121700	Sol
+F	122350	Info
+F	126825	Approche
+F	134275	Air-sol
+A	46.7619	6.6132	LSGY	Yverdon-les-Bains Airfield
+F	126350	Info vol
+F	131130	AFIS
+A	46.9439	8.2842	LSMA	Alpnach Air Base
+F	119625	Tour
+F	133787	Arrivée
+A	47.3986	8.6482	LSMD	Dübendorf Air Base
+F	128475	Tour
+F	134925	Arrivée
+A	47.0924	8.3052	LSME	Emmen Air Base
+F	119500	ARR/DEP
+F	120425	Tour
+A	46.7423	8.1089	LSMM	Meiringen Air Base
+F	130150	Tour
+A	46.8432	6.9151	LSMP	Payerne Air Base
+F	128675	Tour
+F	130625	Arrivée
+A	47.4386	7.4914	LSPD	Dittingen Airfield
+F	118180	Gld
+A	46.9083	8.2542	LSPG	Kägiswil Airfield
+F	128475	Alpnach TWR
+F	134125	Info
+A	47.5150	8.7719	LSPH	Winterthur Airfield
+F	134975	AFIS
+A	47.1828	7.7412	LSPL	Langenthal Airfield
+F	119405	AFIS
+A	46.5125	8.6898	LSPM	Ambri Airport
+F	118525	AFIS
+F	124700	Info vol
+A	47.2267	8.0781	LSPN	Triengen Airfield
+F	124525	AFIS
+A	47.2048	8.8673	LSPV	Wangen-Lachen Airfield
+F	123200	AFIS
+A	46.4974	7.4126	LSTS	Sankt Stephan Airfield
+F	119425	AFIS
+F	120050	Tour
+A	46.0043	8.9106	LSZA	Lugano Airport
+F	120250	Tour
+F	121175	ATIS
+F	121775	Sol
+A	46.9127	7.4988	LSZB	Bern Airport
+F	119700	Tour
+F	121030	Tour
+F	123400	Divers
+F	125130	ATIS
+F	127325	APP/DEP
+F	131410	Ground
+F	135750	Opérations
+A	46.9744	8.3969	LSZC	Buochs Airport
+F	119625	Tour
+F	120425	Emmen Tower
+F	124700	Info vol
+F	128475	Alpnach Towe
+F	134125	INFO
+A	47.4436	8.2336	LSZF	Birrfeld Airfield
+F	123550	AFIS
+F	124700	Info vol
+A	47.1816	7.4172	LSZG	Grenchen Airfield
+F	120100	Tour
+F	121100	ATIS
+F	121800	Sol
+F	127325	Approche
+A	47.4581	8.5481	LSZH	Zürich Airport
+F	118100	Tour
+F	121755	Apron (South
+F	121855	Apron (North
+F	121902	Sol
+F	121925	Clairance
+F	125325	Approche
+F	125725	ATIS
+F	125950	Départ
+F	127755	Terminal
+F	132815	Radar M3
+F	132833	Radar M5
+F	133050	Radar M1
+F	133405	Radar M2
+F	133690	Radar M6
+F	133900	Radar East
+F	134600	Radar M4
+F	135225	Approach (Ea
+F	135680	Radar West
+F	136155	Radar North
+A	47.5089	7.9500	LSZI	Fricktal-Schupfart Airfield
+F	119550	AFIS
+A	47.3764	8.7575	LSZK	Speck-Fehraltorf Airfield
+F	120350	AFIS
+A	46.1625	8.8789	LSZL	Locarno Airport
+F	121700	Sol
+F	133455	ATIS
+F	134825	Tour
+A	47.0784	9.0647	LSZM	Mollis Airfield
+F	134825	AFIS
+F	134825	Tour
+A	47.2386	8.5156	LSZN	Hausen am Albis Airfield
+F	130755	Ad
+A	47.1890	8.2046	LSZO	Luzern-Beromünster Airfield
+F	122450	Aerodrome
+A	47.3924	7.0290	LSZQ	Bressaucourt Airfield
+F	119350	Approche
+F	122050	AFIS
+A	47.4850	9.5608	LSZR	Sankt Gallen Altenrhein Airpor
+F	118650	Tour
+F	119925	Arrivée
+F	121800	Sol
+F	123775	ATIS
+F	124700	Info vol
+F	133900	Centre
+A	46.5341	9.8841	LSZS	Engadin Airport
+F	121600	Sol
+F	123670	Air-sol
+F	135325	Tour
+F	136600	ATIS
+A	47.5244	9.0031	LSZT	Lommis Airfield
+F	119300	AFIS
+F	124700	Info vol
+A	47.2647	8.3025	LSZU	Buttwil Airfield
+F	122150	AFIS
+F	124700	Info vol
+F	127750	Zurich Termi
+A	46.7564	7.6006	LSZW	Thun Airfield
+F	123255	Thun Airfiel
+A	40.9719	28.8237	LTBA	İstanbul Atatürk Airport
+F	118100	Tour
+F	120500	Approche
+F	121700	Clairance
+F	121800	Sol
+F	121900	YESILKOY RAM
+F	128200	ATIS
+A	41.1382	27.9191	LTBU	Tekirdağ Çorlu Airport
+F	119925	ATIS
+F	120375	Tour
+F	120500	Approche
+F	121900	Sol
+A	41.1036	28.5477	LTBW	İstanbul Hezarfen Airfield
+F	118250	Tower
+F	121650	Tower
+A	41.2749	28.7321	LTFM	İstanbul Airport
+F	121750	Istanbul Gro
+F	127100	Istanbul Cle
+F	131100	Istanbul Tow
+A	47.8377	27.7811	LUBL	Bălți-Leadoveni International 
+F	122300	Tour
+A	46.9277	28.9317	LUKK	Chişinău International Airport
+F	118100	Tour
+F	121800	Sol
+F	125900	Approche
+F	133700	ATIS
+A	42.0594	21.3885	LWSN	Stenkovec Brazda Airfield
+F	123500	Stenkovec in
+A	41.1800	20.7423	LWOH	Ohrid St. Paul the Apostle Air
+F	119200	Approche
+F	119200	Tour
+A	41.9581	21.6226	LWSK	Skopje International Airport
+F	118500	Tour
+F	120300	Approche
+F	130125	ATIS
+A	36.1517	-5.3498	LXGB	Gibraltar Airport
+F	122800	APP
+F	130400	Opérations
+F	131200	Tour
+A	44.0182	22.1371	LYBO	Bor Airport
+F	123500	Air-sol
+A	44.8184	20.3091	LYBE	Belgrade Nikola Tesla Airport
+F	118100	Tour
+F	119100	Approche
+F	122925	ATIS
+F	133100	Approche
+A	44.9399	20.4458	LYBJ	Lisičji Jarak Airfield
+F	123500	Ground
+A	43.3365	21.8562	LYNI	Niš Constantine the Great Airp
+F	118950	Tour
+F	119525	Approche
+F	121500	Emerg
+F	136075	Twr/App Altn
+A	42.3594	19.2519	LYPG	Podgorica Airport / Podgorica 
+F	118200	Tour
+F	118700	Approche
+A	43.8664	21.4869	LYPN	Paracín / Davidovac Airfield
+F	123500	Info
+A	45.0374	19.6602	LYSM	Sremska Mitrovica / Veliki Rad
+F	119100	Auto-info
+A	46.0228	19.7065	LYSU	Subotica / Bikovo Sport Aerodr
+F	123500	Subotica Radio
+A	42.4047	18.7233	LYTV	Tivat Airport
+F	118000	Arrivée
+F	118000	Tour
+A	44.2979	20.0216	LYVA	Valjevo Divci Airfield
+F	123500	Auto-info
+A	45.1477	21.3094	LYVR	Vršac Airfield
+F	118600	Tour
+F	123500	Info
+F	125050	Approche
+A	48.8103	17.1338	LZHL	Holič Airfield
+F	123675	Auto-info
+A	48.1702	17.2127	LZIB	M. R. Štefánik Airport
+F	118300	Tour
+F	120900	Approche
+F	128650	ATIS
+A	49.0479	19.5068	LZJS	Jasná Airfield
+F	123400	Info
+A	48.6631	21.2411	LZKZ	Košice International Airport
+F	119850	Approche
+F	120400	Tour
+A	48.4020	17.1184	LZMC	Malacky/Kuchyňa Air Base
+F	118250	Approche
+F	118250	Tour
+A	47.9619	18.1844	LZNZ	Nové Zámky Airfield
+F	122600	Info
+A	48.5953	19.2658	LZOC	Očová Airfield
+F	123600	Info
+A	48.6252	17.8284	LZPP	Piešťany Airport
+F	118575	Tour
+A	48.6192	18.3297	LZPT	Male Bielice-Partizánske Airfi
+F	123500	Info
+A	49.0855	19.3686	LZRU	Ružomberok Airfield
+F	123500	Info
+A	48.6378	19.1341	LZSL	Sliač Airport
+F	119150	Approche
+F	122900	Tour
+A	48.9408	20.5339	LZSV	Spišská Nová Ves Airfield
+F	123500	Info
+A	48.8652	18.0001	LZTN	Trenčín Airfield
+F	120750	Info
+F	120750	Tour
+A	49.0710	20.2414	LZTT	Poprad-Tatry Airport
+F	110100	Ils Rw27
+F	121350	Approche
+F	121350	Tour
+A	49.2333	18.6134	LZZI	Žilina-Dolný Hričov Airport
+F	124150	Tour
+A	46.8366	28.9016	LUKH	Horeshti Airfield
+F	125050	Tour
+A	51.7853	5.8810	NL-0023	Malden Glider Airfield
+F	123350	Malden Grond
+A	52.8149	5.0212	EHMM	Middenmeer Airfield
+F	123430	Air To Air
+A	51.3631	6.2161	NL-0037	Venlo Glidersite
+F	122480	Auto-info
+F	130655	AFIS
+A	52.1245	5.7355	NL-0051	HeliAir Harskamp Heliport
+F	131490	Radio
+A	53.2487	4.9444	EHVL	Vliehors Shooting Range and He
+F	122100	Radio
+A	60.0207	11.3821	NO-0001	Haga Airfield
+F	123500	Auto-info
+A	60.1813	11.5645	NO-0002	Maarud
+F	123500	Auto-info
+A	60.6962	12.3814	NO-0007	Vermundsjøen Ice Runway
+F	123500	Auto-info
+A	63.9314	11.5900	NO-0011	Henning (Nedre Langli)
+F	123500	General NLF 
+A	63.3708	11.8125	ENMO	Meråker Airfield Øian
+F	118600	Approche
+F	119400	Tour
+F	123500	NLF Frequenc
+F	125700	Centre
+A	63.0547	8.7142	NO-0017	Gravvold Airfield
+F	123500	Auto-info
+A	61.7258	10.8422	NO-0021	Atna
+F	123500	Auto-info
+A	61.1862	11.3744	ENRE	Rena Airfield Landsørkje
+F	135300	Tour
+A	60.7483	10.2400	NO-0025	Husodden Airfield
+F	123500	Auto-info
+A	58.9397	7.6925	NO-0030	Ose Airfield
+F	123500	Auto-info
+A	60.5123	11.1881	NO-0031	Feiring Airfield
+F	123500	Auto-info
+A	60.6372	10.6772	ENBB	Bøverbru Airfield
+F	123500	Auto-info
+A	60.4098	11.6208	NO-0100	Storsjøen Ice
+F	123500	Auto-info
+A	52.5344	17.2188	EPPB	Poznań-Bednary Airfield
+F	129200	AFIS
+A	54.2001	15.6838	EPKG	Kołobrzeg-Bagicz Airfield
+F	118830	Radio
+A	52.5716	20.8716	EPNC	Nasielsk-Chrcynno Airfield
+F	125940	Auto-info
+A	52.2350	16.2430	EPPG	Kakolewo (former military)
+F	119935	Radio
+A	52.3225	17.0409	EPZE	Żerniki Gądki Airfield
+F	121025	Tour
+F	128725	ATIS
+A	50.2603	20.5414	PL-0083	Kazimierza Mała Airfield
+F	123450	Info
+A	51.4021	19.3782	EPBE	Bełchatów Airstrip
+F	118905	Bełchatów Ra
+A	51.5921	19.6062	PL-0246	Tuszyn Airstrip
+F	123000	Auto-info
+A	52.6087	16.1503	EPSP	Sieraków-Lutomek Airfield
+F	122435	Auto-info
+A	38.9142	-8.7870	PT-0021	Benavente UL
+F	122675	Auto-info
+A	41.9730	-8.6738	PT-0022	Aerodromo do Cerval UL
+F	130125	Radio
+A	41.4487	-8.7083	PT-0023	Laúndos Airfield UL
+F	122500	Radio
+A	38.8844	-9.4279	PT-0024	Tojeira Airfield UL
+F	123800	Tojeira Towe
+A	38.0614	-7.8777	PT-0031	Beja Civil Airfield UL
+F	130400	Beja Tower
+A	38.7092	-8.2753	LPMN	Amendoeira Aerodrome
+F	133855	Auto-info
+A	40.4532	-7.6921	LPSE	Aeródromo de Seia
+F	122505	Safetycom
+A	38.9023	-8.9368	PT-0041	Leziria Aerodrome
+F	130200	Auto-info
+A	39.0668	-8.8043	PT-0117	Alqueidão UL
+F	130705	Auto-info
+A	39.0596	-8.8272	PT-0118	Azambuja UL
+F	129855	Auto-info
+A	38.7117	-8.6101	PT-0130	Herdade do Pontal Airstrip UL
+F	122755	Auto-info
+A	47.8853	25.8992	RO-0003	Aerodrom Fratauti
+F	123450	Info
+A	47.0792	22.1003	RO-0004	Ineu King's Land Airfield
+F	120200	Info
+A	45.7210	25.6337	LRSP	Sânpetru-Brașov Aerodrome
+F	135190	AFIS
+A	44.8764	20.3059	LYZP	Zemun Polje 13 May Airfield
+F	123500	Ground
+A	57.5485	38.2954	RU-0177	Uglich Fominskoye Helipad
+F	120550	Srazu Klub
+A	56.7800	36.2850	RU-0184	Yuryevskoye Airfield
+F	129100	Volzhanka St
+A	53.4650	51.5600	RU-0195	Kinel-Cherkassy Air Base
+F	128500	Auto-info
+A	47.2465	38.8403	RU-0211	Taganrog Tsentralny Air Base
+F	124000	Approche
+F	124000	KVARTET
+A	54.7850	37.6450	UUDG	Bolshoye Gryzlovo Airfield
+F	124100	Kaplya Start
+A	55.6620	36.1390	UUMW	Vatulino Airfield
+F	125550	Auto-info
+A	56.2788	37.4763	UUEJ	Volen Heliport
+F	119100	AFIS
+A	54.9521	39.2966	UUCB	Beloomut Airfield
+F	118850	Tour
+A	59.4022	31.8155	RU-0408	Kusino Airfield
+F	120150	Tour
+A	59.7655	30.0717	RU-0845	Gorelovo Aerodrome
+F	124000	Gorelovo Cta
+F	134450	Gorelovo Tower
+A	56.0964	36.5548	UUCN	Nudol Airfield
+F	135700	Unicom
+A	58.8986	17.4985	SE-0001	Trosa Troslanda airfield
+F	123600	Radio
+A	60.1072	15.9504	SE-0004	Norberg
+F	123150	Auto-info
+A	63.3283	13.4257	SE-0005	Åre / Molanda
+F	123450	Auto-info
+A	56.9258	14.5423	SE-0006	Alvesta Smålanda Airfield
+F	123600	Radio
+A	57.4434	12.1649	SE-0048	Duvhed flygfält UL
+F	123200	Radio
+A	57.8730	13.4304	SE-0049	Timmele Airfield
+F	123650	Radio
+A	61.7681	17.0807	ESNH	Hudiksvall Airport
+F	123200	Radio
+A	45.8870	15.6509	SI-0001	Dobova Airfield
+F	123500	AFIS
+A	46.5997	16.4321	SI-0002	Mostje Lendava Airfield
+F	123500	Auto-info
+A	46.5727	16.1910	SI-0003	Krapje Veržej Airfield
+F	123500	Vzletišče Ve
+A	46.5477	15.9152	SI-0007	Cerkvenjak-Čagona Airfield
+F	123500	Vhf - Air To Air
+A	46.1970	14.5810	SI-0010	Kamnik - Dulnica Airfield
+F	123500	AFIS
+A	45.9441	14.8506	SI-0011	Šentvid pri Stični Airfield
+F	123500	AFIS
+A	46.3043	14.9045	SI-0012	Pobrežje Airfield
+F	123500	AFIS
+A	45.7439	14.7130	SI-0014	Andoljšek - Ribnica Ultralight
+F	123500	AFIS
+A	45.5572	13.9130	SI-0019	Črnotiče Airfield
+F	123500	Info
+A	48.4887	19.1017	LZDN	Dobra Niva airfield
+F	122900	Tour
+A	48.1883	17.6347	SK-0008	Sládkovičovo Airfield
+F	120605	Info
+A	39.0122	8.6018	SU01	Campo di volo Porto Pino
+F	130000	Radio
+A	49.8382	36.6412	UKHW	Chuhuiv Air Base
+F	124000	Tour
+A	49.7379	23.6689	UKMC	Jagellon Airfield
+F	135900	Info
+A	50.3450	30.8947	UKBB	Boryspil International Airport
+F	118050	Sol
+F	119650	Tour
+F	124675	Radar
+F	126700	ATIS
+F	130275	Clairance
+F	131775	Opérations
+A	47.0761	37.4496	UKCM	Mariupol International Airport
+F	131500	Tour
+A	48.3572	35.1006	UKDD	Dnipro International Airport
+F	118600	Tour
+F	119400	Approche
+F	121800	Sol
+F	134900	METEO
+A	47.8670	35.3147	UKDE	Zaporizhzhia International Air
+F	118200	Approche
+F	118200	Tour
+F	126400	METEO
+A	48.0433	33.2100	UKDR	Kryvyi Rih International Airpo
+F	120300	Tour
+F	125875	KRYVYI RIH M
+A	45.0522	33.9751	UKFF	Simferopol International Airpo
+F	119000	Sol
+F	120800	Tour
+F	124700	Approche
+F	127200	ATIS
+F	131625	Opérations
+A	49.9269	36.2908	UKHH	Kharkiv International Airport
+F	118100	Approche
+F	118100	Tour
+F	119000	Sol
+F	127600	KHARKIV METE
+A	49.4156	31.9953	UKKE	Cherkasy International Airport
+F	128700	Tour
+A	50.4019	30.4519	UKKK	Igor Sikorsky Kyiv Internation
+F	119000	Sol
+F	120700	Tour
+F	125300	Approche
+F	126800	Zhuliany ATI
+F	127475	METEO
+A	50.6035	30.1919	UKKM	Hostomel Airport
+F	118150	Tour
+A	48.8842	24.6861	UKLI	Ivano-Frankivsk International 
+F	118300	Tour
+F	124000	Tour
+F	126400	FRANKO METEO
+F	127300	Approche
+F	128500	Approche
+A	49.8125	23.9561	UKLL	Lviv International Airport
+F	126000	Approche
+F	128000	Tour
+F	128700	ATIS
+A	48.2593	25.9808	UKLN	Chernivtsi International Airpo
+F	121300	Tour
+F	134900	METEO
+A	50.6071	26.1416	UKLR	Rivne International Airport
+F	123700	Tour
+A	49.5242	25.7001	UKLT	Ternopil International Airport
+F	132700	Tour
+A	48.6343	22.2634	UKLU	Uzhhorod International Airport
+F	121900	Approche
+F	134500	Tour
+A	47.0579	31.9198	UKON	Mykolaiv International Airport
+F	120700	Tour
+A	46.4272	30.6726	UKOO	Odesa International Airport
+F	120900	Approche
+F	121800	Sol
+F	124800	ATIS
+F	125500	Tour
+A	64.6003	40.7167	ULAA	Talagi Airport
+F	121800	Tour
+F	122000	Approche
+F	126675	ATIS
+A	59.8003	30.2625	ULLI	Pulkovo Airport
+F	118100	Tour
+F	118700	Tour
+F	119000	Pulkovo Ramp
+F	120300	Radar
+F	120900	Pulkovo Apro
+F	121700	Sol
+F	121900	Clairance
+F	127300	ATIS
+F	127400	ATIS
+F	131800	Pulkovo Tran
+F	133500	Tour
+A	68.7817	32.7508	ULMM	Emperor Nicholas II Murmansk A
+F	120300	Tour
+F	127400	METEO
+A	57.7813	28.3938	ULOO	Princess Olga Pskov Internatio
+F	122000	Tour
+A	61.8852	34.1547	ULPB	Petrozavodsk Airport
+F	128000	Tour
+A	52.1081	23.8968	UMBB	Brest International Airport
+F	127700	Approche
+A	52.5270	31.0167	UMGG	Gomel Airport
+F	118100	Tour
+F	126100	Approche
+A	55.1265	30.3496	UMII	Vitebsk Vostochny Airport
+F	120400	Approche
+A	54.8916	20.5986	UMKK	Khrabrovo Airport
+F	117050	KRD
+F	122050	KALININGRAD 
+F	126000	Radar
+F	126000	Sol
+F	129425	Tour
+F	131700	Divers
+A	53.6020	24.0538	UMMG	Hrodna Airport
+F	134500	Approche
+A	53.8881	28.0400	UMMS	Minsk National Airport
+F	118300	Tour
+F	121700	Sol
+F	125250	Radar
+F	125900	Approche
+F	126675	MINSK VOLMET
+F	128850	ATIS
+A	53.9549	30.0951	UMOO	Mogilev Airport
+F	127100	Approche
+A	55.0198	82.6187	UNNT	Novosibirsk Tolmachevo Airport
+F	118500	Tour
+F	121700	Sol
+F	122000	Radar
+F	127400	ATIS
+F	127500	Approche
+F	128300	NOVOSIBIRSK 
+A	45.0021	37.3473	URKA	Anapa Vityazevo Airport
+F	118700	Approche
+F	119800	Tour
+A	45.0345	39.1742	URKK	Krasnodar Pashkovsky Internati
+F	118200	Tour
+F	119000	Sol
+F	121300	Radar
+F	121800	ATIS
+F	129600	Approche
+A	44.2251	43.0819	URMM	Mineralnye Vody Airport
+F	119300	Approche
+F	120700	Radar
+F	121900	Sol
+F	127400	ATIS
+F	128000	Tour
+A	43.5129	43.6366	URMN	Nalchik Airport
+F	118300	Tour
+F	126900	Approche
+F	126900	Radar
+A	43.2051	44.6066	URMO	Vladikavkaz Beslan Internation
+F	118000	Divers
+F	118100	Tour
+F	125200	Radar
+A	45.1092	42.1128	URMT	Stavropol Shpakovskoye Airport
+F	120300	Approche
+F	120900	Tour
+A	47.1983	38.8492	XRRT	Taganrog Yuzhny Airport
+F	124000	Approche
+F	130200	Approche
+A	43.4499	39.9566	URSS	Sochi International Airport
+F	118300	Tour
+F	118500	AREA
+F	118800	Approche
+F	119000	Sol
+F	119700	Tour
+F	121200	Tour
+F	129375	ATIS
+F	129375	VOLMET
+F	132700	Delivery
+F	135800	Tour
+A	46.3739	44.3309	URWI	Elista Airport
+F	118300	Tour
+F	124200	Approche
+A	48.7813	44.3392	URWW	Volgograd International Airpor
+F	119000	Sol
+F	122000	Radar
+F	125300	Approche
+F	128000	GCA
+F	128000	Tour
+F	132800	ATIS
+A	53.2144	34.1760	UUBP	Bryansk International Airport
+F	119200	Radar
+F	129800	Tour
+A	55.4088	37.9063	UUDD	Domodedovo International Airpo
+F	118600	Tour
+F	119000	Sol
+F	120600	Approche
+F	123750	Clairance
+F	127700	Radar
+F	127875	VOLMET
+F	128300	ATIS
+F	129150	Divers
+F	130600	APRON
+A	57.5607	40.1574	UUDL	Golden Ring Yaroslavl Internat
+F	120300	Approche
+F	127350	ATIS
+A	55.9775	37.3867	UUEE	Sheremetyevo International Air
+F	118100	Radar
+F	119000	Sol
+F	120700	Tour
+F	120875	Delivery
+F	121800	Sol
+F	121900	Approche
+F	122075	ATIS
+F	122700	Radar
+F	122900	Sol
+F	123600	Approche
+F	125125	ATIS
+F	127875	VOLMET
+F	130350	Approche
+F	131500	Tour
+F	134550	Approche
+A	56.8247	35.7577	UUEM	Migalovo Air Base
+F	120200	Approche
+F	120200	Tour
+F	124000	Sol
+A	55.8783	38.0617	UUMU	Chkalovskiy Air Base
+F	121100	Landing
+A	50.6438	36.5901	UUOB	Belgorod International Airport
+F	118200	Tour
+F	121700	Sol
+F	133000	Approche
+A	51.7506	36.2956	UUOK	Kursk East Airport
+F	120600	Sol
+F	127800	METRO
+F	131500	Approche
+F	131500	Tour
+A	51.8143	39.2309	UUOO	Voronezh International Airport
+F	118300	Tour
+F	119200	Radar
+F	120800	VORONEZH MET
+F	121800	Sol
+F	125900	Approche
+A	55.5915	37.2615	UUWW	Vnukovo International Airport
+F	118300	Tour
+F	120450	Sol
+F	122300	Approche
+F	125875	ATIS
+F	126000	Radar
+A	61.6470	50.8451	UUYY	Syktyvkar Airport
+F	118100	SIVKAR KRUG
+F	121700	Tour
+F	126600	SIVKAR METEO
+F	131600	Divers
+A	56.2274	43.7852	UWGG	Nizhny Novgorod / Strigino Int
+F	120400	GCA
+F	120400	Tour
+F	120800	Radar
+F	121800	Sol
+F	124700	Approche
+F	127800	ATIS
+A	56.0903	47.3473	UWKS	Cheboksary Airport
+F	119300	Tour
+A	54.2702	48.2256	UWLL	Ulyanovsk Baratayevka Airport
+F	120400	Start
+F	120800	Ulyanovsk RA
+F	121800	Sol
+F	128850	ATIS
+F	131300	Tour
+A	54.5575	55.8744	UWUU	Ufa International Airport
+F	119000	Sol
+F	120900	Radar
+F	120900	Tour
+F	124800	ATIS
+F	131700	Divers
+A	53.5049	50.1643	UWWW	Kurumoch International Airport
+F	118200	Tour
+F	119000	Sol
+F	124600	Approche
+F	126875	SAMARA VOLME
+F	128000	Radar
+F	131600	Divers
+F	134100	ATIS
+A	42.4351	20.4278	XK-0010	Gjakovë Air Base
+F	122100	Tour
+F	125000	Approche
+)AERO";
