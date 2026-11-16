@@ -1,0 +1,6 @@
+# KiwiTraducteur - bibliothèques Python (Python 3.9 à 3.12 conseillé, 64 bits)
+faster-whisper>=1.0.0     # reconnaissance vocale Whisper (+ détection de voix Silero, comprise)
+numpy>=1.24               # traitement du son
+requests>=2.28            # dialogue avec la carte
+deep-translator>=1.11     # traduction Google (Internet, sans clé)
+# tkinter : fourni avec Python sous Windows (fenêtre)

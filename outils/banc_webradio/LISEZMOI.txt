@@ -1,0 +1,8 @@
+Banc d'essai des webradios (webradio.cpp), sur PC : un fichier MP3 ou AAC (ADTS) est decoupe en
+morceaux de tailles au hasard, avec des metadonnees ICY (titre en Latin-1) toutes les 8000 octets.
+
+F=../../firmware/kiwi_console
+for c in $F/src/helix_aac/*.c; do gcc -O2 -c $c -o h_$(basename $c .c).o; done
+g++ -O2 -std=c++17 -I$F banc_webradio.cpp $F/webradio.cpp h_*.o -o banc_webradio
+ffmpeg -f lavfi -i "sine=frequency=440:duration=20" -ar 44100 -c:a libmp3lame -b:a 128k t.mp3
+./banc_webradio t.mp3 audio/mpeg

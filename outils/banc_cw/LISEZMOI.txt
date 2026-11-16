@@ -1,0 +1,10 @@
+Banc d'essai du decodeur morse (CW) : du morse synthetique (bruit, fading, manipulation irreguliere,
+note decalee) envoye au vrai code firmware/kiwi_console/decodeurs.cpp, et le taux d'erreur mesure.
+
+  F=../../firmware/kiwi_console
+  g++ -O2 -std=c++17 -I$F banc.cpp $F/decodeurs.cpp stubs.cpp dbg.cpp -o banc
+  ./banc                 # toute la serie dans un seul processus
+  ./serie.sh ./banc      # un processus par essai (comme une carte qui vient de demarrer)
+  ./banc o 8             # un essai : rapport signal/bruit 8 dB
+  ./banc o 15 0 20 0.2   # S/B 15 dB, note +0 Hz, 20 mots/min, manipulation irreguliere 20 %
+  SEED=7 ./serie.sh ./banc   # autre tirage du bruit

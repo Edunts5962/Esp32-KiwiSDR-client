@@ -1,0 +1,3 @@
+# Optionnel : accélération par carte graphique NVIDIA (CUDA 12) pour faster-whisper
+nvidia-cublas-cu12
+nvidia-cudnn-cu12==9.*

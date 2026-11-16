@@ -1,0 +1,14 @@
+Bancs d'essai de la v0.16 (reception optimisee), sur PC.
+
+1. Coupures du son (reserve, fondu, reserve qui s'adapte) - reseau simule regulier / irregulier / avec blocages, 10 minutes :
+   F=../../firmware/kiwi_console
+   g++ -O2 -std=c++17 -I$F banc_coupures.cpp $F/audio.cpp stubs_coupures.cpp -o banc_coupures
+   ./banc_coupures <scenario 0|1|2> <graine>
+
+2. Reduction de bruit locale (OpenWebRX) - parole synthetique + bruit blanc a 12 kHz :
+   g++ -O2 -std=c++17 -I$F banc_nr.cpp -o banc_nr
+   ./banc_nr <niveau 1|2> <rapport signal/bruit d'entree en dB>
+   Les gains calcules sur le melange sont appliques aussi a la parole seule et au bruit seul : mesure exacte.
+
+3. AM synchrone une bande (python3, numpy, scipy) :
+   python3 sam_une_bande.py

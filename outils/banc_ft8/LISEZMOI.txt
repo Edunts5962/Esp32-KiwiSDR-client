@@ -1,0 +1,12 @@
+Banc d'essai du decodeur FT8 de la carte (ft8.cpp + ft8_lib), sur PC.
+
+Enregistrements de reference : ceux de ft8_lib (github.com/kgoba/ft8_lib, dossier test/wav),
+avec, pour chacun, ce que WSJT-X a decode (.txt).
+
+F=../../firmware/kiwi_console
+for c in $F/src/ft8/*.c; do gcc -O2 -c $c -o $(basename $c .c).o; done
+g++ -O2 -std=c++17 -I$F banc_ft8.cpp $F/ft8.cpp stubs.cpp *.o -o banc_ft8
+./banc_ft8 fichier.wav      (WAV 12 kHz, 16 bits, 15 s)
+
+Resultat (27 enregistrements reels) : 74 % des messages de WSJT-X, 0 faux decodage sur 20 periodes
+de bruit, S/B a 6 dB pres dans 84 % des cas, ~22 ms par periode sur PC.

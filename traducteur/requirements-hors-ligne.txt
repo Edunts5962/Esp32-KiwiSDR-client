@@ -1,0 +1,2 @@
+# Optionnel : traduction hors ligne (Argos Translate). Plus lourd, qualité moindre que Google.
+argostranslate>=1.9
